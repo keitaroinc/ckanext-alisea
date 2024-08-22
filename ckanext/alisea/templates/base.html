@@ -1,0 +1,15 @@
+{% ckan_extends %}
+
+{% block htmltag %}
+  {{ super() }}
+    {% block gtag %}
+        {% include 'snippets/gtm.html' %}
+    {% endblock %}
+{% endblock %}
+
+{% block bodytag %}
+  {{ super() }}
+    {% block gtm %}
+        {% include 'snippets/gtm_noscript.html' %}
+    {% endblock %}
+{% endblock %}
