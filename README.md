@@ -2,15 +2,12 @@
 
 # ckanext-alisea
 
-**TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
+Main theme for Alisea Knowledge Hub
 
 
 ## Requirements
 
-**TODO:** For example, you might want to mention here which versions of CKAN this
-extension works with.
-
-If your extension works across different versions you can add the following table:
+Compatible with CKAN 2.10
 
 Compatibility with core CKAN versions:
 
@@ -20,6 +17,7 @@ Compatibility with core CKAN versions:
 | 2.7             | not tested    |
 | 2.8             | not tested    |
 | 2.9             | not tested    |
+| 2.10            | yes           |
 
 Suggested values:
 
@@ -30,10 +28,6 @@ Suggested values:
 
 
 ## Installation
-
-**TODO:** Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
 
 To install ckanext-alisea:
 
@@ -59,13 +53,10 @@ To install ckanext-alisea:
 
 ## Config settings
 
-None at present
+Google Tag ID setting
 
-**TODO:** Document any optional config settings here. For example:
-
-	# The minimum number of hours to wait before re-checking a resource
-	# (optional, default: 24).
-	ckanext.alisea.some_setting = some_default_value
+	# Google Tag ID 
+	ckan.alisea.gtag = google_tag_id
 
 
 ## Developer installation
