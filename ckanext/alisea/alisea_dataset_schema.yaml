@@ -47,9 +47,44 @@ dataset_fields:
 
 - field_name: agroecology_category
   label: Agroecology Category
+  preset: multiple_checkbox
+  choices:
+  - value: Integrated systems
+    label: Integrated systems
+  - value: Animal health
+    label: Animal health
+  - value: Input reduction and recycling
+    label: Input reduction and recycling
+  - value: Seed management
+    label: Seed management
+  - value: Soil health
+    label: Soil health
+  - value: Economy and income
+    label: Economy and income
+  - value: Nutrition and diets
+    label: Nutrition and diets
+  - value: Sustainable food system
+    label: Sustainable food system
+  - value: Biodiversity
+    label: Biodiversity
+  - value: Climate
+    label: Climate
+  - value: Natural resources governance
+    label: Natural resources governance
+  - value: Water management
+    label: Water management
+  - value: Collaboration
+    label: Collaboration
+  - value: Equity
+    label: Equity
+  - value: Supportive policies
+    label: Supportive policies
+  - value: Knowledge and values
+    label: Knowledge and values
 
 - field_name: agroecology_keyword
   label: Agroecology Keyword
+  preset: tag_string_autocomplete
 
 - field_name: owner_org
   label: Organization
