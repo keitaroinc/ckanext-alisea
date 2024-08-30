@@ -34,18 +34,21 @@ dataset_fields:
 - field_name: title
   label: Title
   preset: title
-  form_placeholder: eg. A descriptive title
 
 - field_name: name
   label: URL
   preset: dataset_slug
   form_placeholder: eg. my-dataset
 
-- field_name: notes
-  label: Description
+- field_name: notes_translated
+  label: 
+    en: Description
+    my_MM: ဖော်ပြချက်
+    vi: Sự miêu tả
+    km: Description
   required: true
-  form_snippet: markdown.html
-  form_placeholder: eg. Some useful notes about the data
+  preset: fluent_core_translated
+  form_snippet: fluent_markdown.html
 
 - field_name: agroecology_category
   label: Agroecology Category
