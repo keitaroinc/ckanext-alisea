@@ -10,6 +10,7 @@ dataset_fields:
     en: Type of ALiSEA product
     fr: Type of ALiSEA product
   preset: select
+  required: true
   choices:
   - value: None
     label: 
@@ -42,11 +43,13 @@ dataset_fields:
 
 - field_name: notes
   label: Description
+  required: true
   form_snippet: markdown.html
   form_placeholder: eg. Some useful notes about the data
 
 - field_name: agroecology_category
   label: Agroecology Category
+  required: true
   preset: multiple_checkbox
   choices:
   - value: Integrated systems
@@ -92,10 +95,12 @@ dataset_fields:
 
 - field_name: author
   label: Author
+  required: true
   form_placeholder: Joe Bloggs
   display_property: dc:creator
 
 - field_name: year
+  required: true
   label: Year
   preset: date
 
@@ -104,6 +109,7 @@ dataset_fields:
     en: Type of document
     fr: Type of document
   preset: select
+  required: true
   choices:
   - value: research_articles
     label: 
@@ -159,7 +165,20 @@ dataset_fields:
       fr: Data Sets
 
 - field_name: language
+  required: true
   label: Language
+  preset: select
+  choices:
+  - value: English
+    label: English
+  - value: Khmer
+    label: Khmer
+  - value: Lao
+    label: Lao
+  - value: Myanmar
+    label: Myanmar
+  - value: Vietnamese
+    label: Vietnamese
 
 - field_name : spatial
   label: Spatial
@@ -169,6 +188,7 @@ dataset_fields:
   label: 
     en: Country
     fr: Country
+  required: true
   preset: select
   choices:
   - value: Brunei Darussalam
@@ -218,9 +238,11 @@ dataset_fields:
 
 - field_name: administrative_level_1
   label: Administrative level 1
+  required: true
 
 - field_name: administrative_level_2
   label: Administrative level 2
+  required: true
 
 - field_name: url
   label: Web Link
@@ -232,11 +254,6 @@ dataset_fields:
   label: License
   form_snippet: license.html
   help_text: License definitions and additional information can be found at http://opendefinition.org/
-
-- field_name: tag_string
-  label: Tags
-  preset: tag_string_autocomplete
-  form_placeholder: eg. economy, mental health, government
 
 resource_fields:
 
