@@ -182,46 +182,46 @@ dataset_fields:
     fr: Country
   preset: select
   choices:
-  - value: Brunei Darussalam
+  - value: bn
     label: 
       en: Brunei Darussalam
       fr: Brunei Darussalam
-  - value: Cambodia
+  - value: kh
     label: 
       en: Cambodia
       fr: Cambodia
-  - value: Indonesia
+  - value: id
     label: 
       en: Indonesia
       fr: Indonesia
-  - value: Lao PDR
+  - value: la
     label: 
       en: Lao PDR
       fr: Lao PDR
-  - value: Malaysia
+  - value: my
     label: 
       en: Malaysia
       fr: Malaysia
-  - value: Myanmar
+  - value: mm
     label: 
       en: Myanmar
       fr: Myanmar
-  - value: Philippines
+  - value: ph
     label: 
       en: Philippines
       fr: Philippines
-  - value: Singapore
+  - value: sg
     label: 
       en: Singapore
       fr: Singapore
-  - value: Thailand
+  - value: th
     label: 
       en: Thailand
       fr: Thailand
-  - value: Vietnam
+  - value: vn
     label: 
-      en: Vietnam
-      fr: Vietnam
+      en: Viet Nam
+      fr: Viet Nam
   - value: Others
     label: 
       en: Others
@@ -230,8 +230,9 @@ dataset_fields:
 - field_name: administrative_level_1
   label: Administrative level 1
 
-- field_name: administrative_level_2
-  label: Administrative level 2
+# - field_name: administrative_level_2
+#   label: Administrative level 2
+#   form_snippet: custom.html
 
 - field_name: url
   label: Web Link
