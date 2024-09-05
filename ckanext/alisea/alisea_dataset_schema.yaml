@@ -176,63 +176,63 @@ dataset_fields:
   label: Spatial
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
-- field_name: country
-  label: 
-    en: Country
-    fr: Country
-  preset: select
-  choices:
-  - value: bn
-    label: 
-      en: Brunei Darussalam
-      fr: Brunei Darussalam
-  - value: kh
-    label: 
-      en: Cambodia
-      fr: Cambodia
-  - value: id
-    label: 
-      en: Indonesia
-      fr: Indonesia
-  - value: la
-    label: 
-      en: Lao PDR
-      fr: Lao PDR
-  - value: my
-    label: 
-      en: Malaysia
-      fr: Malaysia
-  - value: mm
-    label: 
-      en: Myanmar
-      fr: Myanmar
-  - value: ph
-    label: 
-      en: Philippines
-      fr: Philippines
-  - value: sg
-    label: 
-      en: Singapore
-      fr: Singapore
-  - value: th
-    label: 
-      en: Thailand
-      fr: Thailand
-  - value: vn
-    label: 
-      en: Viet Nam
-      fr: Viet Nam
-  - value: Others
-    label: 
-      en: Others
-      fr: Others
+# - field_name: country
+#   label: 
+#     en: Country
+#     fr: Country
+#   preset: select
+#   choices:
+#   - value: Brunei Darussalam
+#     label: 
+#       en: Brunei Darussalam
+#       fr: Brunei Darussalam
+#   - value: Cambodia
+#     label: 
+#       en: Cambodia
+#       fr: Cambodia
+#   - value: Indonesia
+#     label: 
+#       en: Indonesia
+#       fr: Indonesia
+#   - value: Lao PDR
+#     label: 
+#       en: Lao PDR
+#       fr: Lao PDR
+#   - value: Malaysia
+#     label: 
+#       en: Malaysia
+#       fr: Malaysia
+#   - value: Myanmar
+#     label: 
+#       en: Myanmar
+#       fr: Myanmar
+#   - value: Philippines
+#     label: 
+#       en: Philippines
+#       fr: Philippines
+#   - value: Singapore
+#     label: 
+#       en: Singapore
+#       fr: Singapore
+#   - value: Thailand
+#     label: 
+#       en: Thailand
+#       fr: Thailand
+#   - value: Vietnam
+#     label: 
+#       en: Vietnam
+#       fr: Vietnam
+#   - value: Others
+#     label: 
+#       en: Others
+#       fr: Others
 
 - field_name: administrative_level_1
   label: Administrative level 1
 
-# - field_name: administrative_level_2
-#   label: Administrative level 2
-#   form_snippet: custom.html
+- field_name: administrative_level_2
+  label: Administrative level 2
+  form_snippet: custom.html
 
 - field_name: url
   label: Web Link
