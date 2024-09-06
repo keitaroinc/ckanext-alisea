@@ -232,6 +232,15 @@ dataset_fields:
 
 - field_name: country
   label: Country
+  preset: select
+  choices:
+  - value: Austria
+    label: Austria
+  - value: France
+    label: France
+
+- field_name: city
+  label: City
   form_snippet: custom.html
 
 - field_name: url
