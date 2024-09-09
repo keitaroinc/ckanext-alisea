@@ -1,0 +1,35 @@
+{% import 'macros/form.html' as form %}
+    
+
+    {{ form.select('city', label=_('City'), options='', error='') }}
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const cityOptions = {
+            '{{_('France')}}': ['{{_('Paris')}}', '{{_('Lion')}}'],
+            '{{_('Austria')}}': ['{{_('Vienna')}}', '{{_('Graz')}}'],
+        };
+
+        const countrySelect = document.getElementById('field-country');
+        const citySelect = document.getElementById('city');
+
+        countrySelect.addEventListener('change', function() {
+            const selectedCountry = countrySelect.value;
+            const cities = cityOptions[selectedCountry] || [];
+            citySelect.innerHTML = '<option value="">Select a city</option>'; // Reset the city dropdown
+
+            cities.forEach(function(city) {
+                const option = document.createElement('option');
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+        });
+    });
+</script>
+
+
+
+

@@ -243,6 +243,10 @@ dataset_fields:
   label: City
   form_snippet: custom.html
 
+- field_name: area
+  label: Area
+  form_snippet: custom2.html
+
 - field_name: url
   label: Web Link
   form_placeholder: http://example.com/dataset.json
