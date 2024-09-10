@@ -46,7 +46,7 @@ dataset_fields:
 
 - field_name: agroecology_category
   label: Agroecology Category
-  preset: multiple_checkbox
+  preset: select
   choices:
   - value: Integrated systems
     label: Integrated systems
@@ -83,7 +83,7 @@ dataset_fields:
 
 - field_name: agroecology_keyword
   label: Agroecology Keyword
-  preset: tag_string_autocomplete
+  form_snippet: agroecology_keyword.html
 
 - field_name: owner_org
   label: Organization
@@ -171,81 +171,90 @@ dataset_fields:
     label: Myanmar
   - value: Vietnamese
     label: Vietnamese
+  - value: French
+    label: French
 
 - field_name : spatial
   label: Spatial
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
-# - field_name: country
-#   label: 
-#     en: Country
-#     fr: Country
-#   preset: select
-#   choices:
-#   - value: Brunei Darussalam
-#     label: 
-#       en: Brunei Darussalam
-#       fr: Brunei Darussalam
-#   - value: Cambodia
-#     label: 
-#       en: Cambodia
-#       fr: Cambodia
-#   - value: Indonesia
-#     label: 
-#       en: Indonesia
-#       fr: Indonesia
-#   - value: Lao PDR
-#     label: 
-#       en: Lao PDR
-#       fr: Lao PDR
-#   - value: Malaysia
-#     label: 
-#       en: Malaysia
-#       fr: Malaysia
-#   - value: Myanmar
-#     label: 
-#       en: Myanmar
-#       fr: Myanmar
-#   - value: Philippines
-#     label: 
-#       en: Philippines
-#       fr: Philippines
-#   - value: Singapore
-#     label: 
-#       en: Singapore
-#       fr: Singapore
-#   - value: Thailand
-#     label: 
-#       en: Thailand
-#       fr: Thailand
-#   - value: Vietnam
-#     label: 
-#       en: Vietnam
-#       fr: Vietnam
-#   - value: Others
-#     label: 
-#       en: Others
-#       fr: Others
+- field_name: country
+  label: 
+    en: Country
+    fr: Country
+  preset: select
+  choices:
+  - value: Brunei Darussalam
+    label: 
+      en: Brunei Darussalam
+      fr: Brunei Darussalam
+  - value: Cambodia
+    label: 
+      en: Cambodia
+      fr: Cambodia
+  - value: Indonesia
+    label: 
+      en: Indonesia
+      fr: Indonesia
+  - value: Lao PDR
+    label: 
+      en: Lao PDR
+      fr: Lao PDR
+  - value: Malaysia
+    label: 
+      en: Malaysia
+      fr: Malaysia
+  - value: Myanmar
+    label: 
+      en: Myanmar
+      fr: Myanmar
+  - value: Philippines
+    label: 
+      en: Philippines
+      fr: Philippines
+  - value: Singapore
+    label: 
+      en: Singapore
+      fr: Singapore
+  - value: Thailand
+    label: 
+      en: Thailand
+      fr: Thailand
+  - value: Vietnam
+    label: 
+      en: Vietnam
+      fr: Vietnam
+  - value: Others
+    label: 
+      en: Others
+      fr: Others
 
 - field_name: administrative_level_1
   label: Administrative level 1
-
-- field_name: country
-  label: Country
   preset: select
-  choices:
-  - value: Austria
-    label: Austria
-  - value: France
-    label: France
+  form_snippet: administrative_level1.html
 
-- field_name: city
-  label: City
-  form_snippet: custom.html
+- field_name: administrative_level_2
+  label: Administrative level 2
+  preset: select
+  form_snippet: administrative_level2.html
 
-- field_name: area
-  label: Area
-  form_snippet: custom2.html
+# - field_name: country
+#   label: Country
+#   preset: select
+#   choices:
+#   - value: Austria
+#     label: Austria
+#   - value: France
+#     label: France
+
+# - field_name: city
+#   label: City
+#   form_snippet: custom.html
+
+# - field_name: area
+#   label: Area
+#   form_snippet: custom2.html
 
 - field_name: url
   label: Web Link
