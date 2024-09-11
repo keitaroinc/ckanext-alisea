@@ -263,7 +263,7 @@
         categorySelect.addEventListener('change', function() {
             const selectedCategorty = categorySelect.value;
             const keywords = keywordOptions[selectedCategorty] || [];
-            keywordSelect.innerHTML = '<option value="">Select a area</option>'; // Reset the area dropdown
+            keywordSelect.innerHTML = '<option value="">Select keyword</option>'; // Reset the area dropdown
 
             keywords.forEach(function(keyword) {
                 const option = document.createElement('option');
