@@ -224,7 +224,7 @@
         countrySelect.addEventListener('change', function() {
             const selectedCountry = countrySelect.value;
             const adl1s = adl1Options[selectedCountry] || [];
-            adl1Select.innerHTML = '<option value="">Select a city</option>'; // Reset the city dropdown
+            adl1Select.innerHTML = '<option value="">Select administrative level 1</option>'; // Reset the city dropdown
 
             adl1s.forEach(function(adl1) {
                 const option = document.createElement('option');

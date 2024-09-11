@@ -2389,7 +2389,7 @@
         adl1Select.addEventListener('change', function() {
             const selectedAdl1 = adl1Select.value;
             const adl2s = adl2Options[selectedAdl1] || [];
-            adl2Select.innerHTML = '<option value="">Select a area</option>'; // Reset the area dropdown
+            adl2Select.innerHTML = '<option value="">Select administrative level 2</option>'; // Reset the area dropdown
 
             adl2s.forEach(function(adl2) {
                 const option = document.createElement('option');
