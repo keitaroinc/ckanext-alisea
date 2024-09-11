@@ -229,15 +229,15 @@ dataset_fields:
       en: Others
       fr: Others
 
-- field_name: administrative_level_1
-  label: Administrative level 1
-  preset: select
-  form_snippet: administrative_level1.html
+# - field_name: administrative_level_1
+#   label: Administrative level 1
+#   preset: select
+#   form_snippet: administrative_level1.html
 
-- field_name: administrative_level_2
-  label: Administrative level 2
-  preset: select
-  form_snippet: administrative_level2.html
+# - field_name: administrative_level_2
+#   label: Administrative level 2
+#   preset: select
+#   form_snippet: administrative_level2.html
 
 # - field_name: country
 #   label: Country
@@ -248,13 +248,13 @@ dataset_fields:
 #   - value: France
 #     label: France
 
-# - field_name: city
-#   label: City
-#   form_snippet: custom.html
+- field_name: adl1
+  label: Administrative Level 1
+  form_snippet: adl1.html
 
-# - field_name: area
-#   label: Area
-#   form_snippet: custom2.html
+- field_name: adl2
+  label: Administrative Level 2
+  form_snippet: adl2.html
 
 - field_name: url
   label: Web Link
