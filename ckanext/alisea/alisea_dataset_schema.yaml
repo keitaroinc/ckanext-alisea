@@ -222,72 +222,80 @@ dataset_fields:
   preset: select
   choices:
   - value: English
-    label: English
-  - value: Khmer
-    label: Khmer
-  - value: Lao
-    label: Lao
-  - value: Myanmar
-    label: Myanmar
-  - value: Vietnamese
-    label: Vietnamese
+    label: 
+      en: English
+      fr: Anglaise
+      my_MM:
+      vi:
+      km:
   - value: French
-    label: French
+    label:
+      en: French
+      fr: Français
+      my_MM:
+      vi:
+      km: 
+  - value: Khmer
+    label:
+      en: Khmer
+      fr: Khmer
+      my_MM:
+      vi:
+      km: 
+  - value: Lao
+    label:
+      en: Lao
+      fr: Lao
+      my_MM:
+      vi:
+      km: 
+  - value: Myanmar
+    label:
+      en: Myanmar
+      fr: Birmanie
+      my_MM:
+      vi:
+      km: 
+  - value: Vietnamese
+    label:
+      en: Vietnamese
+      fr: Vietnamien
+      my_MM:
+      vi:
+      km: 
+
 
 - field_name : spatial
   label: Spatial
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
 - field_name: country
-  label: 
-    en: Country
-    fr: Country
+  label: Country
   preset: select
   choices:
   - value: Brunei Darussalam
-    label: 
-      en: Brunei Darussalam
-      fr: Brunei Darussalam
+    label: Brunei Darussalam
   - value: Cambodia
-    label: 
-      en: Cambodia
-      fr: Cambodia
+    label: Cambodia
   - value: Indonesia
-    label: 
-      en: Indonesia
-      fr: Indonesia
+    label: Indonesia
   - value: Lao PDR
-    label: 
-      en: Lao PDR
-      fr: Lao PDR
+    label: Lao PDR
   - value: Malaysia
-    label: 
-      en: Malaysia
-      fr: Malaysia
+    label: Malaysia
   - value: Myanmar
-    label: 
-      en: Myanmar
-      fr: Myanmar
+    label: Myanmar
   - value: Philippines
-    label: 
-      en: Philippines
-      fr: Philippines
+    label: Philippines
   - value: Singapore
-    label: 
-      en: Singapore
-      fr: Singapore
+    label: Singapore
   - value: Thailand
-    label: 
-      en: Thailand
-      fr: Thailand
+    label: Thailand
+
   - value: Vietnam
-    label: 
-      en: Vietnam
-      fr: Vietnam
+    label: Vietnam
   - value: Others
-    label: 
-      en: Others
-      fr: Others
+    label: Others
 
 - field_name: adl1
   label: Administrative Level 1
