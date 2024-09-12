@@ -1,0 +1,43 @@
+# French translations for ckanext-alisea.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the ckanext-alisea
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-alisea 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-09-06 14:35+0200\n"
+"PO-Revision-Date: 2024-09-06 14:35+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ckanext/alisea/templates/footer.html:15
+msgid ""
+"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
+msgstr ""
+
+#: ckanext/alisea/templates/admin/config.html:9
+msgid "Footer Left"
+msgstr ""
+
+#: ckanext/alisea/templates/admin/config.html:9
+#: ckanext/alisea/templates/admin/config.html:11
+msgid ""
+"Enter a list of links - one per line - to be shown as a list withing the "
+"secondary footer navigation. Please format the links with Markdown (i.e. "
+"* [Example link](https://www.example.com))."
+msgstr ""
+
+#: ckanext/alisea/templates/admin/config.html:11
+msgid "Footer right"
+msgstr ""
+

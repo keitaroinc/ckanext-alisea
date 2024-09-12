@@ -1,0 +1,276 @@
+{% import 'macros/form.html' as form %}
+    
+
+    {{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='') }}
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const keywordOptions = {
+        "{{_('Integrated systems')}}": [
+            "{{_('Agroecological transition')}}",
+            "{{_('Agroforestry')}}",
+            "{{_('Agro-silvo-pastoralism')}}",
+            "{{_('Biodynamic agriculture')}}",
+            "{{_('Conservation agriculture')}}",
+            "{{_('Crop intensification system')}}",
+            "{{_('Environmental performance')}}",
+            "{{_('Extensive farming')}}",
+            "{{_('Integrated crop livestock system')}}",
+            "{{_('Natural farming')}}",
+            "{{_('Organic agriculture')}}",
+            "{{_('Permaculture')}}",
+            "{{_('Precision agriculture')}}",
+            "{{_('System of rice intensification')}}"
+          ],
+          "{{_('Animal health')}}": [
+            "{{_('Animal wellbeing')}}",
+            "{{_('Extensive aquaculture')}}",
+            "{{_('Free range')}}",
+            "{{_('Integrated animal health')}}",
+            "{{_('Rotational grazing system')}}",
+            "{{_('Sustainable animal feeding')}}",
+            "{{_('Zoonose')}}"
+          ],
+          "{{_('Input reduction and recycling')}}": [
+            "{{_('Allelopathy')}}",
+            "{{_('Antimicrobial resistance')}}",
+            "{{_('Bio-fertilizer')}}",
+            "{{_('Biological control')}}",
+            "{{_('Bio-pesticide')}}",
+            "{{_('Chemical input control')}}",
+            "{{_('Compost')}}",
+            "{{_('Crop protection')}}",
+            "{{_('Ecological recycling')}}",
+            "{{_('Input autonomy')}}",
+            "{{_('Input reduction')}}",
+            "{{_('Insect-plant interaction')}}",
+            "{{_('Integrated pest management')}}",
+            "{{_('Organic manure')}}",
+            "{{_('Plant health')}}",
+            "{{_('Sanitary and phytosanitary measure')}}",
+            "{{_('Veterinary waste management')}}",
+            "{{_('Waste management')}}"
+          ],
+          "{{_('Seed management')}}": [
+            "{{_('Abiotic stress')}}",
+            "{{_('Annual crop')}}",
+            "{{_('Disease resistance')}}",
+            "{{_('GMO free')}}",
+            "{{_('Hybrid variety')}}",
+            "{{_('Local variety')}}",
+            "{{_('Organic seed')}}",
+            "{{_('Rice variety')}}",
+            "{{_('Seed bank')}}",
+            "{{_('Seed management')}}"
+          ],
+          "{{_('Soil health')}}": [
+            "{{_('Biomass')}}",
+            "{{_('Cover crop')}}",
+            "{{_('Earthworm')}}",
+            "{{_('Ecological synergy')}}",
+            "{{_('Crop rotation')}}",
+            "{{_('Green manure')}}",
+            "{{_('Monocrop')}}",
+            "{{_('Nematode')}}",
+            "{{_('Soil biological activity')}}",
+            "{{_('Soil degradation reduction')}}",
+            "{{_('Soil fertility')}}",
+            "{{_('Soil health')}}",
+            "{{_('Soil protection')}}",
+            "{{_('Soil quality')}}",
+            "{{_('Soil restoration')}}",
+            "{{_('Soil-borne disease')}}",
+            "{{_('Tillage reduction')}}"
+          ],
+          "{{_('Economy and income')}}": [
+            "{{_('Circular economy')}}",
+            "{{_('Income diversification')}}",
+            "{{_('Solidarity economy')}}",
+            "{{_('Fair employment')}}",
+            "{{_('Small entrepreneur')}}",
+            "{{_('Market change')}}",
+            "{{_('Family farming')}}",
+            "{{_('Consumer-producer organisation')}}",
+            "{{_('Market access')}}",
+            "{{_('Sustainable income')}}",
+            "{{_('Short value chain')}}",
+            "{{_('Value chain')}}",
+            "{{_('Cash crop')}}",
+            "{{_('Production costs reduction')}}",
+            "{{_('Income')}}",
+            "{{_('Microcredit')}}",
+            "{{_('Production costs')}}",
+            "{{_('Self sufficiency')}}",
+            "{{_('Sustainable and decent livelihood and revenue')}}"
+          ],
+          "{{_('Nutrition and diets')}}": [
+            "{{_('Diversified diet')}}",
+            "{{_('Food quality')}}",
+            "{{_('Food safety')}}",
+            "{{_('Nutrition and health')}}",
+            "{{_('Human health')}}",
+            "{{_('Nutrient')}}",
+            "{{_('Nutrition sensitive agriculture')}}",
+            "{{_('Recipe')}}",
+            "{{_('Wild food')}}",
+            "{{_('Woman and child nutrition and health')}}",
+            "{{_('Home gardening')}}",
+            "{{_('Seasonal food')}}"
+          ],
+          "{{_('Sustainable food system')}}": [
+            "{{_('Certification')}}",
+            "{{_('Labelisation')}}",
+            "{{_('Participatory guarantee system')}}",
+            "{{_('Quality standard')}}",
+            "{{_('Food waste reduction')}}",
+            "{{_('Market information system')}}",
+            "{{_('Perenial crop')}}",
+            "{{_('Sustainable yield')}}",
+            "{{_('Yield increase')}}",
+            "{{_('Ecological intensification')}}",
+            "{{_('Local food system')}}",
+            "{{_('Sustainable food system')}}",
+            "{{_('Food security')}}",
+            "{{_('Food sovereignety')}}",
+            "{{_('Food processing')}}",
+            "{{_('Sustainable livelihood')}}",
+            "{{_('Urban agriculture')}}"
+          ],
+          "{{_('Biodiversity')}}": [
+            "{{_('Bee keeping')}}",
+            "{{_('Biodiversity')}}",
+            "{{_('Biodiversity protection')}}",
+            "{{_('Bioeconomy')}}",
+            "{{_('Crop diversification')}}",
+            "{{_('Ecological integration')}}",
+            "{{_('Intercropping')}}",
+            "{{_('Environmental protection')}}",
+            "{{_('Forest biodiversity')}}",
+            "{{_('Forest encroachment')}}",
+            "{{_('Forest protection')}}",
+            "{{_('Grassland')}}",
+            "{{_('Habitat')}}",
+            "{{_('Local breeds and species')}}",
+            "{{_('Open pollination')}}",
+            "{{_('Species protection')}}"
+          ],
+          "{{_('Climate')}}": [
+            "{{_('Adaptation to climate change')}}",
+            "{{_('Carbon market')}}",
+            "{{_('Carbon neutrality')}}",
+            "{{_('Climate change')}}",
+            "{{_('Climate resilience')}}",
+            "{{_('Climate risk mitigation')}}",
+            "{{_('Climate smart agriculture')}}",
+            "{{_('Drought')}}",
+            "{{_('Ecosystem resilience')}}",
+            "{{_('Greenhouse gas reduction')}}",
+            "{{_('On farm anaerobic digestion')}}",
+            "{{_('Renewable energy')}}",
+            "{{_('Vulnerability')}}"
+          ],
+          "{{_('Natural resources governance')}}": [
+            "{{_('Land investment')}}",
+            "{{_('Land management')}}",
+            "{{_('Ecosystem service')}}",
+            "{{_('Land rights')}}",
+            "{{_('Landscape approach')}}",
+            "{{_('Local natural resources use')}}",
+            "{{_('Natural resources management')}}",
+            "{{_('Natural resources protection')}}",
+            "{{_('Participatory land use planning')}}",
+            "{{_('Sustainable land management')}}",
+            "{{_('Watershed management')}}"
+          ],
+          "{{_('Water management')}}": [
+            "{{_('Integrated water resources management')}}",
+            "{{_('Irrigation system')}}",
+            "{{_('Lagooning')}}",
+            "{{_('Water drainage')}}",
+            "{{_('Water management')}}",
+            "{{_('Water quality control')}}",
+            "{{_('Water saving')}}"
+          ],
+          "{{_('Collaboration')}}": [
+            "{{_('Community participation')}}",
+            "{{_('Cooperative')}}",
+            "{{_('Farmer participation')}}",
+            "{{_('Farmer to farmer exchange')}}",
+            "{{_('Farmers group')}}",
+            "{{_('Education and awareness')}}",
+            "{{_('Public-private partnership')}}",
+            "{{_('Farmers union')}}",
+            "{{_('Knowledge co-production')}}",
+            "{{_('Living lab')}}",
+            "{{_('Mobile application')}}",
+            "{{_('Participatory approach')}}",
+            "{{_('Research action')}}",
+            "{{_('Social media')}}"
+          ],
+          "{{_('Equity')}}": [
+            "{{_('Acces to employment')}}",
+            "{{_('Equity')}}",
+            "{{_('Ethnic minority')}}",
+            "{{_('Fairtrade')}}",
+            "{{_('Fairness')}}",
+            "{{_('Farmers autonomy')}}",
+            "{{_('Food access')}}",
+            "{{_('Food justice')}}",
+            "{{_('Gender equity')}}",
+            "{{_('Responsible investment')}}",
+            "{{_('Vulnerable group')}}",
+            "{{_('Women rights')}}",
+            "{{_('Youth rights')}}"
+          ],
+          "{{_('Supportive policies')}}": [
+            "{{_('Agroecological infrastructure')}}",
+            "{{_('Bottom-up approach')}}",
+            "{{_('Decentralised policy')}}",
+            "{{_('Democratic governance')}}",
+            "{{_('Enabling policy')}}",
+            "{{_('Extension system')}}",
+            "{{_('Fair property rights')}}",
+            "{{_('High environmental value')}}",
+            "{{_('Innovation promotion')}}",
+            "{{_('Local development plan')}}",
+            "{{_('Participatory land use policy')}}",
+            "{{_('Participatory plant breeding')}}",
+            "{{_('Responsible gouvernance')}}",
+            "{{_('Rural development plan')}}",
+            "{{_('Sustainable land use policy')}}"
+          ],
+          "{{_('Knowledge and values')}}": [
+            "{{_('Beliefs')}}",
+            "{{_('Religion')}}",
+            "{{_('Cultural food system')}}",
+            "{{_('Customary law')}}",
+            "{{_('Wellbeing')}}",
+            "{{_('Heritage')}}",
+            "{{_('Intergeneration')}}",
+            "{{_('Knowledge intensive')}}",
+            "{{_('Local adaptation systems')}}",
+            "{{_('Local knowledge')}}",
+            "{{_('Services and land exchanges')}}",
+            "{{_('Traditional knowledge')}}"
+          ]
+        };
+
+        const categorySelect = document.getElementById('field-agroecology_category');
+        const keywordSelect = document.getElementById('agroecology_keyword');
+
+        categorySelect.addEventListener('change', function() {
+            const selectedCategorty = categorySelect.value;
+            const keywords = keywordOptions[selectedCategorty] || [];
+            keywordSelect.innerHTML = '<option value="">Select keyword</option>'; // Reset the area dropdown
+
+            keywords.forEach(function(keyword) {
+                const option = document.createElement('option');
+                option.value = keyword;
+                option.textContent = keyword;
+                keywordSelect.appendChild(option);
+            });
+        });
+    });
+</script>

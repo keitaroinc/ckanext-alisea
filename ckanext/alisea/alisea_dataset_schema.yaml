@@ -46,7 +46,7 @@ dataset_fields:
 
 - field_name: agroecology_category
   label: Agroecology Category
-  preset: multiple_checkbox
+  preset: select
   choices:
   - value: Integrated systems
     label: Integrated systems
@@ -83,7 +83,7 @@ dataset_fields:
 
 - field_name: agroecology_keyword
   label: Agroecology Keyword
-  preset: tag_string_autocomplete
+  form_snippet: agroecology_keyword.html
 
 - field_name: owner_org
   label: Organization
@@ -171,6 +171,8 @@ dataset_fields:
     label: Myanmar
   - value: Vietnamese
     label: Vietnamese
+  - value: French
+    label: French
 
 - field_name : spatial
   label: Spatial
@@ -227,11 +229,13 @@ dataset_fields:
       en: Others
       fr: Others
 
-- field_name: administrative_level_1
-  label: Administrative level 1
+- field_name: adl1
+  label: Administrative Level 1
+  form_snippet: adl1.html
 
-- field_name: administrative_level_2
-  label: Administrative level 2
+- field_name: adl2
+  label: Administrative Level 2
+  form_snippet: adl2.html
 
 - field_name: url
   label: Web Link
@@ -243,6 +247,11 @@ dataset_fields:
   label: License
   form_snippet: license.html
   help_text: License definitions and additional information can be found at http://opendefinition.org/
+
+- field_name: tag_string
+  label: Tags
+  preset: tag_string_autocomplete
+  form_placeholder: eg. climate, agroecology, government
 
 resource_fields:
 
