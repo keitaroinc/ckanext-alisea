@@ -1,0 +1,149 @@
+
+
+.module-heading {
+    background-color: #2D7C3D;
+    color: #ffff;
+    padding: 0.8rem 0;
+}
+
+.module-heading i {
+    color: #ffff;
+}
+
+.btn-primary {
+    background-color: #2D7C3D;
+}
+
+.btn-primary i {
+    display: none;
+}
+
+.site-footer {
+    background-color: #2D7C3D;
+}
+
+.account-masthead {
+    background-color: #F1F2F2;
+}
+
+.masthead {
+    background-color: #ffff;
+}
+
+.navbar-nav li {
+    color: red !important;
+}
+
+.masthead .main-navbar ul li a {
+    color: #41A7D4;
+    font-size: 1rem;
+    border-radius: 0 !important;
+}
+
+.masthead .main-navbar ul li:focus a, .masthead .main-navbar ul li.active a {
+    background-color: transparent !important;
+    font-weight: 900;
+    border-bottom: 2px solid #41A7D4;
+}
+
+.masthead .main-navbar ul li:hover a {
+    background-color: transparent !important;
+}
+
+.wrapper {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.main {
+    background-color: #ffff;
+}
+
+.breadcrumb {
+    opacity: 0.7;
+}
+
+.primary {
+    padding: 0;
+}
+
+.module-content .nav li a{
+    color: #000000 !important;
+}
+
+.footer-links-right-side p{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffff !important;
+}
+
+.footer-links-right-side p a{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffff !important;
+}
+
+.footer-links-left-side p {
+    font-size: 16px !important;
+    color: #ffff !important;
+}
+
+.footer-secondary-title {
+    font-size: 1.75rem !important;
+    font-weight: 500 !important;
+}
+
+.footer-main-title {
+    font-size: 2.5rem;
+    font-weight: 700 !important;
+}
+
+.search-form .search-input-group .input-group-btn .btn{
+    background-color: #2D7C3D;   
+}
+.search-form .search-input-group .input-group-btn .btn:hover{
+    background-color: #65a372 !important;   
+}
+
+.search-form .search-input-group .input-group-btn .btn i{
+    color: #ffff;   
+}
+
+.dataset-resources li a {
+    background-color: #197EA3;
+    color: #ffff;
+}
+
+a.tag:hover {
+    background-color: #197EA3 !important;
+}
+
+.alisea-logo {
+    width: 160px;
+    height: 76px;
+    background-color: #F1F2F2;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .alisea-logo {
+        display: none;
+    }
+}
+
+.navbar-nav li a {
+    font-weight: 700;
+    font-size: 1rem !important;
+}
+
+.masthead {
+    padding-top: 0 !important;
+}
+
+.alisea-logo img {
+    width: 100%;
+    padding: 20px;
+    min-width: 160px;
+}
