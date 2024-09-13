@@ -2,14 +2,13 @@ scheming_version: 2
 dataset_type: dataset
 about: ALiSEA custom metadata scheme
 about_url: https://github.com/keitaroinc/ckanext-alisea
-form_languages: [en, fr, my_MM, vi, km]
+form_languages: [en, fr, vi, km]
 
 dataset_fields:
 - field_name: type_of_alisea_product
   label: 
     en: Type of ALiSEA product
-    fr: Type de produit ALiSEA
-    my_MM:
+    fr: Type de produit ALiSEA    
     vi:
     km:
   preset: select
@@ -17,36 +16,31 @@ dataset_fields:
   - value: None
     label: 
       en: None
-      fr: Aucune
-      my_MM:
+      fr: Aucune    
       vi:
       km:
   - value: policy_brief
     label: 
       en: Policy Brief
       fr: Note d'orientation
-      my_MM:
       vi:
       km:
   - value: Research_brief
     label: 
       en: Research Brief
       fr: Recherche en bref
-      my_MM:
       vi:
       km:
   - value: agroecology_insights
     label: 
       en: Agroecology Insights
       fr: Perspectives sur l'agroécologie
-      my_MM:
       vi:
       km:   
   - value: videos
     label: 
       en: Videos
-      fr: Vidéos
-      my_MM:
+      fr: Vidéos 
       vi:
       km:   
 - field_name: title
@@ -57,10 +51,50 @@ dataset_fields:
   label: URL
   preset: dataset_slug
 
-- field_name: notes
-  label: Description
-  form_snippet: markdown.html
-  form_placeholder: eg. Some useful notes about the data
+- field_name: notes_translated
+  label:
+    en: Description
+    fr: Description   
+    vi:
+    km: 
+  fluent_form_label:
+    en:
+      en: Description (English)
+      fr: Description (anglais)    
+      vi:
+      km: 
+    fr:
+      en: Description (French)
+      fr: Description (français)
+      vi:
+      km: 
+  fluent_help_text:
+    en:
+      en: "An account of the dataset, in English. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+    fr:
+      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+    
+      en:
+      fr:
+      
+      vi:
+      km:
+    vi:
+      en:
+      fr:
+      
+      vi:
+      km:
+    km:
+      en:
+      fr:
+      
+      vi:
+      km:
+  preset: fluent_core_translated
+
 
 - field_name: agroecology_category
   label: Agroecology Category
@@ -119,8 +153,7 @@ dataset_fields:
 - field_name: type_of_document
   label: 
     en: Type of document
-    fr: Type de document
-    my_MM:
+    fr: Type de document   
     vi:
     km: 
   preset: select
@@ -128,92 +161,79 @@ dataset_fields:
   - value: research_articles
     label: 
       en: Research Articles
-      fr: Articles de recherche
-      my_MM:
+      fr: Articles de recherche  
       vi:
       km: 
   - value: books_and_chapters
     label: 
       en: Books and Chapters
       fr: Livres et chapitres
-      my_MM:
       vi:
       km: 
   - value: theses_and_essays
     label: 
       en: Theses and Essays
       fr: Thèses et essais
-      my_MM:
       vi:
       km: 
   - value: briefs_and_memos
     label: 
       en: Briefs and Memos
       fr: Notes et mémoires
-      my_MM:
       vi:
       km: 
   - value: brochures_and_flyers
     label: 
       en: Brochures and Flyers
       fr: Brochures et dépliants
-      my_MM:
       vi:
       km: 
   - value: manuals and_guides
     label: 
       en: Manuals and Guides
       fr: Manuels et guides
-      my_MM:
       vi:
       km: 
   - value: media_articles_and_texts
     label: 
       en: Media Articles and Texts
       fr: Articles et textes de presse
-      my_MM:
       vi:
       km: 
   - value: other_text_documents
     label: 
       en: Other Text Documents
       fr: Autres documents textuels
-      my_MM:
       vi:
       km: 
   - value: illustrations_and_presentations
     label: 
       en: Illustrations and Presentations
       fr: Illustrations et présentations
-      my_MM:
       vi:
       km: 
   - value: maps
     label: 
       en: Maps
       fr: Cartes
-      my_MM:
       vi:
       km: 
   - value: audio_files
     label: 
       en: Audio files
       fr: Fichiers audio
-      my_MM:
       vi:
       km: 
   - value: video_files
     label: 
       en: Video files
       fr: Fichiers vidéo
-      my_MM:
       vi:
       km: 
   - value: data_sets
     label: 
       en: Data Sets
       fr: Ensembles de données
-      my_MM:
       vi:
       km: 
 
@@ -225,42 +245,36 @@ dataset_fields:
     label: 
       en: English
       fr: Anglaise
-      my_MM:
       vi:
       km:
   - value: French
     label:
       en: French
       fr: Français
-      my_MM:
       vi:
       km: 
   - value: Khmer
     label:
       en: Khmer
       fr: Khmer
-      my_MM:
       vi:
       km: 
   - value: Lao
     label:
       en: Lao
       fr: Lao
-      my_MM:
       vi:
       km: 
   - value: Myanmar
     label:
       en: Myanmar
       fr: Birmanie
-      my_MM:
       vi:
       km: 
   - value: Vietnamese
     label:
       en: Vietnamese
       fr: Vietnamien
-      my_MM:
       vi:
       km: 
 
