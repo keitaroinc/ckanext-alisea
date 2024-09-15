@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{% block primary_content %}
+  <div>
+    {% snippet "spatial/snippets/spatial_query.html" %}
+  </div>
+  {{ super() }}
+{% endblock %}
