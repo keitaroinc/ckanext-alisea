@@ -42,10 +42,12 @@ dataset_fields:
       en: Videos
       fr: Vidéos 
       vi:
-      km:   
+      km:
+  
 - field_name: title
   label: Title
   preset: title
+  form_placeholder: eg. A descriptive title
 
 - field_name: name
   label: URL
@@ -94,6 +96,7 @@ dataset_fields:
       vi:
       km:
   preset: fluent_core_translated
+  form_snippet: fluent_markdown.html
 
 
 - field_name: agroecology_category
