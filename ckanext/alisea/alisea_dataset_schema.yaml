@@ -57,19 +57,29 @@ dataset_fields:
   label:
     en: Description
     fr: Description   
-    vi:
-    km: 
+    vi: Description
+    km: Description
   fluent_form_label:
     en:
       en: Description (English)
       fr: Description (anglais)    
-      vi:
-      km: 
+      vi: Mô tả (Tiếng Việt)
+      km: ការពិពណ៌នា (ខ្មែរ)
     fr:
       en: Description (French)
       fr: Description (français)
-      vi:
-      km: 
+      vi: Mô tả (Tiếng Việt)
+      km: ការពិពណ៌នា (ខ្មែរ)
+    vi:
+      en: Description (French)
+      fr: Description (français)
+      vi: Mô tả (Tiếng Việt)
+      km: ការពិពណ៌នា (ខ្មែរ)
+    km:
+      en: Description (French)
+      fr: Description (français)
+      vi: Mô tả (Tiếng Việt)
+      km: ការពិពណ៌នា (ខ្មែរ)
   fluent_help_text:
     en:
       en: "An account of the dataset, in English. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
@@ -77,22 +87,16 @@ dataset_fields:
     fr:
       en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
-    
-      en:
-      fr:
-      
       vi:
       km:
     vi:
-      en:
-      fr:
-      
+      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
       vi:
       km:
     km:
-      en:
-      fr:
-      
+      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
       vi:
       km:
   preset: fluent_core_translated
