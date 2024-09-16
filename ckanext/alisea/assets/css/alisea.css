@@ -147,3 +147,10 @@ a.tag:hover {
     padding: 20px;
     min-width: 160px;
 }
+
+.account-masthead .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
