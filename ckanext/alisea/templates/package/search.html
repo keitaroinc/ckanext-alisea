@@ -2,7 +2,7 @@
 
 {% block primary_content %}
   <div>
-    {% snippet "spatial/snippets/spatial_query.html" %}
+    {% snippet "spatial/snippets/spatial_query.html", default_extent= [[2.62, 85.21], [24.92, 113.00]] %}
   </div>
   {{ super() }}
 {% endblock %}
