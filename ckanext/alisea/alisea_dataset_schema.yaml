@@ -193,41 +193,126 @@ dataset_fields:
 
 
 - field_name: agroecology_category
-  label: Agroecology Category
+  label: 
+    en: Agroecology Category
+    fr: Catégorie Agroécologie    
+    vi:
+    km:
+    my_MM:
   preset: select
   choices:
   - value: Integrated systems
-    label: Integrated systems
+    label: 
+      en: Integrated systems
+      fr: Systèmes intégrés    
+      vi:
+      km:
+      my_MM:
   - value: Animal health
-    label: Animal health
+    label: 
+      en: Animal health
+      fr: Santé animale    
+      vi:
+      km:
+      my_MM:
   - value: Input reduction and recycling
-    label: Input reduction and recycling
+    label: 
+      en: Input reduction and recycling
+      fr: Réduction des intrants et recyclage   
+      vi:
+      km:
+      my_MM:
   - value: Seed management
-    label: Seed management
+    label: 
+      en: Seed management
+      fr: Gestion des semences   
+      vi:
+      km:
+      my_MM:
   - value: Soil health
-    label: Soil health
+    label: 
+      en: Soil health
+      fr: Santé des sols   
+      vi:
+      km:
+      my_MM:
   - value: Economy and income
-    label: Economy and income
+    label: 
+      en: Economy and income
+      fr: Économie et revenus  
+      vi:
+      km:
+      my_MM:
   - value: Nutrition and diets
-    label: Nutrition and diets
+    label: 
+      en: Nutrition and diets
+      fr: Nutrition et régimes alimentaires  
+      vi:
+      km:
+      my_MM:
   - value: Sustainable food system
-    label: Sustainable food system
+    label: 
+      en: Sustainable food system
+      fr: Système alimentaire durable  
+      vi:
+      km:
+      my_MM:
   - value: Biodiversity
-    label: Biodiversity
+    label: 
+      en: Biodiversity
+      fr: Biodiversité  
+      vi:
+      km:
+      my_MM:
   - value: Climate
-    label: Climate
+    label: 
+      en: Climate
+      fr: Climat  
+      vi:
+      km:
+      my_MM:
   - value: Natural resources governance
-    label: Natural resources governance
+    label: 
+      en: Natural resources governance
+      fr: Gouvernance des ressources naturelles 
+      vi:
+      km:
+      my_MM:
   - value: Water management
-    label: Water management
+    label: 
+      en: Water management
+      fr: Gestion de l'eau
+      vi:
+      km:
+      my_MM:
   - value: Collaboration
-    label: Collaboration
+    label: 
+      en: Collaboration
+      fr: Collaboration
+      vi:
+      km:
+      my_MM:
   - value: Equity
-    label: Equity
+    label: 
+      en: Equity
+      fr: Équité
+      vi:
+      km:
+      my_MM:
   - value: Supportive policies
-    label: Supportive policies
+    label: 
+      en: Supportive policies
+      fr: Des politiques de soutien
+      vi:
+      km:
+      my_MM:
   - value: Knowledge and values
-    label: Knowledge and values
+    label: 
+      en: Knowledge and values
+      fr: Connaissances et valeurs
+      vi:
+      km:
+      my_MM:
 
 - field_name: agroecology_keyword
   label: Agroecology Keyword

@@ -6,27 +6,17 @@ about_url: https://github.com/keitaroinc/ckanext-alisea
 
 dataset_fields:
 - field_name: type_of_alisea_product
-  label: 
-    en: Type of ALiSEA product
-    fr: Type of ALiSEA product
+  label: Type of ALiSEA product
   preset: select
   choices:
   - value: None
-    label: 
-      en: None
-      fr: None
+    label: None
   - value: policy_brief
-    label: 
-      en: Policy Brief
-      fr: Policy Brief
+    label: Policy Brief
   - value: Research_brief
-    label: 
-      en: Research Brief
-      fr: Research Brief
+    label: Research Brief
   - value: agroecology_insights
-    label: 
-      en: Agroecology Insights
-      fr: Agroecology Insights
+    label: Agroecology Insights
   - value: videos
     label: Videos
 
@@ -105,57 +95,31 @@ dataset_fields:
   preset: select
   choices:
   - value: research_articles
-    label: 
-      en: Research Articles
-      fr: Research Articles
+    label: Research Articles
   - value: books_and_chapters
-    label: 
-      en: Books and Chapters
-      fr: Books and Chapters
+    label: Books and Chapters
   - value: theses_and_essays
-    label: 
-      en: Theses and Essays
-      fr: Theses and Essays
+    label: Theses and Essays
   - value: briefs_and_memos
-    label: 
-      en: Briefs and Memos
-      fr: Briefs and Memos
+    label: Briefs and Memos
   - value: brochures_and_flyers
-    label: 
-      en: Brochures and Flyers
-      fr: Brochures and Flyers
-  - value: manuals and_guides
-    label: 
-      en: Manuals and Guides
-      fr: Manuals and Guides
+    label: Brochures and Flyers
+  - value: manuals_and_guides
+    label: Manuals and Guides
   - value: media_articles_and_texts
-    label: 
-      en: Media Articles and Texts
-      fr: Media Articles and Texts
+    label: Media Articles and Texts
   - value: other_text_documents
-    label: 
-      en: Other Text Documents
-      fr: Other Text Documents
+    label: Other Text Documents
   - value: illustrations_and_presentations
-    label: 
-      en: Illustrations and Presentations
-      fr: Illustrations and Presentations
+    label: Illustrations and Presentations
   - value: maps
-    label: 
-      en: Maps
-      fr: Maps
+    label: maps
   - value: audio_files
-    label: 
-      en: Audio files
-      fr: Audio files
+    label: Audio files
   - value: video_files
-    label: 
-      en: Video files
-      fr: Video files
+    label: Video files
   - value: data_sets
-    label: 
-      en: Data Sets
-      fr: Data Sets
+    label: Data Sets
 
 - field_name: language
   label: Language
@@ -179,55 +143,31 @@ dataset_fields:
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
 - field_name: country
-  label: 
-    en: Country
-    fr: Country
+  label: Country
   preset: select
   choices:
   - value: Brunei Darussalam
-    label: 
-      en: Brunei Darussalam
-      fr: Brunei Darussalam
+    label: Brunei Darussalam
   - value: Cambodia
-    label: 
-      en: Cambodia
-      fr: Cambodia
+    label: Cambodia
   - value: Indonesia
-    label: 
-      en: Indonesia
-      fr: Indonesia
+    label: Indonesia
   - value: Lao PDR
-    label: 
-      en: Lao PDR
-      fr: Lao PDR
+    label: Lao PDR
   - value: Malaysia
-    label: 
-      en: Malaysia
-      fr: Malaysia
+    label: Malaysia
   - value: Myanmar
-    label: 
-      en: Myanmar
-      fr: Myanmar
+    label: Myanmar
   - value: Philippines
-    label: 
-      en: Philippines
-      fr: Philippines
+    label: Philippines
   - value: Singapore
-    label: 
-      en: Singapore
-      fr: Singapore
+    label: Singapore
   - value: Thailand
-    label: 
-      en: Thailand
-      fr: Thailand
+    label: Thailand
   - value: Vietnam
-    label: 
-      en: Vietnam
-      fr: Vietnam
+    label: Vietnam
   - value: Others
-    label: 
-      en: Others
-      fr: Others
+    label: Others
 
 - field_name: adl1
   label: Administrative Level 1
