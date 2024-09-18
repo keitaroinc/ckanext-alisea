@@ -2,7 +2,7 @@ scheming_version: 2
 dataset_type: dataset
 about: ALiSEA custom metadata scheme
 about_url: https://github.com/keitaroinc/ckanext-alisea
-form_languages: [en, fr, vi, km]
+form_languages: [en, fr, vi, km, my_MM]
 
 dataset_fields:
 - field_name: type_of_alisea_product
@@ -11,6 +11,7 @@ dataset_fields:
     fr: Type de produit ALiSEA    
     vi:
     km:
+    my_MM:
   preset: select
   choices:
   - value: None
@@ -19,30 +20,35 @@ dataset_fields:
       fr: Aucune    
       vi:
       km:
+      my_MM:
   - value: policy_brief
     label: 
       en: Policy Brief
       fr: Note d'orientation
       vi:
       km:
+      my_MM:
   - value: Research_brief
     label: 
       en: Research Brief
       fr: Recherche en bref
       vi:
       km:
+      my_MM:
   - value: agroecology_insights
     label: 
       en: Agroecology Insights
       fr: Perspectives sur l'agroécologie
       vi:
-      km:   
+      km:
+      my_MM:
   - value: videos
     label: 
       en: Videos
       fr: Vidéos 
       vi:
       km:
+      my_MM:
   
 - field_name: title
   label: Title
@@ -59,46 +65,63 @@ dataset_fields:
     fr: Description   
     vi: Description
     km: Description
+    my_MM: Description
   fluent_form_label:
     en:
       en: Description (English)
       fr: Description (anglais)    
-      vi: Mô tả (Tiếng Việt)
-      km: ការពិពណ៌នា (ខ្មែរ)
+      vi: Mô tả (Tiếng Anh)
+      km: ការពិពណ៌នា (ភាសាអង់គ្លេស)
+      my_MM: ဖော်ပြချက် (အင်္ဂလိပ်)
     fr:
       en: Description (French)
       fr: Description (français)
-      vi: Mô tả (Tiếng Việt)
-      km: ការពិពណ៌នា (ខ្មែរ)
+      vi: Mô tả (tiếng Pháp)
+      km: ការពិពណ៌នា (ភាសាបារាំង)
+      my_MM: ဖော်ပြချက် (ပြင်သစ်)
     vi:
-      en: Description (French)
-      fr: Description (français)
+      en: Description (Vietnamese)
+      fr: Description (vietnamien)
       vi: Mô tả (Tiếng Việt)
-      km: ការពិពណ៌នា (ខ្មែរ)
+      km: ការពិពណ៌នា (ភាសាវៀតណាម)
+      my_MM: ဖော်ပြချက် (ဗီယက်နမ်)
     km:
-      en: Description (French)
-      fr: Description (français)
-      vi: Mô tả (Tiếng Việt)
+      en: Description (Khmer)
+      fr: Description (Khmer)
+      vi: Mô tả (Khmer)
       km: ការពិពណ៌នា (ខ្មែរ)
+      my_MM: ဖော်ပြချက် (ခမာ)
+    my_MM:
+      en: Description (Myanmar)
+      fr: Description (Birmanie)
+      vi: Mô tả (Myanmar)
+      km: ការពិពណ៌នា (មីយ៉ាន់ម៉ា)
+      my_MM: ဖော်ပြချက် (မြန်မာ)
   fluent_help_text:
     en:
       en: "An account of the dataset, in English. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+      vi:
+      km:
+      my_MM:
     fr:
       en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
       vi:
       km:
+      my_MM:
     vi:
       en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
       vi:
       km:
+      my_MM:
     km:
       en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
       vi:
       km:
+      my_MM:
   preset: fluent_core_translated
   form_snippet: fluent_markdown.html
 
@@ -162,7 +185,8 @@ dataset_fields:
     en: Type of document
     fr: Type de document   
     vi:
-    km: 
+    km:
+    my_MM:
   preset: select
   choices:
   - value: research_articles
@@ -170,79 +194,92 @@ dataset_fields:
       en: Research Articles
       fr: Articles de recherche  
       vi:
-      km: 
+      km:
+      my_MM:
   - value: books_and_chapters
     label: 
       en: Books and Chapters
       fr: Livres et chapitres
       vi:
-      km: 
+      km:
+      my_MM:
   - value: theses_and_essays
     label: 
       en: Theses and Essays
       fr: Thèses et essais
       vi:
-      km: 
+      km:
+      my_MM:
   - value: briefs_and_memos
     label: 
       en: Briefs and Memos
       fr: Notes et mémoires
       vi:
-      km: 
+      km:
+      my_MM:
   - value: brochures_and_flyers
     label: 
       en: Brochures and Flyers
       fr: Brochures et dépliants
       vi:
-      km: 
+      km:
+      my_MM:
   - value: manuals and_guides
     label: 
       en: Manuals and Guides
       fr: Manuels et guides
       vi:
-      km: 
+      km:
+      my_MM:
   - value: media_articles_and_texts
     label: 
       en: Media Articles and Texts
       fr: Articles et textes de presse
       vi:
-      km: 
+      km:
+      my_MM: 
   - value: other_text_documents
     label: 
       en: Other Text Documents
       fr: Autres documents textuels
       vi:
-      km: 
+      km:
+      my_MM:
   - value: illustrations_and_presentations
     label: 
       en: Illustrations and Presentations
       fr: Illustrations et présentations
       vi:
-      km: 
+      km:
+      my_MM: 
   - value: maps
     label: 
       en: Maps
       fr: Cartes
       vi:
-      km: 
+      km:
+      my_MM:
   - value: audio_files
     label: 
       en: Audio files
       fr: Fichiers audio
       vi:
-      km: 
+      km:
+      my_MM:
   - value: video_files
     label: 
       en: Video files
       fr: Fichiers vidéo
       vi:
-      km: 
+      km:
+      my_MM: 
   - value: data_sets
     label: 
       en: Data Sets
       fr: Ensembles de données
       vi:
-      km: 
+      km:
+      my_MM:
 
 - field_name: language
   label: Language
@@ -254,36 +291,42 @@ dataset_fields:
       fr: Anglaise
       vi:
       km:
+      my_MM:
   - value: French
     label:
       en: French
       fr: Français
       vi:
-      km: 
+      km:
+      my_MM:
   - value: Khmer
     label:
       en: Khmer
       fr: Khmer
       vi:
-      km: 
+      km:
+      my_MM:
   - value: Lao
     label:
       en: Lao
       fr: Lao
       vi:
-      km: 
+      km:
+      my_MM:
   - value: Myanmar
     label:
       en: Myanmar
       fr: Birmanie
       vi:
-      km: 
+      km:
+      my_MM:
   - value: Vietnamese
     label:
       en: Vietnamese
       fr: Vietnamien
       vi:
-      km: 
+      km:
+      my_MM:
 
 
 - field_name : spatial
