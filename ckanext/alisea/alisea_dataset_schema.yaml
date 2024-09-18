@@ -50,10 +50,76 @@ dataset_fields:
       km:
       my_MM:
   
-- field_name: title
-  label: Title
-  preset: title
-  form_placeholder: eg. A descriptive title
+- field_name: title_translated
+  label:
+    en: Title
+    fr: Titre
+    vi:
+    km:
+    my_MM:
+  fluent_form_label:
+    en:
+      en: Title (English)
+      fr: Titre (anglais)
+      vi: Tiêu đề (tiếng Anh)
+      km: ចំណងជើង (ភាសាអង់គ្លេស)
+      my_MM: ခေါင်းစဉ် (အင်္ဂလိပ်)
+    fr:
+      en: Title (French)
+      fr: Titre (français)
+      vi: Tiêu đề (tiếng Pháp)
+      km: ចំណងជើង (ភាសាបារាំង)
+      my_MM: ခေါင်းစဉ် (ပြင်သစ်)
+    vi:
+      en: Title (Vietnamese)
+      fr: Titre (Vietnamien)
+      vi: Tiêu đề (Tiếng Việt)
+      km: ចំណងជើង (វៀតណាម)
+      my_MM: ခေါင်းစဉ် (ဗီယက်နမ်)
+    km:
+      en: Title (Khmer)
+      fr: Titre (Khmer)
+      vi: Tiêu đề (Khmer)
+      km: ចំណងជើង (ខ្មែរ)
+      my_MM: ခေါင်းစဉ် (ခမာ)
+    my_MM:
+      en: Title (Myanmar)
+      fr: Titre (Myanmar)
+      vi: Tiêu đề (Myanmar)
+      km: ចំណងជើង (មីយ៉ាន់ម៉ា)
+      my_MM: ခေါင်းစဉ် (မြန်မာ)
+  fluent_help_text:
+    en:
+      en: The English name by which the dataset is known
+      fr: Nom anglais désignant le jeu de données
+      vi:
+      km:
+      my_MM:
+    fr:
+      en: The French name by which the dataset is known
+      fr: Nom français désignant le jeu de données
+      vi:
+      km:
+      my_MM:
+    vi:
+      en: The French name by which the dataset is known
+      fr: Nom français désignant le jeu de données
+      vi:
+      km:
+      my_MM:
+    km:
+      en: The French name by which the dataset is known
+      fr: Nom français désignant le jeu de données
+      vi:
+      km:
+      my_MM:
+    my_MM:
+      en: The French name by which the dataset is known
+      fr: Nom français désignant le jeu de données
+      vi:
+      km:
+      my_MM:
+  preset: fluent_core_translated
 
 - field_name: name
   label: URL
