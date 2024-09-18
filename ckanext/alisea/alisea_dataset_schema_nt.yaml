@@ -1,0 +1,273 @@
+scheming_version: 2
+dataset_type: dataset
+about: ALiSEA custom metadata scheme
+about_url: https://github.com/keitaroinc/ckanext-alisea
+
+
+dataset_fields:
+- field_name: type_of_alisea_product
+  label: 
+    en: Type of ALiSEA product
+    fr: Type of ALiSEA product
+  preset: select
+  choices:
+  - value: None
+    label: 
+      en: None
+      fr: None
+  - value: policy_brief
+    label: 
+      en: Policy Brief
+      fr: Policy Brief
+  - value: Research_brief
+    label: 
+      en: Research Brief
+      fr: Research Brief
+  - value: agroecology_insights
+    label: 
+      en: Agroecology Insights
+      fr: Agroecology Insights
+  - value: videos
+    label: Videos
+
+- field_name: title
+  label: Title
+  preset: title
+
+- field_name: name
+  label: URL
+  preset: dataset_slug
+  form_placeholder: eg. my-dataset
+
+- field_name: notes
+  label: Description
+  form_snippet: markdown.html
+  form_placeholder: eg. Some useful notes about the data
+
+- field_name: agroecology_category
+  label: Agroecology Category
+  preset: select
+  choices:
+  - value: Integrated systems
+    label: Integrated systems
+  - value: Animal health
+    label: Animal health
+  - value: Input reduction and recycling
+    label: Input reduction and recycling
+  - value: Seed management
+    label: Seed management
+  - value: Soil health
+    label: Soil health
+  - value: Economy and income
+    label: Economy and income
+  - value: Nutrition and diets
+    label: Nutrition and diets
+  - value: Sustainable food system
+    label: Sustainable food system
+  - value: Biodiversity
+    label: Biodiversity
+  - value: Climate
+    label: Climate
+  - value: Natural resources governance
+    label: Natural resources governance
+  - value: Water management
+    label: Water management
+  - value: Collaboration
+    label: Collaboration
+  - value: Equity
+    label: Equity
+  - value: Supportive policies
+    label: Supportive policies
+  - value: Knowledge and values
+    label: Knowledge and values
+
+- field_name: agroecology_keyword
+  label: Agroecology Keyword
+  form_snippet: agroecology_keyword.html
+
+- field_name: owner_org
+  label: Organization
+  preset: dataset_organization
+
+- field_name: author
+  label: Author
+  form_placeholder: Joe Bloggs
+  display_property: dc:creator
+
+- field_name: year
+  label: Year
+  preset: date
+
+- field_name: type_of_document
+  label: 
+    en: Type of document
+    fr: Type of document
+  preset: select
+  choices:
+  - value: research_articles
+    label: 
+      en: Research Articles
+      fr: Research Articles
+  - value: books_and_chapters
+    label: 
+      en: Books and Chapters
+      fr: Books and Chapters
+  - value: theses_and_essays
+    label: 
+      en: Theses and Essays
+      fr: Theses and Essays
+  - value: briefs_and_memos
+    label: 
+      en: Briefs and Memos
+      fr: Briefs and Memos
+  - value: brochures_and_flyers
+    label: 
+      en: Brochures and Flyers
+      fr: Brochures and Flyers
+  - value: manuals and_guides
+    label: 
+      en: Manuals and Guides
+      fr: Manuals and Guides
+  - value: media_articles_and_texts
+    label: 
+      en: Media Articles and Texts
+      fr: Media Articles and Texts
+  - value: other_text_documents
+    label: 
+      en: Other Text Documents
+      fr: Other Text Documents
+  - value: illustrations_and_presentations
+    label: 
+      en: Illustrations and Presentations
+      fr: Illustrations and Presentations
+  - value: maps
+    label: 
+      en: Maps
+      fr: Maps
+  - value: audio_files
+    label: 
+      en: Audio files
+      fr: Audio files
+  - value: video_files
+    label: 
+      en: Video files
+      fr: Video files
+  - value: data_sets
+    label: 
+      en: Data Sets
+      fr: Data Sets
+
+- field_name: language
+  label: Language
+  preset: select
+  choices:
+  - value: English
+    label: English
+  - value: Khmer
+    label: Khmer
+  - value: Lao
+    label: Lao
+  - value: Myanmar
+    label: Myanmar
+  - value: Vietnamese
+    label: Vietnamese
+  - value: French
+    label: French
+
+- field_name : spatial
+  label: Spatial
+  form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
+
+- field_name: country
+  label: 
+    en: Country
+    fr: Country
+  preset: select
+  choices:
+  - value: Brunei Darussalam
+    label: 
+      en: Brunei Darussalam
+      fr: Brunei Darussalam
+  - value: Cambodia
+    label: 
+      en: Cambodia
+      fr: Cambodia
+  - value: Indonesia
+    label: 
+      en: Indonesia
+      fr: Indonesia
+  - value: Lao PDR
+    label: 
+      en: Lao PDR
+      fr: Lao PDR
+  - value: Malaysia
+    label: 
+      en: Malaysia
+      fr: Malaysia
+  - value: Myanmar
+    label: 
+      en: Myanmar
+      fr: Myanmar
+  - value: Philippines
+    label: 
+      en: Philippines
+      fr: Philippines
+  - value: Singapore
+    label: 
+      en: Singapore
+      fr: Singapore
+  - value: Thailand
+    label: 
+      en: Thailand
+      fr: Thailand
+  - value: Vietnam
+    label: 
+      en: Vietnam
+      fr: Vietnam
+  - value: Others
+    label: 
+      en: Others
+      fr: Others
+
+- field_name: adl1
+  label: Administrative Level 1
+  form_snippet: adl1.html
+
+- field_name: adl2
+  label: Administrative Level 2
+  form_snippet: adl2.html
+
+- field_name: url
+  label: Web Link
+  form_placeholder: http://example.com/dataset.json
+  display_property: foaf:homepage
+  display_snippet: link.html
+
+- field_name: license_id
+  label: License
+  form_snippet: license.html
+  help_text: License definitions and additional information can be found at http://opendefinition.org/
+
+- field_name: tag_string
+  label: Tags
+  preset: tag_string_autocomplete
+  form_placeholder: eg. climate, agroecology, government
+
+resource_fields:
+
+- field_name: url
+  label: URL
+  preset: resource_url_upload
+
+- field_name: name
+  label: Name
+  form_placeholder: eg. January 2011 Gold Prices
+
+- field_name: description
+  label: Description
+  form_snippet: markdown.html
+  form_placeholder: Some useful notes about the data
+
+- field_name: format
+  label: Format
+  preset: resource_format_autocomplete
