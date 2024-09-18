@@ -1,7 +1,7 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.plugins import DefaultTranslation
-
+from collections import OrderedDict
 from ckanext.alisea import helpers as h
 
 
@@ -9,6 +9,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.ITranslation)
+    plugins.implements(plugins.IFacets)
     
 
     # IConfigurer
@@ -34,3 +35,18 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         })
 
         return schema
+    
+    def dataset_facets(self, facet_dict, package_type):
+        new_facets = [
+            ("country", "Country"),
+            ("type_of_document", "Document Type"),
+            ("type_of_alisea_product", "Type of Alisea Product"),
+            ("language", "Language"),
+            ("organization", "Organizations"),
+            ("groups", "Groups"),
+            ("agroecology_category", "Agroecology Category"),
+            ("license_id", "Licence"),
+            ("tags", "Tags"),
+
+        ]
+        return OrderedDict(new_facets)
