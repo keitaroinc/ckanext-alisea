@@ -21,28 +21,28 @@ dataset_fields:
       vi:
       km:
       my_MM:
-  - value: policy_brief
+  - value: Policy Brief
     label: 
       en: Policy Brief
       fr: Note d'orientation
       vi:
       km:
       my_MM:
-  - value: Research_brief
+  - value: Research Brief
     label: 
       en: Research Brief
       fr: Recherche en bref
       vi:
       km:
       my_MM:
-  - value: agroecology_insights
+  - value: Agroecology Insights
     label: 
       en: Agroecology Insights
       fr: Perspectives sur l'agroécologie
       vi:
       km:
       my_MM:
-  - value: videos
+  - value: Videos
     label: 
       en: Videos
       fr: Vidéos 
@@ -340,84 +340,84 @@ dataset_fields:
     my_MM:
   preset: select
   choices:
-  - value: research_articles
+  - value: Research Articles
     label: 
       en: Research Articles
       fr: Articles de recherche  
       vi:
       km:
       my_MM:
-  - value: books_and_chapters
+  - value: Books and Chapters
     label: 
       en: Books and Chapters
       fr: Livres et chapitres
       vi:
       km:
       my_MM:
-  - value: theses_and_essays
+  - value: Theses and Essays
     label: 
       en: Theses and Essays
       fr: Thèses et essais
       vi:
       km:
       my_MM:
-  - value: briefs_and_memos
+  - value: Briefs and Memos
     label: 
       en: Briefs and Memos
       fr: Notes et mémoires
       vi:
       km:
       my_MM:
-  - value: brochures_and_flyers
+  - value: Brochures and Flyers
     label: 
       en: Brochures and Flyers
       fr: Brochures et dépliants
       vi:
       km:
       my_MM:
-  - value: manuals and_guides
+  - value: Manuals and Guides
     label: 
       en: Manuals and Guides
       fr: Manuels et guides
       vi:
       km:
       my_MM:
-  - value: media_articles_and_texts
+  - value: Media Articles and Texts
     label: 
       en: Media Articles and Texts
       fr: Articles et textes de presse
       vi:
       km:
       my_MM: 
-  - value: other_text_documents
+  - value: Other Text Documents
     label: 
       en: Other Text Documents
       fr: Autres documents textuels
       vi:
       km:
       my_MM:
-  - value: illustrations_and_presentations
+  - value: Illustrations and Presentations
     label: 
       en: Illustrations and Presentations
       fr: Illustrations et présentations
       vi:
       km:
       my_MM: 
-  - value: maps
+  - value: Maps
     label: 
       en: Maps
       fr: Cartes
       vi:
       km:
       my_MM:
-  - value: audio_files
+  - value: Audio Files
     label: 
       en: Audio files
       fr: Fichiers audio
       vi:
       km:
       my_MM:
-  - value: video_files
+  - value: Video Files
     label: 
       en: Video files
       fr: Fichiers vidéo
@@ -506,7 +506,6 @@ dataset_fields:
     label: Singapore
   - value: Thailand
     label: Thailand
-
   - value: Vietnam
     label: Vietnam
   - value: Others
