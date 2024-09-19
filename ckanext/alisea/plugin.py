@@ -36,7 +36,38 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
 
         return schema
     
+    # IFacets
     def dataset_facets(self, facet_dict, package_type):
+        new_facets = [
+            ("country", "Country"),
+            ("type_of_document", "Document Type"),
+            ("type_of_alisea_product", "Type of Alisea Product"),
+            ("language", "Language"),
+            ("organization", "Organizations"),
+            ("groups", "Groups"),
+            ("agroecology_category", "Agroecology Category"),
+            ("license_id", "Licence"),
+            ("tags", "Tags"),
+
+        ]
+        return OrderedDict(new_facets)
+    
+    def group_facets(self, facet_dict, group_type, package_type):
+        new_facets = [
+            ("country", "Country"),
+            ("type_of_document", "Document Type"),
+            ("type_of_alisea_product", "Type of Alisea Product"),
+            ("language", "Language"),
+            ("organization", "Organizations"),
+            ("groups", "Groups"),
+            ("agroecology_category", "Agroecology Category"),
+            ("license_id", "Licence"),
+            ("tags", "Tags"),
+
+        ]
+        return OrderedDict(new_facets)
+    
+    def organization_facets(self, facet_dict, organization_type, package_type):
         new_facets = [
             ("country", "Country"),
             ("type_of_document", "Document Type"),
