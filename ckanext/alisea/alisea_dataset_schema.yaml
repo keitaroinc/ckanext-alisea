@@ -123,22 +123,29 @@ dataset_fields:
       my_MM:
       th:
     vi:
-      en: The French name by which the dataset is known
-      fr: Nom français désignant le jeu de données
+      en: The Vietnamese name by which the dataset is known
+      fr: Le nom vietnamien sous lequel l'ensemble de données est connu
       vi:
       km:
       my_MM:
       th:
     km:
-      en: The French name by which the dataset is known
-      fr: Nom français désignant le jeu de données
+      en: The Khmer name by which the dataset is known
+      fr: Le nom khmer sous lequel l'ensemble de données est connu
       vi:
       km:
       my_MM:
       th:
     my_MM:
-      en: The French name by which the dataset is known
-      fr: Nom français désignant le jeu de données
+      en: The Burmese name by which the dataset is known
+      fr: Le nom birman sous lequel l'ensemble de données est connu
+      vi:
+      km:
+      my_MM:
+      th:
+    th:
+      en: The Thai name by which the dataset is known
+      fr: Le nom thaïlandais sous lequel l'ensemble de données est connu
       vi:
       km:
       my_MM:
@@ -211,28 +218,35 @@ dataset_fields:
       th:
     fr:
       en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
-      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+      fr: "Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre."
       vi:
       km:
       my_MM:
       th:
     vi:
-      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
-      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+      en: "An account of the dataset, in Vietnamese. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: "Un compte rendu de l'ensemble de données, en vietnamien. Une description peut inclure, sans toutefois s'y limiter : un résumé, une table des matières ou un compte rendu en texte libre de la ressource"
       vi:
       km:
       my_MM:
       th:
     km:
-      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
-      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+      en: "An account of the dataset, in Khmer. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: "Un compte rendu de l'ensemble de données, en khmer. Une description peut inclure, sans toutefois s'y limiter : un résumé, une table des matières ou un compte rendu en texte libre de la ressource."
+      vi:
+      km:
+      my_MM:
+      th:
+    my_MM:
+      en: "An account of the dataset, in Burmese. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: "Un compte rendu de l'ensemble de données, en birman. Une description peut inclure, sans toutefois s'y limiter : un résumé, une table des matières ou un compte rendu en texte libre de la ressource."
       vi:
       km:
       my_MM:
       th:
     th:
-      en: "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
-      fr: Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre.
+      en: "An account of the dataset, in Thai. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      fr: "Un compte rendu de l'ensemble de données, en thaï. Une description peut inclure, sans toutefois s'y limiter : un résumé, une table des matières ou un compte rendu en texte libre de la ressource."
       vi:
       km:
       my_MM:
