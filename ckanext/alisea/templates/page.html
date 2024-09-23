@@ -18,7 +18,16 @@
   {# The content block allows you to replace the content of the page if needed #}
   {%- block content %}
     {% block maintag %}<div class="main">{% endblock %}
-      <div id="content" class="container">
+      <div id="content" class="container-fluid col-xl-10 offset-xl-1">
+        <div class="d-flex flex-wrap align-items-center mb-4 hero-section">
+          <div class="col-md-4 col-sm-12 col-xs-12 title-container">
+            <h1 class="hero-section-title">Agroecology Library</h1>
+            <p class="hero-section-description">Our repository of literature on agroecology on Southeast Asia includes more than 750 documents.</p>
+          </div>
+          <div class="col-md-8 col-sm-12 map-conatiner">
+            {% snippet "spatial/snippets/spatial_query.html", default_extent= [[2.62, 85.21], [24.92, 113.00]] %}
+          </div>
+        </div>
         {% block main_content %}
           {% block flash %}
             <div class="flash-messages">
