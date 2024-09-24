@@ -34,10 +34,23 @@
     color: red !important;
 }
 
+.header-image .navbar-left a img {
+    width: 100%;
+    max-width: 320px;
+}
+
+.masthead .main-navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
 .masthead .main-navbar ul li a {
+    text-transform: uppercase;
     color: #41A7D4;
     font-size: 1rem;
     border-radius: 0 !important;
+
 }
 
 .masthead .main-navbar ul li:focus a, .masthead .main-navbar ul li.active a {
@@ -159,10 +172,8 @@ a.tag:hover {
     }
 }
 
-
 .navbar-nav li a {
     font-weight: 700;
-    font-size: 1rem !important;
 }
 
 .masthead {
@@ -201,7 +212,7 @@ a.tag:hover {
 }
 
 .hero-section-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     max-width: 300px;
     font-weight: 900 !important;
     margin-bottom: 2rem;
