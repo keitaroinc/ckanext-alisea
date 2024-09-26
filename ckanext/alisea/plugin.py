@@ -48,6 +48,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
             ("tags", "Tags"),
+            ("res_format", "Format"),
 
         ]
         return OrderedDict(new_facets)
@@ -63,6 +64,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
             ("tags", "Tags"),
+            ("res_format", "Format"),
 
         ]
         return OrderedDict(new_facets)
@@ -78,6 +80,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
             ("tags", "Tags"),
+            ("res_format", "Format"),
 
         ]
         return OrderedDict(new_facets)
