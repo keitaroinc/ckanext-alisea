@@ -36,7 +36,7 @@ dataset_fields:
 
 - field_name: agroecology_category
   label: Agroecology Category
-  preset: select
+  preset: multiple_select
   choices:
   - value: Integrated systems
     label: Integrated systems

@@ -89,7 +89,6 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     
     # IPackageController
     def before_dataset_index(self, data_dict):
-        breakpoint()
         data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
         data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
         return data_dict
