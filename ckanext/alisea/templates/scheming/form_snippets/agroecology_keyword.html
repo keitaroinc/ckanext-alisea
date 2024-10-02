@@ -1,9 +1,9 @@
 {% import 'macros/form.html' as form %}
     
-
-    {{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='', attrs={"multiple":'multiple'}) }}
-
-
+    {{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='', classes=['agroecology-keyword-form'], attrs={"multiple":'multiple'}) }}
+    <div style="margin:-20px 0px 20px 0px;">
+      <small><a href="javascript:void(0);" id="resetLink" onclick="resetKeywords()">Reset Keywords</a></small>
+    </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -261,16 +261,20 @@
         const keywordSelect = document.getElementById('agroecology_keyword');
 
         categorySelect.addEventListener('change', function() {
-            const selectedCategorty = categorySelect.value;
-            const keywords = keywordOptions[selectedCategorty] || [];
-            keywordSelect.innerHTML = '<option value="">Select keyword</option>'; // Reset the area dropdown
+            var selectedCategorty = categorySelect.value;
+            var keywords = keywordOptions[selectedCategorty] || [];
 
             keywords.forEach(function(keyword) {
-                const option = document.createElement('option');
+                var option = document.createElement('option');
                 option.value = keyword;
                 option.textContent = keyword;
                 keywordSelect.appendChild(option);
             });
         });
     });
+
+  function resetKeywords() {
+      var keywordSelect = document.getElementById('agroecology_keyword');
+      keywordSelect.innerHTML = '<option value=""></option>'; // Reset the area dropdown
+  }
 </script>
