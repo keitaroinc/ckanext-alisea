@@ -49,7 +49,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-           ("agroecology_keywords", "Agroecology Keywords"),
+            ("agroecology_keywords", "Agroecology Keywords"),
             ("res_format", "Format"),
 
         ]
@@ -65,7 +65,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-           ("agroecology_keywords", "Agroecology Keywords"),
+            ("agroecology_keywords", "Agroecology Keywords"),
             ("res_format", "Format"),
 
         ]
@@ -90,6 +90,9 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     # IPackageController
     def before_dataset_index(self, data_dict):
         data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
-        data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
+
+        y = str(data_dict['agroecology_keyword'])
+        ym = y.replace("{", "").replace("}", "").replace("\"", "").replace("'", "")
+        data_dict['agroecology_keyword'] = h.convert_to_list(ym)
         return data_dict
     
