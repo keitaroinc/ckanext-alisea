@@ -74,6 +74,430 @@ dataset_fields:
 - field_name: agroecology_keyword
   label: Agroecology Keyword
   form_snippet: agroecology_keyword.html
+  preset: multiple_select
+  choices:
+  - value: Agroecological transition
+    label: Agroecological transition
+  - value: Agroforestry
+    label: Agroforestry
+  - value: Agro-silvo-pastoralism
+    label: Agro-silvo-pastoralism
+  - value: Biodynamic agriculture
+    label: Biodynamic agriculture
+  - value: Conservation agriculture
+    label: Conservation agriculture
+  - value: Crop intensification system
+    label: Crop intensification system
+  - value: Environmental performance
+    label: Environmental performance
+  - value: Extensive farming
+    label: Extensive farming
+  - value: Integrated crop livestock system
+    label: Integrated crop livestock system
+  - value: Natural farming
+    label: Natural farming
+  - value: Organic agriculture
+    label: Organic agriculture
+  - value: Permaculture
+    label: Permaculture
+  - value: Precision agriculture
+    label: Precision agriculture
+  - value: System of rice intensification
+    label: System of rice intensification
+  - value: Animal wellbeing
+    label: Animal wellbeing
+  - value: Extensive aquaculture
+    label: Extensive aquaculture
+  - value: Free range
+    label: Free range
+  - value: Integrated animal health
+    label: Integrated animal health
+  - value: Rotational grazing system
+    label: Rotational grazing system
+  - value: Sustainable animal feeding
+    label: Sustainable animal feeding
+  - value: Zoonose
+    label: Zoonose
+  - value: Allelopathy
+    label: Allelopathy
+  - value: Antimicrobial resistance
+    label: Antimicrobial resistance
+  - value: Bio-fertilizer
+    label: Bio-fertilizer
+  - value: Biological control
+    label: Biological control
+  - value: Bio-pesticide
+    label: Bio-pesticide
+  - value: Chemical input control
+    label: Chemical input control
+  - value: Compost
+    label: Compost
+  - value: Crop protection
+    label: Crop protection
+  - value: Ecological recycling
+    label: Ecological recycling
+  - value: Input autonomy
+    label: Input autonomy
+  - value: Input reduction
+    label: Input reduction
+  - value: Insect-plant interaction
+    label: Insect-plant interaction
+  - value: Integrated pest management
+    label: Integrated pest management
+  - value: Organic manure
+    label: Organic manure
+  - value: Plant health
+    label: Plant health
+  - value: Sanitary and phytosanitary measure
+    label: Sanitary and phytosanitary measure
+  - value: Veterinary waste management
+    label: Veterinary waste management
+  - value: Waste management
+    label: Waste management
+  - value: Abiotic stress
+    label: Abiotic stress
+  - value: Annual crop
+    label: Annual crop
+  - value: Disease resistance
+    label: Disease resistance
+  - value: GMO free
+    label: GMO free
+  - value: Hybrid variety
+    label: Hybrid variety
+  - value: Local variety
+    label: Local variety
+  - value: Organic seed
+    label: Organic seed
+  - value: Rice variety
+    label: Rice variety
+  - value: Seed bank
+    label: Seed bank
+  - value: Seed management
+    label: Seed management
+  - value: Biomass
+    label: Biomass
+  - value: Cover crop
+    label: Cover crop
+  - value: Earthworm
+    label: Earthworm
+  - value: Ecological synergy
+    label: Ecological synergy
+  - value: Crop rotation
+    label: Crop rotation
+  - value: Green manure
+    label: Green manure
+  - value: Monocrop
+    label: Monocrop
+  - value: Nematode
+    label: Nematode
+  - value: Soil biological activity
+    label: Soil biological activity
+  - value: Soil degradation reduction
+    label: Soil degradation reduction
+  - value: Soil fertility
+    label: Soil fertility
+  - value: Soil health
+    label: Soil health
+  - value: Soil protection
+    label: Soil protection
+  - value: Soil quality
+    label: Soil quality
+  - value: Soil restoration
+    label: Soil restoration
+  - value: Soil-borne disease
+    label: Soil-borne disease
+  - value: Tillage reduction
+    label: Tillage reduction
+  - value: Circular economy
+    label: Circular economy
+  - value: Income diversification
+    label: Income diversification
+  - value: Solidarity economy
+    label: Solidarity economy
+  - value: Fair employment
+    label: Fair employment
+  - value: Small entrepreneur
+    label: Small entrepreneur
+  - value: Market change
+    label: Market change
+  - value: Family farming
+    label: Family farming
+  - value: Consumer-producer organisation
+    label: Consumer-producer organisation
+  - value: Market access
+    label: Market access
+  - value: Sustainable income
+    label: Sustainable income
+  - value: Cash crop
+    label: Cash crop
+  - value: Production costs reduction
+    label: Production costs reduction
+  - value: Income
+    label: Income
+  - value: Microcredit
+    label: Microcredit
+  - value: Production costs
+    label: Production costs
+  - value: Self sufficiency
+    label: Self sufficiency
+  - value: Sustainable and decent livelihood and revenue
+    label: Sustainable and decent livelihood and revenue
+  - value: Diversified diet
+    label: Diversified diet
+  - value: Food quality
+    label: Food quality
+  - value: Food safety
+    label: Food safety
+  - value: Nutrition and health
+    label: Nutrition and health
+  - value: Human health
+    label: Human health
+  - value: Nutrient
+    label: Nutrient
+  - value: Nutrition sensitive agriculture
+    label: Nutrition sensitive agriculture
+  - value: Recipe
+    label: Recipe
+  - value: Wild food
+    label: Wild food
+  - value: Woman and child nutrition and health
+    label: Woman and child nutrition and health
+  - value: Home gardening
+    label: Home gardening
+  - value: Seasonal food
+    label: Seasonal food
+  - value: Certification
+    label: Certification
+  - value: Participatory guarantee system
+    label: Participatory guarantee system
+  - value: Quality standard
+    label: Quality standard
+  - value: Food waste reduction
+    label: Food waste reduction
+  - value: Market information system
+    label: Market information system
+  - value: Perenial crop
+    label: Perenial crop
+  - value: Sustainable yield
+    label: Sustainable yield
+  - value: Yield increase
+    label: Yield increase
+  - value: Ecological intensification
+    label: Ecological intensification
+  - value: Local food system
+    label: Local food system
+  - value: Sustainable food system
+    label: Sustainable food system
+  - value: Food security
+    label: Food security
+  - value: Food sovereignety
+    label: Food sovereignety
+  - value: Food processing
+    label: Food processing
+  - value: Sustainable livelihood
+    label: Sustainable livelihood
+  - value: Urban agriculture
+    label: Urban agriculture
+  - value: Bee keeping
+    label: Bee keeping
+  - value: Biodiversity
+    label: Biodiversity
+  - value: Biodiversity protection
+    label: Biodiversity protection
+  - value: Bioeconomy
+    label: Bioeconomy
+  - value: Crop diversification
+    label: Crop diversification
+  - value: Ecological integration
+    label: Ecological integration
+  - value: Intercropping
+    label: Intercropping
+  - value: Environmental protection
+    label: Environmental protection
+  - value: Forest biodiversity
+    label: Forest biodiversity
+  - value: Forest encroachment
+    label: Forest encroachment
+  - value: Forest protection
+    label: Forest protection
+  - value: Grassland
+    label: Grassland
+  - value: Habitat
+    label: Habitat
+  - value: Local breeds and species
+    label: Local breeds and species
+  - value: Open pollination
+    label: Open pollination
+  - value: Species protection
+    label: Species protection
+  - value: Adaptation to climate change
+    label: Adaptation to climate change
+  - value: Carbon market
+    label: Carbon market
+  - value: Carbon neutrality
+    label: Carbon neutrality
+  - value: Climate change
+    label: Climate change
+  - value: Climate resilience
+    label: Climate resilience
+  - value: Climate risk mitigation
+    label: Climate risk mitigation
+  - value: Climate smart agriculture
+    label: Climate smart agriculture
+  - value: Drought
+    label: Drought
+  - value: Ecosystem resilience
+    label: Ecosystem resilience
+  - value: Greenhouse gas reduction
+    label: Greenhouse gas reduction
+  - value: On farm anaerobic digestion
+    label: On farm anaerobic digestion
+  - value: Renewable energy
+    label: Renewable energy
+  - value: Vulnerability
+    label: Vulnerability
+  - value: Land investment
+    label: Land investment
+  - value: Land management
+    label: Land management
+  - value: Ecosystem service
+    label: Ecosystem service
+  - value: Land rights
+    label: Land rights
+  - value: Landscape approach
+    label: Landscape approach
+  - value: Local natural resources use
+    label: Local natural resources use
+  - value: Natural resources management
+    label: Natural resources management
+  - value: Natural resources protection
+    label: Natural resources protection
+  - value: Participatory land use planning
+    label: Participatory land use planning
+  - value: Sustainable land management
+    label: Sustainable land management
+  - value: Watershed management
+    label: Watershed management
+  - value: Integrated water resources management
+    label: Integrated water resources management
+  - value: Irrigation system
+    label: Irrigation system
+  - value: Lagooning
+    label: Lagooning
+  - value: Water drainage
+    label: Water drainage
+  - value: Water management
+    label: Water management
+  - value: Water quality control
+    label: Water quality control
+  - value: Water saving
+    label: Water saving
+  - value: Community participation
+    label: Community participation
+  - value: Cooperative
+    label: Cooperative
+  - value: Farmer participation
+    label: Farmer participation
+  - value: Farmer to farmer exchange
+    label: Farmer to farmer exchange
+  - value: Farmers group
+    label: Farmers group
+  - value: Education and awareness
+    label: Education and awareness
+  - value: Public-private partnership
+    label: Public-private partnership
+  - value: Farmers union
+    label: Farmers union
+  - value: Knowledge co-production
+    label: Knowledge co-production
+  - value: Living lab
+    label: Living lab
+  - value: Mobile application
+    label: Mobile application
+  - value: Participatory approach
+    label: Participatory approach
+  - value: Research action
+    label: Research action
+  - value: Social media
+    label: Social media
+  - value: Acces to employment
+    label: Acces to employment
+  - value: Equity
+    label: Equity
+  - value: Ethnic minority
+    label: Ethnic minority
+  - value: Fairtrade
+    label: Fairtrade
+  - value: Fairness
+    label: Fairness
+  - value: Farmers autonomy
+    label: Farmers autonomy
+  - value: Food access
+    label: Food access
+  - value: Food justice
+    label: Food justice
+  - value: Gender equity
+    label: Gender equity
+  - value: Responsible investment
+    label: Responsible investment
+  - value: Vulnerable group
+    label: Vulnerable group
+  - value: Women rights
+    label: Women rights
+  - value: Youth rights
+    label: Youth rights
+  - value: Agroecological infrastructure
+    label: Agroecological infrastructure
+  - value: Bottom-up approach
+    label: Bottom-up approach
+  - value: Decentralised policy
+    label: Decentralised policy
+  - value: Democratic governance
+    label: Democratic governance
+  - value: Enabling policy
+    label: Enabling policy
+  - value: Extension system
+    label: Extension system
+  - value: Fair property rights
+    label: Fair property rights
+  - value: Innovation promotion
+    label: Innovation promotion
+  - value: Local development plan
+    label: Local development plan
+  - value: Participatory land use policy
+    label: Participatory land use policy
+  - value: Participatory plant breeding
+    label: Participatory plant breeding
+  - value: Responsible gouvernance
+    label: Responsible gouvernance
+  - value: Rural development plan
+    label: Rural development plan
+  - value: Sustainable land use policy
+    label: Sustainable land use policy
+  - value: Beliefs
+    label: Beliefs
+  - value: Religion
+    label: Religion
+  - value: Cultural food system
+    label: Cultural food system
+  - value: Customary law
+    label: Customary law
+  - value: Wellbeing
+    label: Wellbeing
+  - value: Heritage
+    label: Heritage
+  - value: Intergeneration
+    label: Intergeneration
+  - value: Knowledge intensive
+    label: Knowledge intensive
+  - value: Local adaptation systems
+    label: Local adaptation systems
+  - value: Local knowledge
+    label: Local knowledge
+  - value: Services and land exchanges
+    label: Services and land exchanges
+  - value: Traditional knowledge
+    label: Traditional knowledge
 
 - field_name: owner_org
   label: Organization
