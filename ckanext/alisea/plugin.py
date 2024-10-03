@@ -49,7 +49,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("agroecology_keywords", "Agroecology Keywords"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
@@ -65,7 +65,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("agroecology_keywords", "Agroecology Keywords"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
@@ -81,7 +81,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("agroecology_keywords", "Agroecology Keywords"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
