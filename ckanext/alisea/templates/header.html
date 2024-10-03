@@ -3,6 +3,10 @@
 {% block header_wrapper %} {% block header_account %}
 <div class="account-masthead">
   <div class="col-xl-10 offset-xl-1">
+    <div class="d-flex align-center justify-content-end">
+      <div class="language align-self-center">
+        {% snippet "snippets/language_selector.html" %}
+      </div>
     {% block header_account_container_content %} {% if c.userobj %}
     <div class="account avatar authed" data-module="me" data-me="{{ c.userobj.id }}">
       <ul class="list-unstyled">
@@ -49,9 +53,6 @@
     </div>
     {% else %}
     <nav class="account not-authed" aria-label="{{ _('Account') }}">
-      {% block footer_lang %}
-      {% snippet "snippets/language_selector.html" %}
-    {% endblock %}
       <ul class="list-unstyled">
         {% block header_account_notlogged %}
         <li>{% link_for _('Log in'), named_route='user.login' %}</li>
@@ -62,6 +63,7 @@
     </nav>
     {% endif %} {% endblock %}
   </div>
+</div>
 </div>
 {% endblock %}
 <header class="masthead">
