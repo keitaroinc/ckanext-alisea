@@ -1806,10 +1806,6 @@ dataset_fields:
       my_MM:
       th:
 
-- field_name: tag_string
-  label: Agroecology Keyword
-  preset: tag_string_autocomplete
-  form_placeholder: eg. climate, agroecology, government
 
 - field_name: owner_org
   label: Organization
