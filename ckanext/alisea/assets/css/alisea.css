@@ -256,3 +256,11 @@ a.tag:hover {
 .language {
     max-width: 100px;
 }
+
+.agroecology-keyword-form .controls div {
+    width: 100%;
+}
+
+.select2-search-choice-close, .select2-container-multi .select2-search-choice-close {
+    top: 2px !important;
+}
