@@ -510,7 +510,7 @@ dataset_fields:
 
 - field_name: year
   label: Year
-  preset: date
+  form_snippet: date_year.html
 
 - field_name: type_of_document
   label: 
