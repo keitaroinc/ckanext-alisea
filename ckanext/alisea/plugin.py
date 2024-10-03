@@ -90,9 +90,6 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     # IPackageController
     def before_dataset_index(self, data_dict):
         data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
-
-        y = str(data_dict['agroecology_keyword'])
-        ym = y.replace("{", "").replace("}", "").replace("\"", "").replace("'", "")
-        data_dict['agroecology_keyword'] = h.convert_to_list(ym)
+        data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
         return data_dict
     
