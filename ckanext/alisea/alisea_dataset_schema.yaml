@@ -207,6 +207,7 @@ dataset_fields:
     km:
     my_MM:
     th:
+  help_text: Choose agroecology categories by holding the Ctrl button and click
   preset: multiple_select
   choices:
   - value: Integrated systems
