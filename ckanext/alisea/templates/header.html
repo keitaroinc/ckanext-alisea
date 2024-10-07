@@ -76,13 +76,13 @@
 
         {% block header_logo %}
         {% if g.site_logo %}
-        <a class="logo" href="{{ h.url_for('home.index') }}">
+        <a class="logo" href="https://kh.ali-sea.org/">
           <img src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}"
             title="{{ g.site_title }}" />
         </a>
         {% else %}
         <h1>
-          <a href="{{ h.url_for('home.index') }}">{{ g.site_title }}</a>
+          <a href="https://kh.ali-sea.org/">{{ g.site_title }}</a>
         </h1>
         {% if g.site_description %}
         <h2>{{ g.site_description }}</h2>
