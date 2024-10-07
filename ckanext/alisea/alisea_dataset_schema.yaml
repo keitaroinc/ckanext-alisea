@@ -2026,9 +2026,15 @@ resource_fields:
   label: URL
   preset: resource_url_upload
 
-- field_name: name
-  label: Name
+- field_name: name_translated 
+  label: 
+    en: Name
+    vi:
+    km:
+    my_MM:
+    th:
   form_placeholder: eg. January 2011 Gold Prices
+  preset: fluent_core_translated
 
 - field_name: description
   label: Description
