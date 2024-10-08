@@ -2,7 +2,7 @@ scheming_version: 2
 dataset_type: dataset
 about: ALiSEA custom metadata scheme
 about_url: https://github.com/keitaroinc/ckanext-alisea
-form_languages: [en, vi, km, my_MM, lo]
+form_languages: [en, vi, km, my_MM, th]
 
 dataset_fields:
 - field_name: type_of_alisea_product
@@ -12,7 +12,7 @@ dataset_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   preset: select
   choices:
   - value: None
@@ -21,35 +21,35 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Policy Brief
     label: 
       en: Policy Brief
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Research Brief
     label: 
       en: Research Brief
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Agroecology Insights
     label: 
       en: Agroecology Insights
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Videos
     label: 
       en: Videos
       vi:
       km:
       my_MM:
-      lo:
+      th:
   
 - field_name: title_translated
   label:
@@ -57,69 +57,69 @@ dataset_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   fluent_form_label:
     en:
       en: Title (English)
       vi: Tiêu đề (tiếng Anh)
       km: ចំណងជើង (ភាសាអង់គ្លេស)
       my_MM: ခေါင်းစဉ် (အင်္ဂလိပ်)
-      lo: ชื่อเรื่อง (ภาษาอังกฤษ)
+      th: ชื่อเรื่อง (ภาษาอังกฤษ)
     vi:
       en: Title (Vietnamese)
       vi: Tiêu đề (Tiếng Việt)
       km: ចំណងជើង (វៀតណាម)
       my_MM: ခေါင်းစဉ် (ဗီယက်နမ်)
-      lo: ชื่อเรื่อง (เวียดนาม)
+      th: ชื่อเรื่อง (เวียดนาม)
     km:
       en: Title (Khmer)
       vi: Tiêu đề (Khmer)
       km: ចំណងជើង (ខ្មែរ)
       my_MM: ခေါင်းစဉ် (ခမာ)
-      lo: ชื่อเรื่อง (เขมร)
+      th: ชื่อเรื่อง (เขมร)
     my_MM:
       en: Title (Myanmar)
       vi: Tiêu đề (Myanmar)
       km: ចំណងជើង (មីយ៉ាន់ម៉ា)
       my_MM: ခေါင်းစဉ် (မြန်မာ)
-      lo: ชื่อเรื่อง (พม่า)
-    lo:
+      th: ชื่อเรื่อง (พม่า)
+    th:
       en: Title (Thai)
       vi: Tiêu đề (tiếng Thái)
       km: ចំណងជើង (ថៃ)
       my_MM: ခေါင်းစဉ် (ထိုင်း)
-      lo: ชื่อเรื่อง (ไทย)
+      th: ชื่อเรื่อง (ไทย)
   fluent_help_text:
     en:
       en: The English name by which the dataset is known
       vi:
       km:
       my_MM:
-      lo:
+      th:
     vi:
       en: The Vietnamese name by which the dataset is known
       vi:
       km:
       my_MM:
-      lo:
+      th:
     km:
       en: The Khmer name by which the dataset is known
       vi:
       km:
       my_MM:
-      lo:
+      th:
     my_MM:
       en: The Burmese name by which the dataset is known
       vi:
       km:
       my_MM:
-      lo:
-    lo:
+      th:
+    th:
       en: The Thai name by which the dataset is known
       vi:
       km:
       my_MM:
-      lo:
+      th:
   preset: fluent_core_translated
 
 - field_name: name
@@ -132,38 +132,38 @@ dataset_fields:
     vi: Description
     km: Description
     my_MM: Description
-    lo: Description
+    th: Description
   fluent_form_label:
     en:
       en: Description (English)   
       vi: Mô tả (Tiếng Anh)
       km: ការពិពណ៌នា (ភាសាអង់គ្លេស)
       my_MM: ဖော်ပြချက် (အင်္ဂလိပ်)
-      lo: คำอธิบาย (ภาษาอังกฤษ)
+      th: คำอธิบาย (ภาษาอังกฤษ)
     vi:
       en: Description (Vietnamese)
       vi: Mô tả (Tiếng Việt)
       km: ការពិពណ៌នា (ភាសាវៀតណាម)
       my_MM: ဖော်ပြချက် (ဗီယက်နမ်)
-      lo: คำอธิบาย (ภาษาเวียดนาม)
+      th: คำอธิบาย (ภาษาเวียดนาม)
     km:
       en: Description (Khmer)
       vi: Mô tả (Khmer)
       km: ការពិពណ៌នា (ខ្មែរ)
       my_MM: ဖော်ပြချက် (ခမာ)
-      lo: คำอธิบาย (ภาษาเขมร)
+      th: คำอธิบาย (ภาษาเขมร)
     my_MM:
       en: Description (Myanmar)
       vi: Mô tả (Myanmar)
       km: ការពិពណ៌នា (មីយ៉ាន់ម៉ា)
       my_MM: ဖော်ပြချက် (မြန်မာ)
-      lo: คำอธิบาย (พม่า)
-    lo:
+      th: คำอธิบาย (พม่า)
+    th:
       en: Description (Thai)
       vi: Mô tả (tiếng Thái)
       km: ការពិពណ៌នា (ភាសាថៃ)
       my_MM: ဖော်ပြချက် (ထိုင်း)
-      lo: คำอธิบาย (ภาษาไทย)
+      th: คำอธิบาย (ภาษาไทย)
 
   fluent_help_text:
     en:
@@ -171,31 +171,31 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
     vi:
       en: "An account of the dataset, in Vietnamese. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       vi:
       km:
       my_MM:
-      lo:
+      th:
     km:
       en: "An account of the dataset, in Khmer. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       vi:
       km:
       my_MM:
-      lo:
+      th:
     my_MM:
       en: "An account of the dataset, in Burmese. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       vi:
       km:
       my_MM:
-      lo:
-    lo:
+      th:
+    th:
       en: "An account of the dataset, in Thai. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       vi:
       km:
       my_MM:
-      lo:
+      th:
   preset: fluent_core_translated
   form_snippet: fluent_markdown.html
 
@@ -206,7 +206,7 @@ dataset_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   help_text: Choose agroecology categories by holding the Ctrl button and click
   preset: multiple_select
   choices:
@@ -216,112 +216,112 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Animal health
     label: 
       en: Animal health   
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Input reduction and recycling
     label: 
       en: Input reduction and recycling  
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Seed management
     label: 
       en: Seed management  
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil health
     label: 
       en: Soil health  
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Economy and income
     label: 
       en: Economy and income
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Nutrition and diets
     label: 
       en: Nutrition and diets
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable food system
     label: 
       en: Sustainable food system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biodiversity
     label: 
       en: Biodiversity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Climate
     label: 
       en: Climate
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Natural resources governance
     label: 
       en: Natural resources governance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Water management
     label: 
       en: Water management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Collaboration
     label: 
       en: Collaboration
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Equity
     label: 
       en: Equity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Supportive policies
     label: 
       en: Supportive policies
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Knowledge and values
     label: 
       en: Knowledge and values
       vi:
       km:
       my_MM:
-      lo:
+      th:
 
 - field_name: agroecology_keyword
   label: Agroecology Keyword
@@ -334,1477 +334,1477 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Agroforestry
     label: 
       en: Agroforestry
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Agro-silvo-pastoralism
     label:
       en: Agro-silvo-pastoralism
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biodynamic agriculture
     label: 
       en: Biodynamic agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Conservation agriculture
     label: 
       en: Conservation agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Crop intensification system
     label: 
       en: Crop intensification system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Environmental performance
     label: 
       en: Environmental performance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Extensive farming
     label: 
       en: Extensive farming
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Integrated crop livestock system
     label: 
       en: Integrated crop livestock system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Natural farming
     label: 
       en: ENatural farming
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Organic agriculture
     label: 
       en: Organic agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Permaculture
     label: 
       en: Permaculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Precision agriculture
     label: 
       en: Precision agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: System of rice intensification
     label: 
       en: System of rice intensification
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Animal wellbeing
     label: 
       en: Animal wellbeing
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Extensive aquaculture
     label: 
       en: Extensive aquaculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Free range
     label: 
       en: Free range
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Integrated animal health
     label: 
       en: Integrated animal health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Rotational grazing system
     label: 
       en: Rotational grazing system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable animal feeding
     label: 
       en: Sustainable animal feeding
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Zoonose
     label: 
       en: Zoonose
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Allelopathy
     label: 
       en: Allelopathy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Antimicrobial resistance
     label: 
       en: Antimicrobial resistance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Bio-fertilizer
     label: 
       en: Bio-fertilizer
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biological control
     label: 
       en: Biological control
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Bio-pesticide
     label: 
       en: Bio-pesticide
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Chemical input control
     label: 
       en: Chemical input control
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Compost
     label: 
       en: Compost
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Crop protection
     label: 
       en: ECrop protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecological recycling
     label: 
       en: Ecological recycling
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Input autonomy
     label: 
       en: Input autonomy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Input reduction
     label: 
       en: Input reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Insect-plant interaction
     label: 
       en: Insect-plant interaction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Integrated pest management
     label: 
       en: Integrated pest management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Organic manure
     label: 
       en: Organic manure
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Plant health
     label: 
       en: Plant health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sanitary and phytosanitary measure
     label: 
       en: Sanitary and phytosanitary measure
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Veterinary waste management
     label: 
       en: Veterinary waste management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Waste management
     label: 
       en: Waste management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Abiotic stress
     label: 
       en: Abiotic stress
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Annual crop
     label: 
       en: Annual crop
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Disease resistance
     label: 
       en: Disease resistance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: GMO free
     label: 
       en: GMO free
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Hybrid variety
     label: 
       en: Hybrid variety
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local variety
     label: 
       en: Local variety
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Organic seed
     label: 
       en: Organic seed
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Rice variety
     label: 
       en: Rice variety
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Seed bank
     label: 
       en: Seed bank
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Seed management
     label: 
       en: Seed management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biomass
     label: 
       en: Biomass
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Cover crop
     label: 
       en: Cover crop
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Earthworm
     label: 
       en: Earthworm
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecological synergy
     label: 
       en: Ecological synergy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Crop rotation
     label: 
       en: Crop rotation
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Green manure
     label: 
       en: Green manure
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Monocrop
     label: 
       en: Monocrop
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Nematode
     label: 
       en: Nematode
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil biological activity
     label: 
       en: Soil biological activity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil degradation reduction
     label: 
       en: Soil degradation reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil fertility
     label: 
       en: Soil fertility
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil health
     label: 
       en: Soil health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil protection
     label: 
       en: Soil protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil quality
     label: 
       en: Soil quality
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil restoration
     label: 
       en: Soil restoration
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Soil-borne disease
     label: 
       en: Soil-borne disease
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Tillage reduction
     label: 
       en: Tillage reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Circular economy
     label: 
       en: Circular economy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Income diversification
     label: 
       en: Income diversification
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Solidarity economy
     label: 
       en: Solidarity economy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Fair employment
     label: 
       en: Fair employment
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Small entrepreneur
     label: 
       en: Small entrepreneur
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Market change
     label: 
       en: Market change
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Family farming
     label: 
       en: Family farming
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Consumer-producer organisation
     label: 
       en: Consumer-producer organisation
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Market access
     label: 
       en: Market access
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable income
     label: 
       en: Sustainable income
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Cash crop
     label: 
       en: Cash crop
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Production costs reduction
     label: 
       en: Production costs reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Income
     label: 
       en: EIncome
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Microcredit
     label: 
       en: Microcredit
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Production costs
     label: 
       en: Production costs
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Self sufficiency
     label: 
       en: Self sufficiency
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable and decent livelihood and revenue
     label: 
       en: Sustainable and decent livelihood and revenue
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Diversified diet
     label: 
       en: Diversified diet
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food quality
     label: 
       en: Food quality
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food safety
     label: 
       en: Food safety
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Nutrition and health
     label: 
       en: Nutrition and health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Human health
     label: 
       en: Human health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Nutrient
     label: 
       en: Nutrient
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Nutrition sensitive agriculture
     label: 
       en: Nutrition sensitive agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Recipe
     label: 
       en: Recipe
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Wild food
     label: 
       en: Wild food
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Woman and child nutrition and health
     label: 
       en: Woman and child nutrition and health
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Home gardening
     label: 
       en: Home gardening
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Seasonal food
     label: 
       en: Seasonal food
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Certification
     label: 
       en: Certification
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Participatory guarantee system
     label: 
       en: Participatory guarantee system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Quality standard
     label: 
       en: Quality standard
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food waste reduction
     label: 
       en: Food waste reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Market information system
     label: 
       en: Market information system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Perenial crop
     label: 
       en: Perenial crop
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable yield
     label: 
       en: Sustainable yield
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Yield increase
     label: 
       en: Yield increase
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecological intensification
     label: 
       en: Ecological intensification
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local food system
     label: 
       en: Local food system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable food system
     label: 
       en: Sustainable food system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food security
     label: 
       en: Food security
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food sovereignety
     label: 
       en: Food sovereignety
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food processing
     label: 
       en: Food processing
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable livelihood
     label: 
       en: Sustainable livelihood
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Urban agriculture
     label: 
       en: Urban agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Bee keeping
     label: 
       en: Bee keeping
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biodiversity
     label: 
       en: Biodiversity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Biodiversity protection
     label: 
       en: Biodiversity protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Bioeconomy
     label: 
       en: Bioeconomy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Crop diversification
     label: 
       en: Crop diversification
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecological integration
     label: 
       en: Ecological integration
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Intercropping
     label: 
       en: Intercropping
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Environmental protection
     label: 
       en: Environmental protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Forest biodiversity
     label: 
       en: Forest biodiversity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Forest encroachment
     label: 
       en: Forest encroachment
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Forest protection
     label: 
       en: Forest protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Grassland
     label: 
       en: Grassland
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Habitat
     label: 
       en: Habitat
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local breeds and species
     label: 
       en: Local breeds and species
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Open pollination
     label: 
       en: Open pollination
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Species protection
     label: 
       en: Species protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Adaptation to climate change
     label: 
       en: Adaptation to climate change
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Carbon market
     label: 
       en: Carbon market
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Carbon neutrality
     label: 
       en: Carbon neutrality
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Climate change
     label: 
       en: Climate change
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Climate resilience
     label: 
       en: Climate resilience
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Climate risk mitigation
     label: 
       en: Climate risk mitigation
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Climate smart agriculture
     label: 
       en: Climate smart agriculture
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Drought
     label: 
       en: Drought
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecosystem resilience
     label: 
       en: Ecosystem resilience
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Greenhouse gas reduction
     label: 
       en: Greenhouse gas reduction
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: On farm anaerobic digestion
     label: 
       en: On farm anaerobic digestion
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Renewable energy
     label: 
       en: Renewable energy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Vulnerability
     label: 
       en: Vulnerability
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Land investment
     label: 
       en: Land investment
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Land management
     label: 
       en: Land management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ecosystem service
     label: 
       en: Ecosystem service
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Land rights
     label: 
       en: Land rights
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Landscape approach
     label: 
       en: Landscape approach
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local natural resources use
     label: 
       en: Local natural resources use
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Natural resources management
     label: 
       en: Natural resources management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Natural resources protection
     label: 
       en: Natural resources protection
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Participatory land use planning
     label: 
       en: Participatory land use planning
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable land management
     label: 
       en: Sustainable land management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Watershed management
     label: 
       en: Watershed management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Integrated water resources management
     label: 
       en: Integrated water resources management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Irrigation system
     label: 
       en: Irrigation system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Lagooning
     label: 
       en: Lagooning
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Water drainage
     label: 
       en: Water drainage
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Water management
     label: 
       en: EWater management
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Water quality control
     label: 
       en: Water quality control
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Water saving
     label: 
       en: Water saving
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Community participation
     label: 
       en: Community participation
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Cooperative
     label: 
       en: Cooperative
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Farmer participation
     label: 
       en: Farmer participation
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Farmer to farmer exchange
     label: 
       en: Farmer to farmer exchange
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Farmers group
     label: 
       en: Farmers group
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Education and awareness
     label: 
       en: Education and awareness
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Public-private partnership
     label: 
       en: Public-private partnership
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Farmers union
     label: 
       en: Farmers union
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Knowledge co-production
     label: 
       en: Knowledge co-production
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Living lab
     label: 
       en: Living lab
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Mobile application
     label: 
       en: Mobile application
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Participatory approach
     label: 
       en: Participatory approach
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Research action
     label: 
       en: Research action
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Social media
     label: 
       en: Social media
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Acces to employment
     label: 
       en: Acces to employment
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Equity
     label: 
       en: Equity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Ethnic minority
     label: 
       en: Ethnic minority
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Fairtrade
     label: 
       en: Fairtrade
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Fairness
     label: 
       en: Fairness
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Farmers autonomy
     label: 
       en: Farmers autonomy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food access
     label: 
       en: Food access
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Food justice
     label: 
       en: Food justice
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Gender equity
     label: 
       en: Gender equity
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Responsible investment
     label: 
       en: Responsible investment
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Vulnerable group
     label: 
       en: Vulnerable group
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Women rights
     label: 
       en: Women rights
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Youth rights
     label: 
       en: Youth rights
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Agroecological infrastructure
     label: 
       en: Agroecological infrastructure
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Bottom-up approach
     label: 
       en: Bottom-up approach
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Decentralised policy
     label: 
       en: Decentralised policy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Democratic governance
     label: 
       en: Democratic governance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Enabling policy
     label: 
       en: Enabling policy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Extension system
     label: 
       en: Extension system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Fair property rights
     label: 
       en: Fair property rights
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Innovation promotion
     label: 
       en: Innovation promotion
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local development plan
     label: 
       en: Local development plan
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Participatory land use policy
     label: 
       en: Participatory land use policy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Participatory plant breeding
     label: 
       en: Participatory plant breeding
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Responsible gouvernance
     label: 
       en: Responsible gouvernance
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Rural development plan
     label: 
       en: Rural development plan
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Sustainable land use policy
     label: 
       en: Sustainable land use policy
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Beliefs
     label: 
       en: Beliefs
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Religion
     label: 
       en: Religion
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Cultural food system
     label: 
       en: Cultural food system
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Customary law
     label: 
       en: Customary law
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Wellbeing
     label: 
       en: Wellbeing
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Heritage
     label: 
       en: Heritage
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Intergeneration
     label: 
       en: Intergeneration
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Knowledge intensive
     label: 
       en: Knowledge intensive
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local adaptation systems
     label: 
       en: Local adaptation systems
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Local knowledge
     label: 
       en: Local knowledge
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Services and land exchanges
     label: 
       en: Services and land exchanges
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Traditional knowledge
     label: 
       en: Traditional knowledge
       vi:
       km:
       my_MM:
-      lo:
+      th:
 
 
 - field_name: owner_org
@@ -1826,7 +1826,7 @@ dataset_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   preset: select
   choices:
   - value: Research Articles
@@ -1835,91 +1835,91 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Books and Chapters
     label: 
       en: Books and Chapters
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Theses and Essays
     label: 
       en: Theses and Essays
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Briefs and Memos
     label: 
       en: Briefs and Memos
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Brochures and Flyers
     label: 
       en: Brochures and Flyers
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Manuals and Guides
     label: 
       en: Manuals and Guides
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Media Articles and Texts
     label: 
       en: Media Articles and Texts
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Other Text Documents
     label: 
       en: Other Text Documents
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Illustrations and Presentations
     label: 
       en: Illustrations and Presentations
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Maps
     label: 
       en: Maps
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Audio Files
     label: 
       en: Audio files
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Video Files
     label: 
       en: Video files
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: data_sets
     label: 
       en: Data Sets
       vi:
       km:
       my_MM:
-      lo:
+      th:
 
 - field_name: language
   label: Language
@@ -1931,42 +1931,42 @@ dataset_fields:
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Khmer
     label:
       en: Khmer
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Lao
     label:
       en: Lao
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Myanmar
     label:
       en: Myanmar
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Vietnamese
     label:
       en: Vietnamese
       vi:
       km:
       my_MM:
-      lo:
+      th:
   - value: Thai
     label:
       en: Thai
       vi:
       km:
       my_MM:
-      lo:
+      th:
 
 
 - field_name : spatial
@@ -2032,7 +2032,7 @@ resource_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   form_placeholder: eg. January 2011 Gold Prices
   preset: fluent_core_translated
 
@@ -2042,7 +2042,7 @@ resource_fields:
     vi:
     km:
     my_MM:
-    lo:
+    th:
   preset: fluent_markdown
 
 - field_name: format
