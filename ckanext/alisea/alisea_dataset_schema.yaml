@@ -84,11 +84,11 @@ dataset_fields:
       my_MM: ခေါင်းစဉ် (မြန်မာ)
       lo: ชื่อเรื่อง (พม่า)
     lo:
-      en: Title (Thai)
-      vi: Tiêu đề (tiếng Thái)
-      km: ចំណងជើង (ថៃ)
-      my_MM: ခေါင်းစဉ် (ထိုင်း)
-      lo: ชื่อเรื่อง (ไทย)
+      en: Title (Lao)
+      vi: Tiêu đề (Lào)
+      km: ចំណងជើង (ឡាវ)
+      my_MM: Title (လာအို)
+      lo: ຊື່ເລື່ອງ (ພາສາລາວ)
   fluent_help_text:
     en:
       en: The English name by which the dataset is known
@@ -115,7 +115,7 @@ dataset_fields:
       my_MM:
       lo:
     lo:
-      en: The Thai name by which the dataset is known
+      en: The Lao name by which the dataset is known
       vi:
       km:
       my_MM:
@@ -159,11 +159,11 @@ dataset_fields:
       my_MM: ဖော်ပြချက် (မြန်မာ)
       lo: คำอธิบาย (พม่า)
     lo:
-      en: Description (Thai)
-      vi: Mô tả (tiếng Thái)
-      km: ការពិពណ៌នា (ភាសាថៃ)
-      my_MM: ဖော်ပြချက် (ထိုင်း)
-      lo: คำอธิบาย (ภาษาไทย)
+      en: Description (Lao)
+      vi: Mô tả (tiếng Lào)
+      km: ការពិពណ៌នា (ឡាវ)
+      my_MM: ဖော်ပြချက် (လာအို)
+      lo: ຄຳອະທິບາຍ (ພາສາລາວ)
 
   fluent_help_text:
     en:
@@ -191,7 +191,7 @@ dataset_fields:
       my_MM:
       lo:
     lo:
-      en: "An account of the dataset, in Thai. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
+      en: "An account of the dataset, in Lao. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource."
       vi:
       km:
       my_MM:
@@ -1960,9 +1960,9 @@ dataset_fields:
       km:
       my_MM:
       lo:
-  - value: Thai
+  - value: Lao
     label:
-      en: Thai
+      en: Lao
       vi:
       km:
       my_MM:
@@ -2029,20 +2029,20 @@ resource_fields:
 - field_name: name_translated 
   label: 
     en: Name
-    vi:
-    km:
-    my_MM:
-    lo:
+    vi: Tên
+    km: ឈ្មោះ
+    my_MM: နာမည်
+    lo: ຊື່
   form_placeholder: eg. January 2011 Gold Prices
   preset: fluent_core_translated
 
 - field_name: resource_description
   label: 
     en: Description
-    vi:
-    km:
-    my_MM:
-    lo:
+    vi: Sự miêu tả
+    km: ការពិពណ៌នា
+    my_MM: ဖော်ပြချက်
+    lo: ລາຍລະອຽດ
   preset: fluent_markdown
 
 - field_name: format
