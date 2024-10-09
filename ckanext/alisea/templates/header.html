@@ -3,6 +3,10 @@
 {% block header_wrapper %} {% block header_account %}
 <div class="account-masthead">
   <div class="col-xl-10 offset-xl-1">
+    <div class="d-flex align-center justify-content-end">
+      <div class="language align-self-center">
+        {% snippet "snippets/language_selector.html" %}
+      </div>
     {% block header_account_container_content %} {% if c.userobj %}
     <div class="account avatar authed" data-module="me" data-me="{{ c.userobj.id }}">
       <ul class="list-unstyled">
@@ -49,9 +53,6 @@
     </div>
     {% else %}
     <nav class="account not-authed" aria-label="{{ _('Account') }}">
-      {% block footer_lang %}
-      {% snippet "snippets/language_selector.html" %}
-    {% endblock %}
       <ul class="list-unstyled">
         {% block header_account_notlogged %}
         <li>{% link_for _('Log in'), named_route='user.login' %}</li>
@@ -62,6 +63,7 @@
     </nav>
     {% endif %} {% endblock %}
   </div>
+</div>
 </div>
 {% endblock %}
 <header class="masthead">
@@ -74,13 +76,13 @@
 
         {% block header_logo %}
         {% if g.site_logo %}
-        <a class="logo" href="{{ h.url_for('home.index') }}">
+        <a class="logo" href="https://kh.ali-sea.org/">
           <img src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}"
             title="{{ g.site_title }}" />
         </a>
         {% else %}
         <h1>
-          <a href="{{ h.url_for('home.index') }}">{{ g.site_title }}</a>
+          <a href="https://kh.ali-sea.org/">{{ g.site_title }}</a>
         </h1>
         {% if g.site_description %}
         <h2>{{ g.site_description }}</h2>
@@ -97,7 +99,7 @@
       <div class="main-navbar collapse navbar-collapse" id="main-navigation-toggle">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li>
-            <a href="https://kh.ali-sea.org/insights">Insights</a>
+            <a href="https://kh.ali-sea.org/insights">{{ _('Insights') }}</a>
           </li>
           {% block header_site_navigation %}
           {% block header_site_navigation_tabs %}
@@ -105,20 +107,20 @@
           {% set group_type = h.default_group_type('group') %}
 
           {{ h.build_nav_main(
-          (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'),
+          (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), 
           ["dataset", "resource"]),) }}
           {% endblock %}
           <li>
-            <a href="https://kh.ali-sea.org/map-explorer/">Map Explorer</a>
+            <a href="https://kh.ali-sea.org/map-explorer/">{{ _('Map Explorer') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/datablog/">Datablog</a>
+            <a href="https://kh.ali-sea.org/datablog/">{{ _('Datablog') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/experts/">Experts</a>
+            <a href="https://kh.ali-sea.org/experts/">{{ _('Experts') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/about/">About</a>
+            <a href="https://kh.ali-sea.org/about/">{{ _('About') }}</a>
           </li>
 
         </ul>

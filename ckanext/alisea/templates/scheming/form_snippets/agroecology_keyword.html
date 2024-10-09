@@ -1,9 +1,8 @@
 {% import 'macros/form.html' as form %}
-    
-
-    {{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='') }}
-
-
+{{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='', classes=['agroecology-keyword-form'], attrs={"multiple":'multiple', "id":'agroecology_keyword'}) }}
+<div style="margin:-20px 0px 20px 0px;">
+  <small><a href="javascript:void(0);" id="resetLink" onclick="resetKeywords()">Reset Keywords</a></small>
+</div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -257,20 +256,28 @@
           ]
         };
 
-        const categorySelect = document.getElementById('field-agroecology_category');
-        const keywordSelect = document.getElementById('agroecology_keyword');
+    const categorySelect = document.getElementById('field-agroecology_category');
+    const keywordSelect = document.getElementById('agroecology_keyword');
 
-        categorySelect.addEventListener('change', function() {
-            const selectedCategorty = categorySelect.value;
-            const keywords = keywordOptions[selectedCategorty] || [];
-            keywordSelect.innerHTML = '<option value="">Select keyword</option>'; // Reset the area dropdown
+    $('#agroecology_keyword').select2({
+        placeholder: "{{_('Select Keywords')}}",
+        allowClear: true
+    });
 
-            keywords.forEach(function(keyword) {
-                const option = document.createElement('option');
-                option.value = keyword;
-                option.textContent = keyword;
-                keywordSelect.appendChild(option);
-            });
+    categorySelect.addEventListener('change', function() {
+        var selectedCategorty = categorySelect.value;
+        var keywords = keywordOptions[selectedCategorty] || [];
+
+        $('#agroecology_keyword').empty();
+
+        keywords.forEach(function(keyword) {
+            var newOption = new Option(keyword, keyword, false, false);
+            $('#agroecology_keyword').append(newOption).trigger('change');
         });
     });
+    });
+
+    function resetKeywords() {
+    $('#agroecology_keyword').val(null).trigger('change');  
+}
 </script>

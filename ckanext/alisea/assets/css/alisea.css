@@ -243,3 +243,24 @@ a.tag:hover {
     color: #ffff !important;
     text-decoration: none !important;
 }
+
+#agroecology_keyword {
+    width: 100%;
+    min-height: 300px;
+}
+
+.language form .form-group {
+    margin-bottom: 0 !important;
+}
+
+.language {
+    max-width: 100px;
+}
+
+.agroecology-keyword-form .controls div {
+    width: 100%;
+}
+
+.select2-search-choice-close, .select2-container-multi .select2-search-choice-close {
+    top: 2px !important;
+}

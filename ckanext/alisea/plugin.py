@@ -1,5 +1,6 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+import json
 from ckan.lib.plugins import DefaultTranslation
 from collections import OrderedDict
 from ckanext.alisea import helpers as h
@@ -10,6 +11,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.IFacets)
+    plugins.implements(plugins.IPackageController, inherit=True)
     
 
     # IConfigurer
@@ -47,7 +49,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("tags", "Tags"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
@@ -63,7 +65,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("tags", "Tags"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
@@ -79,8 +81,15 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
             ("groups", "Groups"),
             ("agroecology_category", "Agroecology Category"),
             ("license_id", "Licence"),
-            ("tags", "Tags"),
+            ("agroecology_keyword", "Agroecology Keyword"),
             ("res_format", "Format"),
 
         ]
         return OrderedDict(new_facets)
+    
+    # IPackageController
+    def before_dataset_index(self, data_dict):
+        data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
+        data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
+        return data_dict
+    
