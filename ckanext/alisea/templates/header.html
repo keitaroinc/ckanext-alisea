@@ -99,7 +99,7 @@
       <div class="main-navbar collapse navbar-collapse" id="main-navigation-toggle">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li>
-            <a href="https://kh.ali-sea.org/insights">Insights</a>
+            <a href="https://kh.ali-sea.org/insights">{{ _('Insights') }}</a>
           </li>
           {% block header_site_navigation %}
           {% block header_site_navigation_tabs %}
@@ -107,20 +107,20 @@
           {% set group_type = h.default_group_type('group') %}
 
           {{ h.build_nav_main(
-          (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'),
+          (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), 
           ["dataset", "resource"]),) }}
           {% endblock %}
           <li>
-            <a href="https://kh.ali-sea.org/map-explorer/">Map Explorer</a>
+            <a href="https://kh.ali-sea.org/map-explorer/">{{ _('Map Explorer') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/datablog/">Datablog</a>
+            <a href="https://kh.ali-sea.org/datablog/">{{ _('Datablog') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/experts/">Experts</a>
+            <a href="https://kh.ali-sea.org/experts/">{{ _('Experts') }}</a>
           </li>
           <li>
-            <a href="https://kh.ali-sea.org/about/">About</a>
+            <a href="https://kh.ali-sea.org/about/">{{ _('About') }}</a>
           </li>
 
         </ul>

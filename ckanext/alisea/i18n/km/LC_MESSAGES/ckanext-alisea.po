@@ -10256,3 +10256,27 @@ msgstr "ប្រវ៉ាស់ (ផ្លាស់ប្ដូរ)​ សេ�
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:256
 msgid "Traditional knowledge"
 msgstr "ចំណេះដឹងប្រពៃណី"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:114
+msgid "Map Explorer"
+msgstr "កម្មវិធីរុករកផែនទី"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:117
+msgid "Datablog"
+msgstr "ប្លុកទិន្នន័យ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:120
+msgid "Experts"
+msgstr "អ្នកជំនាញ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:123
+msgid "About"
+msgstr "អំពី"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:110
+msgid "Library"
+msgstr "បណ្ណាល័យ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:102
+msgid "Insights"
+msgstr "ការយល់ដឹង"

@@ -13828,3 +13828,27 @@ msgstr "ໜ້າເວັບໄຊ້ url"
 #: ckanext/webpageview/theme/templates/webpage_form.html:3
 msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ຕົວຢ່າງ. http://example.com (ຖ້າຫວ່າງເປົ່າ ໃຫ້ໃຊ້ເປັນ url)"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:114
+msgid "Map Explorer"
+msgstr "ສຳຫຼວດແຜນທີ່"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:117
+msgid "Datablog"
+msgstr "ຖານຂໍ້ມູນ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:120
+msgid "Experts"
+msgstr "ຜູ້ຊ່ຽວຊານ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:123
+msgid "About"
+msgstr "ກ່ຽວກັບ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:110
+msgid "Library"
+msgstr "ຫໍສະໝຸດ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:102
+msgid "Insights"
+msgstr "ຄວາມເຂົ້າໃຈ"

@@ -11475,3 +11475,27 @@ msgstr "Dịch vụ và trao đổi đất đai"
 #, fuzzy
 msgid "Traditional knowledge"
 msgstr "Kiến thức truyền thống"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:114
+msgid "Map Explorer"
+msgstr "Trình khám phá bản đồ"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:117
+msgid "Datablog"
+msgstr "Blog dữ liệu"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:120
+msgid "Experts"
+msgstr "Các chuyên gia"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:123
+msgid "About"
+msgstr "Về"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:110
+msgid "Library"
+msgstr "Thư viện"
+
+#: ckanext-alisea/ckanext/alisea/templates/header.html:102
+msgid "Insights"
+msgstr "Thông tin chi tiết"
