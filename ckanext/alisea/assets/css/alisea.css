@@ -276,3 +276,14 @@ a.tag:hover {
     color: #41A7D4;
     padding: 0;
 }
+
+.flag-container {
+    margin-right: 10px;
+}
+
+.flag-container img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
