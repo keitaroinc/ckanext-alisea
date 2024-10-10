@@ -170,12 +170,19 @@ a.tag:hover {
     .hero-section-description {
         max-width: none !important;
     }
+    
+    .main-navbar .navbar-nav .nav-item .library-item {
+        padding: 8px 16px !important;
+    }
 }
 
 .navbar-nav li a {
     font-weight: 700;
 }
 
+.masthead .main-navbar ul li a:hover, .masthead .main-navbar ul li a:focus {
+    color: #1488bb;
+}
 .masthead {
     padding-top: 0 !important;
 }
@@ -263,4 +270,9 @@ a.tag:hover {
 
 .select2-search-choice-close, .select2-container-multi .select2-search-choice-close {
     top: 2px !important;
+}
+
+.main-navbar .navbar-nav .nav-item .library-item{
+    color: #41A7D4;
+    padding: 0;
 }

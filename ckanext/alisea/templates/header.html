@@ -101,15 +101,29 @@
           <li>
             <a href="https://kh.ali-sea.org/insights">{{ _('Insights') }}</a>
           </li>
-          {% block header_site_navigation %}
-          {% block header_site_navigation_tabs %}
-          {% set org_type = h.default_group_type('organization') %}
-          {% set group_type = h.default_group_type('group') %}
-
-          {{ h.build_nav_main(
-          (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), 
-          ["dataset", "resource"]),) }}
-          {% endblock %}
+          <!-- {% block header_site_navigation %} -->
+          <!-- {% block header_site_navigation_tabs %} -->
+          <!-- {% set org_type = h.default_group_type('organization') %} -->
+          <!-- {% set group_type = h.default_group_type('group') %} -->
+    
+          <!-- {% endblock %} -->
+          <li class="nav-item dropdown">
+            <a class="library-item nav-link dropdown-toggle" href="/dataset" id="libraryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Library
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="libraryDropdown">
+              <li>
+                <a class="dropdown-item" href="/dataset">Dataset</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/organization">Organization</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/group">Group</a>
+              </li>
+              
+            </ul>
+          </li>
           <li>
             <a href="https://kh.ali-sea.org/map-explorer/">{{ _('Map Explorer') }}</a>
           </li>
