@@ -70,6 +70,7 @@
 }
 
 .main {
+    padding-top: 0 !important;
     background-color: #ffff;
 }
 
@@ -165,6 +166,7 @@ a.tag:hover {
 
     .title-container{
         width: 100% !important;
+        order: 2;
     }
 
     .hero-section-description {
@@ -185,6 +187,7 @@ a.tag:hover {
 }
 .masthead {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .alisea-logo img {
@@ -275,6 +278,10 @@ a.tag:hover {
 .main-navbar .navbar-nav .nav-item .library-item{
     color: #41A7D4;
     padding: 0;
+}
+
+.navbar { 
+    padding-bottom: 0 !important;
 }
 
 .flag-container {
