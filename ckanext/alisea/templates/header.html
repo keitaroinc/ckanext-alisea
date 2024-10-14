@@ -5,24 +5,21 @@
   <div class="col-xl-10 offset-xl-1">
     <div class="d-flex align-center justify-content-end">
       <div class="d-flex align-items-center">
-        <a href="" class="flag-container">
+        <a href="{% url_for h.current_url(), locale='km' %}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/kh.png" />
         </a>
         <a href="" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/la.png" />
         </a>
-        <a href="" class="flag-container">
+        <a href="{% url_for h.current_url(), locale='my_MM' %}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/mm.png" />
         </a>
-        <a href="" class="flag-container">
+        <a href="{% url_for h.current_url(), locale='vi' %}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/vn.png" />
         </a>
-        <a href="" class="flag-container">
+        <a href="{% url_for h.current_url(), locale='en' %}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/gb.png" />
         </a>
-      </div>
-      <div class="language align-self-center">
-        {% snippet "snippets/language_selector.html" %}
       </div>
       {% block header_account_container_content %} {% if c.userobj %}
       <div class="account avatar authed" data-module="me" data-me="{{ c.userobj.id }}">
