@@ -70,6 +70,7 @@
 }
 
 .main {
+    padding-top: 0 !important;
     background-color: #ffff;
 }
 
@@ -165,10 +166,15 @@ a.tag:hover {
 
     .title-container{
         width: 100% !important;
+        order: 2;
     }
 
     .hero-section-description {
         max-width: none !important;
+    }
+    
+    .main-navbar .navbar-nav .nav-item .library-item {
+        padding: 8px 16px !important;
     }
 }
 
@@ -176,8 +182,12 @@ a.tag:hover {
     font-weight: 700;
 }
 
+.masthead .main-navbar ul li a:hover, .masthead .main-navbar ul li a:focus {
+    color: #1488bb;
+}
 .masthead {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .alisea-logo img {
@@ -263,4 +273,24 @@ a.tag:hover {
 
 .select2-search-choice-close, .select2-container-multi .select2-search-choice-close {
     top: 2px !important;
+}
+
+.main-navbar .navbar-nav .nav-item .library-item{
+    color: #41A7D4;
+    padding: 0;
+}
+
+.navbar { 
+    padding-bottom: 0 !important;
+}
+
+.flag-container {
+    margin-right: 10px;
+}
+
+.flag-container img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
 }
