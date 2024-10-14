@@ -1829,23 +1829,23 @@ dataset_fields:
     lo:
   preset: select
   choices:
-  - value: Research Articles
+  - value: Research article
     label: 
-      en: Research Articles
+      en: Research articles
       vi:
       km:
       my_MM:
       lo:
-  - value: Books and Chapters
+  - value: Discussion Paper
     label: 
-      en: Books and Chapters
+      en: Discussion Paper
       vi:
       km:
       my_MM:
       lo:
-  - value: Theses and Essays
+  - value: Theses
     label: 
-      en: Theses and Essays
+      en: Theses
       vi:
       km:
       my_MM:
@@ -1857,23 +1857,23 @@ dataset_fields:
       km:
       my_MM:
       lo:
-  - value: Brochures and Flyers
+  - value: Brochure
     label: 
-      en: Brochures and Flyers
+      en: Brochure
       vi:
       km:
       my_MM:
       lo:
-  - value: Manuals and Guides
+  - value: Brief
     label: 
-      en: Manuals and Guides
+      en: Brief
       vi:
       km:
       my_MM:
       lo:
-  - value: Media Articles and Texts
+  - value: Factsheet
     label: 
-      en: Media Articles and Texts
+      en: Factsheet
       vi:
       km:
       my_MM:
@@ -1885,16 +1885,16 @@ dataset_fields:
       km:
       my_MM:
       lo:
-  - value: Illustrations and Presentations
+  - value: Guideline
     label: 
-      en: Illustrations and Presentations
+      en: Guideline
       vi:
       km:
       my_MM:
       lo:
-  - value: Maps
+  - value: Handbook or Manual
     label: 
-      en: Maps
+      en: Handbook or Manual
       vi:
       km:
       my_MM:
@@ -1906,16 +1906,51 @@ dataset_fields:
       km:
       my_MM:
       lo:
-  - value: Video Files
+  - value: Presentation
     label: 
-      en: Video files
+      en: Presentation
       vi:
       km:
       my_MM:
       lo:
-  - value: data_sets
+  - value: Event proceedings and reports
     label: 
-      en: Data Sets
+      en: Event proceedings and reports
+      vi:
+      km:
+      my_MM:
+      lo:
+  - value: Poster or Illustration
+    label: 
+      en: Poster or Illustration
+      vi:
+      km:
+      my_MM:
+      lo:
+  - value: Legal Document
+    label: 
+      en: Legal Document
+      vi:
+      km:
+      my_MM:
+      lo:
+  - value: Strategy
+    label: 
+      en: Strategy
+      vi:
+      km:
+      my_MM:
+      lo:
+  - value: Case Study Report
+    label: 
+      en: Case Study Report
+      vi:
+      km:
+      my_MM:
+      lo:
+  - value: Report
+    label: 
+      en: Report
       vi:
       km:
       my_MM:
