@@ -2014,24 +2014,66 @@ dataset_fields:
   choices:
   - value: Brunei Darussalam
     label: Brunei Darussalam
+  - value: Global
+    label: Global
+  - value: Asia
+    label: Asia
+  - value: Southeast Asia
+    label: Southeast Asia
+  - value: ASEAN
+    label: ASEAN
+  - value: Mekong Region
+    label: Mekong Region
+  - value: Europe
+    label: Europe
+  - value: Latin America
+    label: Latin America
+  - value: West Africa
+    label: West Africa
+  - value: Bangladesh
+    label: Bangladesh
+  - value: Benin
+    label: Benin
+  - value: Bhutan
+    label: Bhutan
   - value: Cambodia
     label: Cambodia
+  - value: China
+    label: China
+  - value: Germany
+    label: Germany
+  - value: Ghana
+    label: Ghana
+  - value: Hawai
+    label: Hawai
+  - value: India
+    label: India
   - value: Indonesia
     label: Indonesia
+  - value: Japan
+    label: Japan
   - value: Lao PDR
     label: Lao PDR
   - value: Malaysia
     label: Malaysia
   - value: Myanmar
     label: Myanmar
+  - value: Pakistan
+    label: Pakistan
   - value: Philippines
     label: Philippines
   - value: Singapore
     label: Singapore
   - value: Thailand
     label: Thailand
+  - value: Timor Leste
+    label: Timor Leste
+  - value: Uganda
+    label: Uganda
   - value: Vietnam
     label: Vietnam
+  - value: USA
+    label: USA
   - value: Others
     label: Others
 
