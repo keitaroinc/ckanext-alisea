@@ -1806,6 +1806,13 @@ dataset_fields:
       my_MM:
       lo:
 
+- field_name: contributing_organisations
+  label: 
+    en: Contributing organisations
+    vi:
+    km:
+    my_MM:
+    lo:
 
 - field_name: owner_org
   label: Organization
