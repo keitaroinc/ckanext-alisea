@@ -1836,9 +1836,9 @@ dataset_fields:
     lo:
   preset: select
   choices:
-  - value: Research article
+  - value: Research Article
     label: 
-      en: Research articles
+      en: Research Article
       vi:
       km:
       my_MM:
