@@ -1962,6 +1962,13 @@ dataset_fields:
       km:
       my_MM:
       lo:
+  - value: Book or Book Chapter
+    label: 
+      en: Book or Book Chapter
+      vi:
+      km:
+      my_MM:
+      lo:
 
 - field_name: language
   label: Language
