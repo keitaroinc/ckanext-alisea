@@ -1,12 +1,20 @@
 {% import 'macros/form.html' as form %}
-{{ form.select('agroecology_keyword', label=_('Agroecology Keyword'), options='', error='', classes=['agroecology-keyword-form'], attrs={"multiple":'multiple', "id":'agroecology_keyword'}) }}
+{{ form.select('agroecology_keyword',selected='Income diversification', label=_('Agroecology Keyword'), options='', error='', classes=['agroecology-keyword-form'], attrs={"multiple":'multiple', "id":'agroecology_keyword'}) }}
 <div style="margin:-20px 0px 20px 0px;">
   <small><a href="javascript:void(0);" id="resetLink" onclick="resetKeywords()">Reset Keywords</a></small>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const keywordOptions = {
+  document.addEventListener('DOMContentLoaded', function() {
+      var agroecologyKeyword = "{{ data.agroecology_keyword }}";
+
+      let agroecologyKeywordValue = agroecologyKeyword.replace(/&#39;/g, '"'); 
+      try {
+          agroecologyKeywordValue = JSON.parse(agroecologyKeywordValue);
+      } catch (e) {
+          agroecologyKeywordValue = [];
+      }
+      const keywordOptions = {
         "{{_('Integrated systems')}}": [
             "{{_('Agroecological transition')}}",
             "{{_('Agroforestry')}}",
@@ -256,28 +264,41 @@
           ]
         };
 
-    const categorySelect = document.getElementById('field-agroecology_category');
-    const keywordSelect = document.getElementById('agroecology_keyword');
+      const categorySelect = document.getElementById('field-agroecology_category');
+      const keywordSelect = document.getElementById('agroecology_keyword');
 
-    $('#agroecology_keyword').select2({
-        placeholder: "{{_('Select Keywords')}}",
-        allowClear: true
-    });
+      $('#agroecology_keyword').select2({
+          placeholder: "{{_('Select Keywords')}}",
+          allowClear: true
+      });
 
-    categorySelect.addEventListener('change', function() {
-        var selectedCategorty = categorySelect.value;
-        var keywords = keywordOptions[selectedCategorty] || [];
+      function populateKeywords(category) {
+          var keywords = keywordOptions[category] || [];
+          $('#agroecology_keyword').empty();
 
-        $('#agroecology_keyword').empty();
+          keywords.forEach(function(keyword) {
+              var isSelected = agroecologyKeywordValue.includes(keyword.trim());
+              var newOption = new Option(keyword, keyword, false, isSelected);
+              $('#agroecology_keyword').append(newOption).trigger('change');
+          });
 
-        keywords.forEach(function(keyword) {
-            var newOption = new Option(keyword, keyword, false, false);
-            $('#agroecology_keyword').append(newOption).trigger('change');
-        });
-    });
-    });
+          if (agroecologyKeywordValue.length > 0) {
+              $('#agroecology_keyword').val(agroecologyKeywordValue).trigger('change');
+          }
+      }
 
-    function resetKeywords() {
-    $('#agroecology_keyword').val(null).trigger('change');  
-}
+      categorySelect.addEventListener('change', function() {
+          var selectedCategory = categorySelect.value;
+          populateKeywords(selectedCategory);
+      });
+
+      var initialCategory = categorySelect.value;
+      if (initialCategory) {
+          populateKeywords(initialCategory);
+      }
+  });
+
+  function resetKeywords() {
+      $('#agroecology_keyword').val(null).trigger('change');
+  }
 </script>
