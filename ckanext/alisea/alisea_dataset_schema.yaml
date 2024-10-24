@@ -202,7 +202,7 @@ dataset_fields:
 
 - field_name: agroecology_category
   label: 
-    en: Agroecology Category  
+    en: Agroecology categories  
     vi:
     km:
     my_MM:
@@ -324,7 +324,7 @@ dataset_fields:
       lo:
 
 - field_name: agroecology_keyword
-  label: Agroecology Keyword
+  label: Agroecology keywords
   form_snippet: agroecology_keyword.html
   preset: multiple_select
   choices:
@@ -1819,7 +1819,7 @@ dataset_fields:
   preset: dataset_organization
 
 - field_name: author
-  label: Author
+  label: Authors
   form_placeholder: Joe Bloggs
   display_property: dc:creator
 
@@ -2019,7 +2019,7 @@ dataset_fields:
 
 
 - field_name : spatial
-  label: Spatial
+  label: Spatial information
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
 - field_name: country
