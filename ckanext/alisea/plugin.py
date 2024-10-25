@@ -24,7 +24,8 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
     # ITemplateHelpers
     def get_helpers(self):
         return {
-            'get_google_tag': h.get_google_tag
+            'get_google_tag': h.get_google_tag,
+            'lao_current_url': h.lao_current_url,
         }
 
     def update_config_schema(self, schema):

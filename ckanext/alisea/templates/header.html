@@ -8,7 +8,7 @@
         <a href="{% url_for h.current_url(), locale='km' %}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/kh.png" />
         </a>
-        <a href="" class="flag-container">
+        <a href="{{ h.lao_current_url() }}" class="flag-container">
           <img src="https://kh.ali-sea.org/wp-content/themes/alisea-wordpress-theme/assets/flags/la.png" />
         </a>
         <a href="{% url_for h.current_url(), locale='my_MM' %}" class="flag-container">
@@ -124,17 +124,17 @@
           <li class="nav-item dropdown">
             <a class="library-item nav-link dropdown-toggle" href="/dataset" id="libraryDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Library
+              {{ _('Library') }}
             </a>
             <ul class="dropdown-menu" aria-labelledby="libraryDropdown">
               <li>
-                <a class="dropdown-item" href="/dataset/">Dataset</a>
+                <a class="dropdown-item" href="/dataset/">{{ _('Dataset') }}</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/organization">Organization</a>
+                <a class="dropdown-item" href="/organization">{{ _('Organization') }}</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/group">Group</a>
+                <a class="dropdown-item" href="/group">{{ _('Group') }}</a>
               </li>
 
             </ul>
