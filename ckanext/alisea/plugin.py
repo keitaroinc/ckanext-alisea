@@ -26,6 +26,7 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         return {
             'get_google_tag': h.get_google_tag,
             'lao_current_url': h.lao_current_url,
+            'convert_to_list': h.convert_to_list,
         }
 
     def update_config_schema(self, schema):
@@ -80,8 +81,10 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         return OrderedDict(new_facets)
     
     # IPackageController
-    def before_dataset_index(self, data_dict):
-        data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
-        data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
-        return data_dict
+    def before_dataset_index(self, package_dict):
+        if package_dict.get('agroecology_category'):
+            package_dict['agroecology_category'] = h.convert_to_list(package_dict.get('agroecology_category'))
+        if package_dict.get('agroecology_keyword'):
+            package_dict['agroecology_keyword'] = h.convert_to_list(package_dict.get('agroecology_keyword'))
+        return package_dict
     
