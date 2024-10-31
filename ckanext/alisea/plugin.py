@@ -1,9 +1,13 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-import json
 from ckan.lib.plugins import DefaultTranslation
 from collections import OrderedDict
 from ckanext.alisea import helpers as h
+import json
+import ast
+import logging
+
+log = logging.getLogger(__name__)
 
 
 class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
@@ -80,8 +84,77 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         return OrderedDict(new_facets)
     
     # IPackageController
-    def before_dataset_index(self, data_dict):
-        data_dict['agroecology_category'] = json.loads(data_dict.get('agroecology_category', '[]'))
-        data_dict['agroecology_keyword'] = json.loads(data_dict.get('agroecology_keyword', '[]'))
+    def _before_index_dump_dicts(self, data_dict):
+        """
+        Converts dict fields in the data dictionary to JSON strings.
+
+        This function is necessary to ensure that all fields in the data dictionary
+        can be indexed by Solr. Solr cannot directly index fields of type dict, 
+        which can lead to errors such as "missing required field" even when the 
+        field is present in the data dictionary. By converting dict fields to JSON 
+        strings, we ensure that the data is in a format that Solr can handle.
+
+        This issue (https://github.com/ckan/ckan/issues/8423) has been observed in CKAN versions 2.10.4 and Solr 9, where 
+        attempts to upload resources to the Datastore resulted in errors due to 
+        the presence of dict fields in the data dictionary. The solution involves 
+        transforming these fields into strings before indexing, as discussed in 
+        the following issues:
+        - CKAN - Custom plugin/theme error datastore using fluent presets https://github.com/ckan/ckan/issues/7750
+        - Solr error: missing required field https://github.com/ckan/ckan/issues/7730
+
+        Args:
+            data_dict (dict): The data dictionary to be processed.
+
+        Returns:
+            dict: The processed data dictionary with dict fields as JSON strings.
+        """
+        for key, value in data_dict.items():
+            if isinstance(value, dict):
+                data_dict[key] = json.dumps(value)
         return data_dict
+
+    def convert_stringified_lists(self, data_dict):
+        """
+        Converts stringified lists in the data dictionary to actual lists.
     
+        Args:
+            data_dict (dict): The data dictionary to be processed.
+    
+        Returns:
+            dict: The processed data dictionary with actual lists.
+    
+        This function iterates over the items in the data dictionary and converts
+        any stringified lists (strings that start with '[' and end with ']') into
+        actual lists. Keys that start with 'extras_', 'res_', or are 'validated_data_dict'
+        are excluded from this conversion.
+        """
+        # Excluded items
+        excluded_keys = [
+            key for key in data_dict 
+            if key.startswith('extras_') or key.startswith('res_') or key == 'validated_data_dict'
+        ]
+    
+        # Filter data dictionary
+        filter_data_dict = {
+            key: value for key, value in data_dict.items()
+            if key not in excluded_keys
+        }
+    
+        for key, value in filter_data_dict.items():
+            if isinstance(value, str) and value.startswith('[') and value.endswith(']'):
+                try:
+                    data_dict[key] = ast.literal_eval(value)
+                except (ValueError, SyntaxError) as e:
+                    log.error("Error converting stringified list for key '%s': %s", key, e)
+    
+        return data_dict
+
+
+    def before_dataset_index(self, data_dict):
+        
+        data_dict = self._before_index_dump_dicts(data_dict)
+        data_dict = self.convert_stringified_lists(data_dict)
+        data_dict['agroecology_category'] = json.loads(json.dumps(data_dict.get('agroecology_category', '[]')))
+        data_dict['agroecology_keyword'] = json.loads(json.dumps(data_dict.get('agroecology_keyword', '[]')))
+
+        return data_dict
