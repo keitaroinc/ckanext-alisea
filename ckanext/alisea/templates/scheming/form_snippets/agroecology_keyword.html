@@ -3,7 +3,6 @@
 <div style="margin:-20px 0px 20px 0px;">
   <small><a href="javascript:void(0);" id="resetLink" onclick="resetKeywords()">Reset Keywords</a></small>
 </div>
-
 <script>
   document.addEventListener('DOMContentLoaded', function() {
       var agroecologyKeyword = "{{ data.agroecology_keyword }}";
@@ -272,8 +271,15 @@
           allowClear: true
       });
 
-      function populateKeywords(category) {
-          var keywords = keywordOptions[category] || [];
+      function populateKeywords(categories) {
+          let keywords = [];
+
+          categories.forEach(function(category) {
+              keywords = keywords.concat(keywordOptions[category] || []);
+          });
+
+          keywords = [...new Set(keywords)];
+
           $('#agroecology_keyword').empty();
 
           keywords.forEach(function(keyword) {
@@ -288,13 +294,13 @@
       }
 
       categorySelect.addEventListener('change', function() {
-          var selectedCategory = categorySelect.value;
-          populateKeywords(selectedCategory);
+          const selectedCategories = Array.from(categorySelect.selectedOptions).map(option => option.value);
+          populateKeywords(selectedCategories);
       });
 
-      var initialCategory = categorySelect.value;
-      if (initialCategory) {
-          populateKeywords(initialCategory);
+      const initialCategories = Array.from(categorySelect.selectedOptions).map(option => option.value);
+      if (initialCategories.length > 0) {
+          populateKeywords(initialCategories);
       }
   });
 
@@ -302,3 +308,4 @@
       $('#agroecology_keyword').val(null).trigger('change');
   }
 </script>
+
