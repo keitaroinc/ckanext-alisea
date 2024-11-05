@@ -31,6 +31,7 @@
           </div>
           {% endif %}
       </div> -->
+      {% if (request.path == "/dataset") or (request.path == "/dataset/") %}
       <header class="font-page-header" style="background-image: url('/images/library_frontpage.png');background-size: cover;background-position: center; min-height: 500px;">
         <div class="offset-xl-1">    
             <div class="d-flex align-items-center text-white header-home px-3 w-100 hero-conatiner">
@@ -40,6 +41,7 @@
             </div>
         </div>
       </header>
+      {% endif %}
       <div id="content" class="container-fluid col-xl-10 offset-xl-1 pt-4">
         {% block main_content %}
           {% block flash %}
