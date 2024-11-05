@@ -42,15 +42,20 @@
 .masthead .main-navbar ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
 }
 
 .masthead .main-navbar ul li a {
     text-transform: uppercase;
     color: #41A7D4;
     font-size: 1rem;
+    padding: 8px !important;
     border-radius: 0 !important;
 
+}
+
+.hero-conatiner {
+    min-height: 500px;
+    height: 100%;
 }
 
 .masthead .main-navbar ul li:focus a, .masthead .main-navbar ul li.active a {
@@ -135,7 +140,7 @@ a.tag:hover {
 
 .logo {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .logo img {
@@ -226,13 +231,13 @@ a.tag:hover {
     max-width: 300px;
     font-weight: 900 !important;
     margin-bottom: 2rem;
-    color:#2D7C3D;
+    color:#ffff;
 }
 
 .hero-section-description {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #2D7C3D;
+    color: #ffff;
     max-width: 350px;
 }
 
