@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ckanext-alisea 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-16 10:33+0200\n"
-"PO-Revision-Date: 2024-10-12 11:00+0630\n"
+"PO-Revision-Date: 2024-09-24 12:02+0700\n"
 "Last-Translator: \n"
 "Language-Team: my_MM <LL@li.org>\n"
 "Language: my_MM\n"
@@ -22,28 +22,42 @@ msgstr ""
 
 #: ckanext/alisea/templates/footer.html:15
 #, fuzzy
-msgid "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\">CKAN</a>"
-msgstr "<strong>ကေအင်န်က လျှပ်စစ်ဓာတ်အားပေး</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\"></a>"
+msgid ""
+"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
+msgstr ""
+"<strong>ကေအင်န်က လျှပ်စစ်ဓာတ်အားပေး</strong> <a class=\"hide-text ckan-footer-"
+"logo\" href=\"http://ckan.org\"></a>"
 
 #: ckanext/alisea/templates/admin/config.html:9
+#, fuzzy
 msgid "Footer Left"
-msgstr " အောက်ခြေလက်ဝဲဘက်"
+msgstr "ခြေနင်း လက်ဝဲ"
 
 #: ckanext/alisea/templates/admin/config.html:9
 #: ckanext/alisea/templates/admin/config.html:11
 #, fuzzy
-msgid "Enter a list of links - one per line - to be shown as a list withing the secondary footer navigation. Please format the links with Markdown (i.e. * [Example link](https://www.example.com))."
-msgstr "လိုင်း တစ် ခု ချင်း စီ ၏ ချိတ်ဆက် မှု စာရင်း တစ် ခု ကို ဒုတိယ အဆင့် ခြေလျင် ခရီးသွား ခြင်း စာရင်း အဖြစ် ပြသ ပါ ။ [ ဥပမာ https://www.example.com) နှင့် ချိတ်ဆက် မှု များ ကို ကျေးဇူးပြု ၍ ပြင်ဆင် ပါ ။"
+msgid ""
+"Enter a list of links - one per line - to be shown as a list withing the "
+"secondary footer navigation. Please format the links with Markdown (i.e. "
+"* [Example link](https://www.example.com))."
+msgstr ""
+"လိုင်း တစ် ခု ချင်း စီ ၏ ချိတ်ဆက် မှု စာရင်း တစ် ခု ကို ဒုတိယ အဆင့် ခြေလျင် ခရီးသွား ခြင်း စာရင်း "
+"အဖြစ် ပြသ ပါ ။ [ ဥပမာ https://www.example.com) နှင့် ချိတ်ဆက် မှု များ ကို ကျေးဇူးပြု "
+"၍ ပြင်ဆင် ပါ ။"
 
 #: ckanext/alisea/templates/admin/config.html:11
+#, fuzzy
 msgid "Footer right"
-msgstr "အောက်ခြေလက်ယာဘက်"
+msgstr "ညာဘက် ညာ့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:4
+#, fuzzy
 msgid "Administrative level 1"
-msgstr "အုပ်ချုပ်မှုအဆင့် (၁)"
+msgstr "အုပ်ချုပ်ရေးအဆင့် ၁"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:11
+#, fuzzy
 msgid "Cambodia"
 msgstr "ကမ္ဘောဒီးယား"
 
@@ -138,8 +152,9 @@ msgstr "Pailin"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:26
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:142
+#, fuzzy
 msgid "Phnom Penh"
-msgstr "ဖနွမ်းပင်"
+msgstr "ပန်းကုန်းရွာ၊ ပန်းချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:27
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:156
@@ -208,8 +223,9 @@ msgid "Tboung Khmum"
 msgstr "တန်ဘောင် ခမောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:38
+#, fuzzy
 msgid "Lao PDR"
-msgstr "လာအိုပြည်သူ့ဒီမိုကရက်တစ်သမ္မတနိုင်ငံ"
+msgstr "လာအို ပီဒီအာရ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:39
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:257
@@ -317,89 +333,106 @@ msgid "Xiengkhouang"
 msgstr "ဇီယန်ချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:57
+#, fuzzy
 msgid "Myanmar"
 msgstr "မြန်မာနိုင်ငံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:58
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:481
+#, fuzzy
 msgid "Mon"
-msgstr "မွန်ပြည်နယ်"
+msgstr "မွန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:59
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:430
+#, fuzzy
 msgid "Ayeyarwady"
-msgstr "ဧရာဝတီတိုင်းဒေသကြီး"
+msgstr "အေယာဝါဒီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:60
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:438
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:439
+#, fuzzy
 msgid "Bago"
-msgstr "ပဲခူးတိုင်းဒေသကြီး"
+msgstr "ဘာဂိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:61
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:444
+#, fuzzy
 msgid "Chin"
-msgstr "ချင်းပြည်နယ်"
+msgstr "ချင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:62
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:449
+#, fuzzy
 msgid "Kachin"
-msgstr "ကချင်ပြည်နယ်"
+msgstr "ကချင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:63
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:455
+#, fuzzy
 msgid "Kayah"
-msgstr "ကယားပြည်နယ်"
+msgstr "ကယား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:64
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:459
+#, fuzzy
 msgid "Kayin"
-msgstr "ကရင်ပြည်နယ်"
+msgstr "ကရင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:65
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:465
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:467
+#, fuzzy
 msgid "Magwe"
-msgstr "မကွေးတိုင်းဒေသကြီး"
+msgstr "မဂ်ဝဲ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:66
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:472
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:474
+#, fuzzy
 msgid "Mandalay"
-msgstr "မန္တလေးတိုင်းဒေသကြီး"
+msgstr "မန္တလေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:67
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:485
+#, fuzzy
 msgid "Nay Pyi Taw"
-msgstr "နေပြည်တော်"
+msgstr "Nay Pyi Taw"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:68
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:489
+#, fuzzy
 msgid "Rakhine"
-msgstr "ရခိုင်ပြည်နယ်"
+msgstr "ရက်ခ်ဟိုင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:69
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:496
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:505
+#, fuzzy
 msgid "Sagaing"
-msgstr "စစ်ကိုင်းတိုင်းဒေသကြီး"
+msgstr "ဆွေးနွေးခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:70
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:510
+#, fuzzy
 msgid "Shan"
-msgstr "ရှမ်းပြည်နယ်"
+msgstr "ရှမ်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:71
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:528
+#, fuzzy
 msgid "Tanintharyi"
-msgstr "တင်္နသာရီတိုင်းဒေသကြီး"
+msgstr "တန်နင်သာရီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:72
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:533
+#, fuzzy
 msgid "Yangon"
-msgstr "ရန်ကုန်တိုင်းဒေသကြီး"
+msgstr "ရန်ကုန်မြို့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:74
+#, fuzzy
 msgid "Thailand"
 msgstr "ထိုင်းနိုင်ငံ"
 
@@ -417,8 +450,9 @@ msgstr "အန်သွန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:77
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:557
+#, fuzzy
 msgid "Bangkok"
-msgstr "ဗန်ကောက်မြို့"
+msgstr "ဘန်ကောက်မြို့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:78
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:609
@@ -458,13 +492,15 @@ msgstr "ချန်သာဘူရီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:84
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:697
+#, fuzzy
 msgid "Chiang Mai"
-msgstr "ချင်းမိုင်"
+msgstr "ချောင်းမိုင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:85
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:723
+#, fuzzy
 msgid "Chiang Rai"
-msgstr "ချင်းရိုင်"
+msgstr "ချောင်းရွာ၊ ချောင်းချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:86
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:743
@@ -498,8 +534,9 @@ msgstr "ကန်ချနာဘူရီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:91
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:814
+#, fuzzy
 msgid "Khon Kaen"
-msgstr "ခွန်းခန်"
+msgstr "ခွန် ကရင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:92
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:842
@@ -673,8 +710,9 @@ msgstr "Phitsanulok"
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:120
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1203
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1214
+#, fuzzy
 msgid "Phra Nakhon Si Ayutthaya"
-msgstr "အယုဒ္ဓယမြို့"
+msgstr "Phra Nakhon Si Ayutthaayay"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:121
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1220
@@ -684,8 +722,9 @@ msgstr "Phrae"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:122
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1229
+#, fuzzy
 msgid "Phuket"
-msgstr "ဖူးခက်မြို့"
+msgstr "Phuket"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:123
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1234
@@ -701,8 +740,9 @@ msgstr "Prachuap Khiri Khri Khhan"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:125
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1253
+#, fuzzy
 msgid "Ranong"
-msgstr "ရနောင်းမြို့"
+msgstr "ရာနောင်းမြို့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:126
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1260
@@ -861,8 +901,9 @@ msgid "Yasothon"
 msgstr "ယာဆိုသွန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:153
+#, fuzzy
 msgid "Vietnam"
-msgstr "ဗီယက်နမ်နိုင်ငံ"
+msgstr "ဗီယက်နမ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:154
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1609
@@ -1012,8 +1053,9 @@ msgstr "Hà နမ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:177
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1865
+#, fuzzy
 msgid "Hà Nội"
-msgstr "ဟနွိုင်း"
+msgstr "Hà Nội"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:178
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1898
@@ -1043,8 +1085,9 @@ msgstr "Hậu Giant"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:182
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1947
+#, fuzzy
 msgid "Hồ Chí Minh city"
-msgstr "ဟိုချီမင်းမြို့"
+msgstr "Hồ ချီမင်မြို့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:183
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1657
@@ -1272,8 +1315,9 @@ msgid "Yên Bái"
 msgstr "Yên ဘာအီ Yên ဘာအီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:4
+#, fuzzy
 msgid "Administrative Level 2"
-msgstr "အုပ်ချုပ်မှုအဆင့် (၂)"
+msgstr "အုပ်ချုပ်ရေးအဆင့် ၂"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:12
 #, fuzzy
@@ -1896,8 +1940,9 @@ msgid "Kanhchriech"
 msgstr "ကန်ချောင်းရွာ၊ ကန်ချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:177
+#, fuzzy
 msgid "Me Sang"
-msgstr "မယ်ဆိုင်မြို့"
+msgstr "သီဟိုဏ်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:178
 #, fuzzy
@@ -2875,302 +2920,377 @@ msgid "Thathom"
 msgstr "ထိုင်းကုန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:431
+#, fuzzy
 msgid "Hinthada"
-msgstr "ဟင်္သာတမြို့"
+msgstr "ဟင်သာဒါ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:432
+#, fuzzy
 msgid "Labutta"
-msgstr "လပွတ္တာမြို့"
+msgstr "လာဘူတာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:433
+#, fuzzy
 msgid "Ma-ubin"
-msgstr "မအူပင်မြို့"
+msgstr "Ma-ubin"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:434
+#, fuzzy
 msgid "Myaungmya"
-msgstr "မြောင်းမြမြို့"
+msgstr "မိုင်းမောင်းရွာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:435
+#, fuzzy
 msgid "Pathein"
-msgstr "ပုသိမ်မြို့"
+msgstr "ပက်သင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:436
+#, fuzzy
 msgid "Pyapon"
-msgstr "ဖျာပုံမြို့"
+msgstr "ပိုက်ဆိပ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:440
+#, fuzzy
 msgid "Pyay"
-msgstr "ပြည်မြို့"
+msgstr "ပန်းချောင်းရွာ၊ ငှား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:441
+#, fuzzy
 msgid "Taungoo"
-msgstr "တောင်ငူမြို့"
+msgstr "တန်ဂိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:442
+#, fuzzy
 msgid "Thayarwady"
-msgstr "သာယာဝတီမြို့"
+msgstr "သီယာဝေါဒီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:445
+#, fuzzy
 msgid "Falam"
-msgstr "ဖလမ်းမြို့"
+msgstr "ဖာလမ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:446
+#, fuzzy
 msgid "Haka"
-msgstr "ဟားခါးမြို့"
+msgstr "ဟကာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:447
+#, fuzzy
 msgid "Mindat"
-msgstr "မင်းတပ်မြို့"
+msgstr "စိတ်သဘောထား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:450
+#, fuzzy
 msgid "Bahmo"
-msgstr "ဗန်းမော်မြို့"
+msgstr "ဘာမို"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:451
+#, fuzzy
 msgid "Mohnyin"
-msgstr "မိုးညှင်းမြို့"
+msgstr "မိုးညှင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:452
+#, fuzzy
 msgid "Myitkyina"
-msgstr "မြစ်ကြီးနားမြို့"
+msgstr "မိုက်ကီနီးယား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:453
+#, fuzzy
 msgid "Putao"
-msgstr "ပူတာအိုမြို့"
+msgstr "ပူတာအိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:456
+#, fuzzy
 msgid "Bawlakhe"
-msgstr "ဘော်လခဲမြို့"
+msgstr "Bawlakh"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:457
+#, fuzzy
 msgid "Loikaw"
-msgstr "လျွိုင်ကော်မြို့"
+msgstr "လွိုင်ကော့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:460
+#, fuzzy
 msgid "Hpa-an"
-msgstr "ဘားအံမြို့"
+msgstr "Hpa-an"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:461
+#, fuzzy
 msgid "Kawkareik"
-msgstr "ကော့ကရိတ်မြို့"
+msgstr "ကော့ကရစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:462
+#, fuzzy
 msgid "Myawady"
-msgstr "မြဝတီမြို့"
+msgstr "မြဝတီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:463
+#, fuzzy
 msgid "Papun"
-msgstr "ဖာပွန်မြို့"
+msgstr "ပါပွန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:466
+#, fuzzy
 msgid "Gangaw"
-msgstr "ဂန့်ဂေါမြို့"
+msgstr "ဂန်ဂေါ့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:468
+#, fuzzy
 msgid "Minbu"
-msgstr "မင်းဘူးမြို့"
+msgstr "မင်ဘူ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:469
+#, fuzzy
 msgid "Pakokku"
-msgstr "ပခုက္ကူမြို့"
+msgstr "ပါကော့ကုတ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:470
+#, fuzzy
 msgid "Thayet"
-msgstr "သရက်မြို့"
+msgstr "သီဟေရက်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:473
+#, fuzzy
 msgid "Kyaukse"
-msgstr "ကျောက်ဆည်မြို့"
+msgstr "ကျူအော့ကီး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:475
+#, fuzzy
 msgid "Meiktila"
-msgstr "မိတ္ထီလာမြို့"
+msgstr "မီခတီလာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:476
+#, fuzzy
 msgid "Myingyan"
-msgstr "မြင်းခြံမြို့"
+msgstr "မင်ဂျန်ယန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:477
+#, fuzzy
 msgid "Nyaung-U"
-msgstr "ညောင်ဦးမြို့"
+msgstr "Nyaung-U"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:478
+#, fuzzy
 msgid "Pyinoolwin"
-msgstr "ပြင်ဦးလွင်မြို့"
+msgstr "ပီ နီ နို လ် ဝင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:479
+#, fuzzy
 msgid "Yamethin"
-msgstr "ရမည်းသင်းမြို့"
+msgstr "ယာမီတင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:482
+#, fuzzy
 msgid "Mawlamyine"
-msgstr "မော်လမြိုင်မြို့"
+msgstr "မော်လမြိုင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:483
+#, fuzzy
 msgid "Thaton"
-msgstr "သထုံမြို့"
+msgstr "အောင်သန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:486
+#, fuzzy
 msgid "Dekkhina"
-msgstr "ဒက္ခိဏသီရိမြို့"
+msgstr "ဒက်ကီနာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:487
+#, fuzzy
 msgid "Oktara"
-msgstr "ဥတ္တရသီရိမြို့"
+msgstr "အိုကာတာရာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:490
+#, fuzzy
 msgid "Kyaukphyu"
-msgstr "ကျောက်ဖြူမြို့"
+msgstr "ကျောက်ဖြူရွာ၊ ကျိုင်းချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:491
+#, fuzzy
 msgid "Maungdaw"
-msgstr "မောင်းတောမြို့"
+msgstr "မောင်းကုန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:492
+#, fuzzy
 msgid "Mrauk-U"
-msgstr "မြောက်ဦးမြို့"
+msgstr "Mrauk-U"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:493
+#, fuzzy
 msgid "Sittwe"
-msgstr "စစ်တွေမြို့"
+msgstr "ဆစ်တဝီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:494
+#, fuzzy
 msgid "Thandwe"
-msgstr "သံတွဲမြို့"
+msgstr "သန်ဒူး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:497
+#, fuzzy
 msgid "Hkamti"
-msgstr "ခန္တီးမြို့"
+msgstr "Hkamti"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:498
+#, fuzzy
 msgid "Kale"
-msgstr "ကလေးမြို့"
+msgstr "ကယ်လီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:499
+#, fuzzy
 msgid "Kanbalu"
-msgstr "ကန့်ဘလူမြို့"
+msgstr "ကန်ဘလူး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:500
+#, fuzzy
 msgid "Katha"
-msgstr "ကသာမြို့"
+msgstr "ကက်သ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:501
+#, fuzzy
 msgid "Kawlin"
-msgstr "ကောလင်းမြို့"
+msgstr "ကော်လင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:502
+#, fuzzy
 msgid "Mawlaik"
-msgstr "မော်လိုက်မြို့"
+msgstr "Mawlyk"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:503
+#, fuzzy
 msgid "Monywa"
-msgstr "မုံရွာမြို့"
+msgstr "မွန်ဝါ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:504
+#, fuzzy
 msgid "Naga Self-Administered Zone"
-msgstr "နာဂကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ"
+msgstr "နဂါးကိုယ်ပိုင်အုပ်ချုပ်ရေး ဇုန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:506
+#, fuzzy
 msgid "Shwebo"
-msgstr "ရွှေဘိုမြို့"
+msgstr "ရှွာဘိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:507
+#, fuzzy
 msgid "Tamu"
-msgstr "တမူးမြို့"
+msgstr "တာမူး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:508
+#, fuzzy
 msgid "Yinmabin"
-msgstr "ယင်းမာပင်မြို့"
+msgstr "Yinmabin"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:511
+#, fuzzy
 msgid "Danu Self-Administered Zone"
-msgstr "ဓနုကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ"
+msgstr "ဒန်နူ ကိုယ်တိုင်အုပ်ချုပ်ရေး ဇုန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:512
+#, fuzzy
 msgid "Hopang"
-msgstr "ဟိုပန်မြို့"
+msgstr "ဟိုပန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:513
+#, fuzzy
 msgid "Kengtong"
-msgstr "ကျိုင်းတုံမြို့"
+msgstr "ကင်ဂွန်တွန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:514
+#, fuzzy
 msgid "Kokang Self-Administered Zone"
-msgstr "ကိုးကန့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ"
+msgstr "ကိုကန်ကိုယ်ပိုင်အုပ်ချုပ်ရေး ဇုန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:515
+#, fuzzy
 msgid "Kyaukme"
-msgstr "ကျောက်မဲမြို့"
+msgstr "ကျောက်မောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:516
+#, fuzzy
 msgid "Langkho"
-msgstr "လင်းခေးမြို့"
+msgstr "လန်ခေါမြို့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:517
+#, fuzzy
 msgid "Lashio"
-msgstr "လားရှိုးမြို့"
+msgstr "လာရှီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:518
+#, fuzzy
 msgid "Loilen"
-msgstr "လွိုင်လင်မြို့"
+msgstr "လောင်းလစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:519
+#, fuzzy
 msgid "Metman"
-msgstr "မက်မန်းမြို့"
+msgstr "မက်မန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:520
+#, fuzzy
 msgid "Mong Sat"
-msgstr "မိုင်းဆက်မြို့"
+msgstr "မွန်ဆတ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:521
+#, fuzzy
 msgid "Mongmit"
-msgstr "မိုးမိတ်မြို့"
+msgstr "မွန်ဂမစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:522
+#, fuzzy
 msgid "Muse"
-msgstr "မူဆယ်မြို့"
+msgstr "မောက်စ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:523
+#, fuzzy
 msgid "Pa Laung Self-Administered Zone"
-msgstr "ပလောင်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ"
+msgstr "Pa Laung ကိုယ့်ကိုယ်ကို စီမံခန့်ခွဲရေး ဇုန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:524
+#, fuzzy
 msgid "Pa'O Self-Administered Zone"
-msgstr "ပအို့ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ"
+msgstr "Pa'O ကိုယ့်ကိုယ်ကို အုပ်ချုပ်ရေးဇုန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:525
+#, fuzzy
 msgid "Tachileik"
-msgstr "တာချီလိတ်မြို့"
+msgstr "Tachileik"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:526
+#, fuzzy
 msgid "Taunggyi"
-msgstr "တောင်ကြီးမြို့"
+msgstr "တွန်ဂျီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:529
+#, fuzzy
 msgid "Dawei"
-msgstr "ထားဝယ်မြို့"
+msgstr "ဒါဝီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:530
+#, fuzzy
 msgid "Kawthoung"
-msgstr "ကော့သောင်းမြို့"
+msgstr "ကဝတိုချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:531
+#, fuzzy
 msgid "Myeik"
-msgstr "မြိတ်မြို့"
+msgstr "မိုင်ယစ်ခ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:534
+#, fuzzy
 msgid "Yangon (East)"
 msgstr "ရန်ကုန် (အရှေ့)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:535
+#, fuzzy
 msgid "Yangon (North)"
 msgstr "ရန်ကုန် (မြောက်)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:536
+#, fuzzy
 msgid "Yangon (South)"
 msgstr "ရန်ကုန် (တောင်)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:537
+#, fuzzy
 msgid "Yangon (West)"
 msgstr "ရန်ကုန် (အနောက်)"
 
@@ -4030,8 +4150,9 @@ msgid "Mae Lao"
 msgstr "Mae Lao"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:731
+#, fuzzy
 msgid "Mae Sai"
-msgstr "မယ်ဆိုင်မြို့"
+msgstr "Mae Sai"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:732
 #, fuzzy
@@ -10839,104 +10960,129 @@ msgid "Yên Bình"
 msgstr "Yên Bình"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:4
+#, fuzzy
 msgid "Agroecology Keyword"
-msgstr "စိုက်ပျိုးဂေဟစနစ် အဓိကစကားလုံးများ"
+msgstr "Agroecology Keyword"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:11
+#, fuzzy
 msgid "Integrated systems"
-msgstr "ပေါင်းစည်းစနစ်"
+msgstr "ပေါင်းစပ်စနစ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:12
+#, fuzzy
 msgid "Agroecological transition"
-msgstr "စိုက်ပျိုးဂေဟစနစ်ဆိုင်ရာအကူးအပြောင်း"
+msgstr "Agroecological အကူးအပြောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:13
+#, fuzzy
 msgid "Agroforestry"
-msgstr "သီးနှံ-သစ်တောရောနှောစိုက်ပျိုးခြင်း"
+msgstr "စိုက်ပျိုးရေး သစ်တော"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:14
+#, fuzzy
 msgid "Agro-silvo-pastoralism"
-msgstr "သစ်တောမြေတွင် မွေးမြူရေးနှင့်စိုက်ပျိုးရေးပေါင်းစည်းဆောင်ရွက်သည့် ထုတ်လုပ်မှုစနစ်"
+msgstr "Agro-silvo-Pastoralism"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:15
+#, fuzzy
 msgid "Biodynamic agriculture"
-msgstr "ဇီဝ"
+msgstr "ဇီဝဒိုင်နမစ် စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:16
+#, fuzzy
 msgid "Conservation agriculture"
-msgstr "ဝန်းကျင်မပျက်စိုက်ပျိုးရေး"
+msgstr "ထိန်းသိမ်းစောင့်ရှောက်ရေး စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:17
+#, fuzzy
 msgid "Crop intensification system"
-msgstr "သီးနှံအစွမ်းဖွင့်စိုက်ပျိုးရေးစနစ်"
+msgstr "ကောက်ပဲသီးနှံ ပြင်းထန်မှုစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:18
+#, fuzzy
 msgid "Environmental performance"
-msgstr "ပတ်ဝန်းကျင်ဆိုင်ရာစွမ်းဆောင်မှု"
+msgstr "ပတ်ဝန်းကျင်ဆိုင်ရာ စွမ်းဆောင်ရည်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:19
+#, fuzzy
 msgid "Extensive farming"
-msgstr "သွင်းအားစုအနည်းဆုံးဖြင့် မြေဧရိယာကျယ်ကျယ်စိုက်ပျိုးရေး"
+msgstr "ကျယ်ပြန့်သော စိုက်ပျိုးရေးလုပ်ငန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:20
+#, fuzzy
 msgid "Integrated crop livestock system"
-msgstr "ဘက်စုံစိုက်ပျိုးရေး၊ မွေးမြူရေးပေါင်းစည်းလယ်ယာစနစ်"
+msgstr "ပေါင်းစပ်ထားသော ကောက်ပဲသီးနှံတိရစ္ဆာန်မွေးမြူရေးစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:21
+#, fuzzy
 msgid "Natural farming"
-msgstr "သဘာဝအနေအထားအတိုင်း စိုက်ပျိုးရေး"
+msgstr "သဘာဝစိုက်ပျိုးရေးလုပ်ငန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:22
+#, fuzzy
 msgid "Organic agriculture"
-msgstr "အော်ဂဲနစ်စိုက်ပျိုးရေး"
+msgstr "အော်ဂဲနစ် စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:23
+#, fuzzy
 msgid "Permaculture"
-msgstr "ဂေဟစနစ်များပေါင်းစည်းစနစ်ဖြင့် အမြဲတမ်းစိုက်ပျိုးရေး"
+msgstr "ပျံ့နှံ့နေသော ယဉ်ကျေးမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:24
+#, fuzzy
 msgid "Precision agriculture"
-msgstr "သတင်းအလက်အခြေခံတိကျသောစိုက်ပျိုးရေး"
+msgstr "တိကျတဲ့ စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:25
+#, fuzzy
 msgid "System of rice intensification"
-msgstr "စပါးအစွမ်းဖွင့်စိုက်ပျိုးရေးစနစ်"
+msgstr "ဆန်ကို ပြင်းထန်စေသည့် စနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:27
+#, fuzzy
 msgid "Animal health"
-msgstr "တိရစ္ဆာန်ကျန်းမာရေး"
+msgstr "တိရစ္ဆာန် ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:28
+#, fuzzy
 msgid "Animal wellbeing"
-msgstr "တိရစ္ဆာန်များ စိတ်ရောကိုယ်ပါကောင်းမွန်ခြင်း"
+msgstr "တိရစ္ဆာန်ကောင်းကျိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:29
+#, fuzzy
 msgid "Extensive aquaculture"
-msgstr "သဘာဝရေစီးတွင် ပါလာသောငါးများကို ကန်တွင် အစာကျွေးမွေးမြူရေးစနစ်"
+msgstr "ကျယ်ပြန့်သောရေမြှုပ်သင်္ဘော"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:30
+#, fuzzy
 msgid "Free range"
-msgstr "အလွတ်တန်းမွေးမြူရေးစနစ်"
+msgstr "လွတ်လပ်တဲ့ အကွာအနှုန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:31
+#, fuzzy
 msgid "Integrated animal health"
-msgstr "တိရစ္ဆာန်ကျန်းမာရေး ပေါင်းစည်းကာကွယ်ရေး"
+msgstr "ပေါင်းစပ်ထားသော တိရစ္ဆာန်ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:32
+#, fuzzy
 msgid "Rotational grazing system"
-msgstr "အလှည့်ကျစားကျက်မြေထိန်းကျောင်းစနစ်"
+msgstr "အလှည့်ကျ စားကျက်စနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:33
+#, fuzzy
 msgid "Sustainable animal feeding"
-msgstr "ရေရှည်တည်တံ့သောတိရိစ္ဆာန်အစာကျွေးခြင်း"
+msgstr "တိရိစ္ဆာန်ကျွေးမွေးခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:34
+#, fuzzy
 msgid "Zoonose"
-msgstr "တိရစ္ဆာန်မှ လူဆီသို့ ကူးစက်သောရောဂါ"
+msgstr "ဇိုနော့စ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:36
+#, fuzzy
 msgid "Input reduction and recycling"
-msgstr "သွင်းအားစုလျော့ချခြင်းနှင့် ပြန်လည်သုံးစွဲခြင်း"
+msgstr "ဝင်ငွေ လျှော့ချခြင်းနှင့် ပြန်လည်အသုံးချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:37
 #, fuzzy
@@ -10944,808 +11090,1007 @@ msgid "Allelopathy"
 msgstr "အယ်လီလိုပသီ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:38
+#, fuzzy
 msgid "Antimicrobial resistance"
-msgstr "ရောဂါပိုးမွှားခုခံနိုင်မှု"
+msgstr "ရောဂါပိုးမွှားပြန်ခုခံနိုင်စွမ်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:39
+#, fuzzy
 msgid "Bio-fertilizer"
-msgstr "ဇီဝမြေဩဇာ"
+msgstr "ဇီအို-မြေသြဇာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:40
+#, fuzzy
 msgid "Biological control"
-msgstr "ဇီဝနည်းဖြင့် ကာကွယ်နှိမ်နင်းခြင်း"
+msgstr "ဇီဝထိန်းချုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:41
+#, fuzzy
 msgid "Bio-pesticide"
-msgstr "ဇီဝပိုးသတ်ဆေး"
+msgstr "Bio-psticidy"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:42
+#, fuzzy
 msgid "Chemical input control"
-msgstr "ဓာတုနည်းဖြင့် ကာကွယ်နှိမ်နင်းခြင်း"
+msgstr "ဓာတုပစ္စည်းထည့်သွင်းမှု ထိန်းချုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:43
+#, fuzzy
 msgid "Compost"
-msgstr "မြေဆွေး"
+msgstr "ကော်ပိုစင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:44
+#, fuzzy
 msgid "Crop protection"
-msgstr "သီးနှံကာကွယ်ရေး"
+msgstr "ကောက်ပဲသီးနှံကာကွယ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:45
+#, fuzzy
 msgid "Ecological recycling"
-msgstr "ဂေဟဗေဒအခြေခံ ပြန်လည်အသုံးပြုခြင်း"
+msgstr "ဧကဗေဒ ပြန်လည်သုံးသပ်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:46
+#, fuzzy
 msgid "Input autonomy"
-msgstr "သွင်းအားစုအသုံးပြုခြင်းဆိုင်ရာ ကိုယ်ပိုင်ဆုံးဖြတ်ခြင်း"
+msgstr "Inputonom"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:47
+#, fuzzy
 msgid "Input reduction"
-msgstr "သွင်းအားစုလျော့ချခြင်း"
+msgstr "ဝင်ငွေ လျှော့ချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:48
+#, fuzzy
 msgid "Insect-plant interaction"
-msgstr "ပိုးမွှား-အပင် အပြန်အလှန်ပြုမူမှု"
+msgstr "အင်းဆက်ပိုး-ပွင့် အပြန်အလှန် ဆက်သွယ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:49
+#, fuzzy
 msgid "Integrated pest management"
-msgstr "ဘက်စုံပိုးမွှားကာကွယ်နှိမ်နင်းရေး"
+msgstr "ပေါင်းစပ်ပိုးမွှား စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:50
+#, fuzzy
 msgid "Organic manure"
-msgstr "သစ်ဆွေး၊ မြေဆွေး"
+msgstr "အော်ဂဲနစ်မုန့်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:51
+#, fuzzy
 msgid "Plant health"
 msgstr "အပင်ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:52
+#, fuzzy
 msgid "Sanitary and phytosanitary measure"
-msgstr "ပိုးမွှားကင်းစင်ကြောင်း သက်သေခံအထောက်အထား"
+msgstr "ကျန်းမာရေးနဲ့ ဇီတိုစန်နီတာရီ အတိုင်းအတာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:53
+#, fuzzy
 msgid "Veterinary waste management"
-msgstr "တိရစ္ဆာန်စွန့်ပစ်ပစ္စည်း စီမံခန့်ခွဲမှု"
+msgstr "စစ်မှုထမ်းတဲ့ စွန့်ပစ္စည်း စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:54
+#, fuzzy
 msgid "Waste management"
-msgstr "စွန့်ပစ်ပစ္စည်းစီမံခန့်ခွဲမှု"
+msgstr "အညစ်အကြေး စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:56
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:66
+#, fuzzy
 msgid "Seed management"
-msgstr "မျိုးစေ့ဆိုင်ရာ စီမံခန့်ခွဲမှု"
+msgstr "မျိုးစေ့စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:57
+#, fuzzy
 msgid "Abiotic stress"
-msgstr "အပူဒဏ်"
+msgstr "အဘိဓာန်ဖိစီးမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:58
+#, fuzzy
 msgid "Annual crop"
-msgstr "နှစ်စဉ်သီးနှံ"
+msgstr "နှစ်စဉ် ကောက်ပဲသီးနှံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:59
+#, fuzzy
 msgid "Disease resistance"
-msgstr "ရောဂါခံနိုင်ရည်ရှိမှု"
+msgstr "ရောဂါခုခံနိုင်စွမ်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:60
+#, fuzzy
 msgid "GMO free"
-msgstr "ဇီဝနည်းပညာသုံးကင်းစင်ရေး"
+msgstr "GMO အခမဲ့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:61
+#, fuzzy
 msgid "Hybrid variety"
-msgstr "စပ်မျိုး"
+msgstr "ပေါင်းစပ်အမျိုးမျိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:62
+#, fuzzy
 msgid "Local variety"
-msgstr "ဒေသမျိုး"
+msgstr "ဒေသအသီးသီး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:63
+#, fuzzy
 msgid "Organic seed"
 msgstr "အော်ဂဲနစ်မျိုးစေ့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:64
+#, fuzzy
 msgid "Rice variety"
-msgstr "စပါးမျိုးကွဲ"
+msgstr "ဆန်အမျိုးမျိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:65
+#, fuzzy
 msgid "Seed bank"
 msgstr "မျိုးစေ့ဘဏ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:68
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:80
+#, fuzzy
 msgid "Soil health"
 msgstr "မြေဆီလွှာကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:69
+#, fuzzy
 msgid "Biomass"
-msgstr "ဇီဝလောင်စာ"
+msgstr "ဇီဝဗေဒ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:70
+#, fuzzy
 msgid "Cover crop"
-msgstr "မြေဖုံးသီးနှံ"
+msgstr "မျက်နှာဖုံး ကောက်ပဲသီးနှံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:71
+#, fuzzy
 msgid "Earthworm"
-msgstr "သံကောင်၊ တုပ်ကောင်"
+msgstr "ကမ္ဘာချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:72
+#, fuzzy
 msgid "Ecological synergy"
-msgstr "ဂေဟစနစ်အကျိုးသက်ရောက်မှု"
+msgstr "ဂေဟဗေဒဆိုင်ရာ စုစည်းမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:73
+#, fuzzy
 msgid "Crop rotation"
-msgstr "သီးလှည့်စိုက်စနစ်"
+msgstr "ကောက်ပဲသီးနှံအလှည့်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:74
+#, fuzzy
 msgid "Green manure"
-msgstr "သစ်စိမ်းမြေဩဇာ"
+msgstr "အစိမ်းရောင်နုသျှင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:75
+#, fuzzy
 msgid "Monocrop"
-msgstr "သီးနှံတစ်မျိုးတည်းစိုက်ပျိုးခြင်း"
+msgstr "မိုနော့ခရော့"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:76
+#, fuzzy
 msgid "Nematode"
-msgstr "နီမတုတ်"
+msgstr "နမာတိုဒိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:77
+#, fuzzy
 msgid "Soil biological activity"
-msgstr "မြေဆီဩဇာထက်သန်ရေး သက်ရှိဇီဝဖြစ်စဉ်"
+msgstr "မြေဆီလွှာ ဇီဝလှုပ်ရှားမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:78
+#, fuzzy
 msgid "Soil degradation reduction"
-msgstr "မြေဆီလွှာပျက်စီးမှု လျော့နည်းခြင်း"
+msgstr "မြေဆီလွှာပျက်စီးမှု လျော့နည်းစေခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:79
+#, fuzzy
 msgid "Soil fertility"
-msgstr "မြေဆီဩဇာ"
+msgstr "မြေဩဇာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:81
+#, fuzzy
 msgid "Soil protection"
-msgstr "မြေဆီလွှာကာကွယ်‌ေ၇◌း"
+msgstr "မြေဆီလွှာကာကွယ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:82
+#, fuzzy
 msgid "Soil quality"
 msgstr "မြေဆီလွှာအရည်အသွေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:83
+#, fuzzy
 msgid "Soil restoration"
-msgstr "မြေမာမြေဆီလွှာကောင်းမွန်ရေးနည်းလမ်း"
+msgstr "မြေဆီလွှာ ပြန်လည်ထူထောင်ရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:84
+#, fuzzy
 msgid "Soil-borne disease"
-msgstr "မြေဆောင်ရောဂါ"
+msgstr "မြေဆီလွှာကြောင့်ဖြစ်သော ရောဂါ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:85
+#, fuzzy
 msgid "Tillage reduction"
-msgstr "ထွန်ယက်မြေပြင်မှုလျော့ချခြင်း"
+msgstr "Tillage လျှော့ချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:87
+#, fuzzy
 msgid "Economy and income"
-msgstr "စီးပွားရေးတွက်ချေကိုက်မှုနှင့် ဝင်ငွေ"
+msgstr "စီးပွားရေးနှင့် ဝင်ငွေ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:88
+#, fuzzy
 msgid "Circular economy"
-msgstr "ရေရှည်တည်တံသောစနစ်တို့ဖြင့် ကုန်ထုတ်လုပ်မှုနှင့်အသုံးပြုမှုတို့၏ စီးပွားရေးစနစ်"
+msgstr "စက်ဝိုင်းစီးပွားရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:89
+#, fuzzy
 msgid "Income diversification"
-msgstr "အရင်းအမြစ်အမျိုးမျိုးမှ ဝင်ငွေ"
+msgstr "ဝင်ငွေအမျိုးမျိုးကွဲပြားခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:90
+#, fuzzy
 msgid "Solidarity economy"
-msgstr "ပုဂ္ဂလိက-အစိုးရ-စီးပွားရေးအသင့်အဖွဲ့တို့ ပေါင်းစည်းအကျိုးတူစီးပွားရေး"
+msgstr "စည်းလုံးညီညွတ်မှု စီးပွားရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:91
+#, fuzzy
 msgid "Fair employment"
-msgstr "ညီမျှသောအလုပ်အကိုင်"
+msgstr "မျှတသော အလုပ်အကိုင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:92
+#, fuzzy
 msgid "Small entrepreneur"
-msgstr "စွန့်ဦးတီထွင်လုပ်ငန်းငယ်"
+msgstr "စီးပွားစွမ်းဆောင်ရှင်ငယ်လေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:93
+#, fuzzy
 msgid "Market change"
-msgstr "ဈေးကွက်အပြောင်းအလဲ"
+msgstr "ဈေးကွက်ပြောင်းလဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:94
+#, fuzzy
 msgid "Family farming"
-msgstr "မိသားစုစိုက်ပျိုးရေး"
+msgstr "မိသားစုမွေးမြူရေးလုပ်ငန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:95
+#, fuzzy
 msgid "Consumer-producer organisation"
-msgstr "ဝယ်သူ-ထုတ်လုပ်သူအဖွဲ့အစည်း"
+msgstr "စားသုံးသူထုတ်လုပ်သူ အဖွဲ့အစည်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:96
+#, fuzzy
 msgid "Market access"
-msgstr "ဈေးကွက်ရရှိမှု"
+msgstr "စျေးကွက်ချိတ်ဆက်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:97
+#, fuzzy
 msgid "Sustainable income"
-msgstr "ရေရှည်တည်တံ့သောပုံမှန်ဝင်ငွေ"
+msgstr "တည်မြဲသောဝင်ငွေ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:98
+#, fuzzy
 msgid "Short value chain"
-msgstr "တန်ဖိုးကွင်းဆက် တိုခြင်း"
+msgstr "တန်ဖိုးတိုကွင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:99
+#, fuzzy
 msgid "Value chain"
-msgstr "တန်ဖိုးကွင်းဆက်"
+msgstr "တန်ဖိုးဆက်သွယ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:100
+#, fuzzy
 msgid "Cash crop"
-msgstr "ဝင်ငွေရသီးနှံ"
+msgstr "ကောက်ပဲသီးနှံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:101
+#, fuzzy
 msgid "Production costs reduction"
-msgstr "ထုတ်လုပ်မှုကုန်ကျစရိတ်လျော့ချခြင်း"
+msgstr "ထုတ်လုပ်မှုကုန်ကျစရိတ် လျှော့ချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:102
+#, fuzzy
 msgid "Income"
 msgstr "ဝင်ငွေ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:103
+#, fuzzy
 msgid "Microcredit"
-msgstr "အသေးစားချေးငွေ"
+msgstr "မိုက်ခရိုကရိုကရက်ဒ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:104
+#, fuzzy
 msgid "Production costs"
 msgstr "ထုတ်လုပ်မှုကုန်ကျစရိတ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:105
+#, fuzzy
 msgid "Self sufficiency"
-msgstr "ပြည်တွင်းဖူလုံမှု"
+msgstr "ကိုယ့်ကိုယ်ကို လုံလောက်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:106
+#, fuzzy
 msgid "Sustainable and decent livelihood and revenue"
-msgstr "ရေရှည်တည်တံ့ပြီး တင့်သင့်သောအသက်မွေးဝမ်းကြောင်းနှင့် ပြန်ရချက်"
+msgstr "တည်တံ့ပြီး လျောက်ပတ်တဲ့ အသက်မွေးဝမ်းကျောင်းနဲ့ ဝင်ငွေ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:108
+#, fuzzy
 msgid "Nutrition and diets"
 msgstr "အာဟာရဓာတ်နှင့် အစားအစာများ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:109
+#, fuzzy
 msgid "Diversified diet"
-msgstr "အစားအစာအမျိုးအစားစုံစုံလင်လင်"
+msgstr "အမျိုးမျိုးသော အစားအစာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:110
+#, fuzzy
 msgid "Food quality"
 msgstr "အစားအစာအရည်အသွေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:111
+#, fuzzy
 msgid "Food safety"
-msgstr "အစားအစာ ဘေးကင်းလုံခြုံမှု"
+msgstr "အစားအသောက်စိတ်ချရမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:112
+#, fuzzy
 msgid "Nutrition and health"
 msgstr "အာဟာရနှင့် ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:113
+#, fuzzy
 msgid "Human health"
 msgstr "လူ့ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:114
+#, fuzzy
 msgid "Nutrient"
 msgstr "အာဟာရ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:115
+#, fuzzy
 msgid "Nutrition sensitive agriculture"
-msgstr "အာဟာရဇောင်းပေးစိုက်ပျိုးရေး"
+msgstr "အာဟာရကို ထိခိုက်လွယ်သော စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:116
+#, fuzzy
 msgid "Recipe"
-msgstr "ချက်နည်းပြုတ်နည်း"
+msgstr "အစားအစာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:117
+#, fuzzy
 msgid "Wild food"
-msgstr "အစိမ်းစား အစားအစာ"
+msgstr "တောရိုင်း အစားအစာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:118
+#, fuzzy
 msgid "Woman and child nutrition and health"
-msgstr "အမျိုးသမီး၊ ကလေးသူငယ်အာဟာရနှင့် ကျန်းမာရေး"
+msgstr "အမျိုးသမီးနှင့် ကလေးအာဟာရနှင့် ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:119
+#, fuzzy
 msgid "Home gardening"
-msgstr "အိမ်ခြံဝန်းဥယျာဉ်ခြံစိုက်ပျိုးခြင်း"
+msgstr "အိမ်ဥယျာဉ်စိုက်ပျိုးခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:120
+#, fuzzy
 msgid "Seasonal food"
-msgstr "ရာသီစာ"
+msgstr "ရာသီအလိုက် အစားအစာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:122
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:134
+#, fuzzy
 msgid "Sustainable food system"
-msgstr "ရေရှည်တည်တံ့သောအစားအစာစနစ်"
+msgstr "တည်မြဲသော အစားအစာစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:123
+#, fuzzy
 msgid "Certification"
-msgstr "အသိအမှတ်ပြုမှု"
+msgstr "အသိအမှတ်ပြုချက်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:124
+#, fuzzy
 msgid "Labelisation"
-msgstr "တံဆိပ်ကပ်ခြင်း"
+msgstr "ပျင်းရိခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:125
+#, fuzzy
 msgid "Participatory guarantee system"
-msgstr "ပူးပေါင်းပါဝင်သောအာမခံစနစ်"
+msgstr "ပါဝင်ဆောင်ရွက်မှုအာမခံစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:126
+#, fuzzy
 msgid "Quality standard"
-msgstr "အရည်အသွေးစံချိန်စံညွှန်း"
+msgstr "အရည်အသွေးစံနှုန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:127
+#, fuzzy
 msgid "Food waste reduction"
-msgstr "အစားအစာအလေအလွင့်လျော့ချခြင်း"
+msgstr "အစားအစာ စွန့်စားမှု လျှော့ချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:128
+#, fuzzy
 msgid "Market information system"
-msgstr "ဈေးကွက်သတင်းအချက်အလက်စနစ်"
+msgstr "စျေးကွက် သတင်းအချက်အလက်စနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:129
+#, fuzzy
 msgid "Perenial crop"
-msgstr "နှစ်ရှည်သီးနှံ"
+msgstr "ဇီဝကောက်ပဲသီးနှံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:130
+#, fuzzy
 msgid "Sustainable yield"
-msgstr "စဉ်ဆက်မပြတ်ရရှိနေသောအထွက်နှုန်း"
+msgstr "တည်မြဲသောအသီးအနှံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:131
+#, fuzzy
 msgid "Yield increase"
-msgstr "အထွက်နှုန်းမြင့်မားခြင်း"
+msgstr "အမြတ်အစိပ်များ တိုးများလာခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:132
+#, fuzzy
 msgid "Ecological intensification"
-msgstr "ဂေဟစနစ်အစွမ်းရှိစိုက်ပျိုးထုတ်လုပ်ခြင်း"
+msgstr "၂။ သက်ဆိုင်ရာဂေဟဗေဒ ပြင်းထန်လာခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:133
+#, fuzzy
 msgid "Local food system"
-msgstr "ဒေသအစားအစာစနစ်"
+msgstr "ဒေသခံ အစားအစာစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:135
+#, fuzzy
 msgid "Food security"
-msgstr "စားရေရိက္ခာဖူလုံမှု"
+msgstr "အစားအစာလုံခြုံမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:136
+#, fuzzy
 msgid "Food sovereignety"
-msgstr "အစားအစာအချုပ်ခြာအာဏာ"
+msgstr "အစားအစာ အချုပ်အခြာအာဏာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:137
+#, fuzzy
 msgid "Food processing"
-msgstr "စားသောက်ကုန်ထုတ်လုပ်ခြင်း"
+msgstr "အစားအစာ စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:138
+#, fuzzy
 msgid "Sustainable livelihood"
-msgstr "ရေရှည်တည်တံ့သောအသက်မွေးဝမ်းကြောင်း"
+msgstr "တည်မြဲသော အသက်မွေးဝမ်းကျောင်းလုပ်ငန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:139
+#, fuzzy
 msgid "Urban agriculture"
-msgstr "မြို့ပြစိုက်ပျိုးရေး"
+msgstr "မြို့ပြ စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:141
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:143
+#, fuzzy
 msgid "Biodiversity"
-msgstr "ဇီဝမျိုးစုံမျိုးကွဲ"
+msgstr "ဇီဝ မျိုးစိတ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:142
+#, fuzzy
 msgid "Bee keeping"
-msgstr "ပျားမွေးမြူရေး"
+msgstr "ငှက်ထိန်းသိမ်းခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:144
+#, fuzzy
 msgid "Biodiversity protection"
-msgstr "ဇီဝမျိုးစုံမျိုးကွဲထိန်းသိမ်းရေး"
+msgstr "ဇီဝ မျိုးစိတ်များ ကာကွယ်ပေးခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:145
+#, fuzzy
 msgid "Bioeconomy"
-msgstr "ဇီဝအခြေပြုစီးပွားရေး"
+msgstr "ဇီဝစီးပွားရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:146
+#, fuzzy
 msgid "Crop diversification"
-msgstr "အမယ်စုံသီးနှံစိုက်ပျိုးခြင်း"
+msgstr "ကောက်ပဲသီးနှံအမျိုးမျိုးခွဲခြားခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:147
+#, fuzzy
 msgid "Ecological integration"
-msgstr "ဂေဟစနစ်ချိတ်ဆက်မှု"
+msgstr "ဂေဟဗေဒဆိုင်ရာ ပေါင်းစပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:148
+#, fuzzy
 msgid "Intercropping"
-msgstr "သီးညှပ်စိုက်ပျိုးခြင်း"
+msgstr "အပြန်အလှန်ဆက်စပ်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:149
+#, fuzzy
 msgid "Environmental protection"
-msgstr "ပတ်ဝန်းကျင်ထိန်းသိမ်းကာကွယ်ရေး"
+msgstr "ပတ်ဝန်းကျင်ကာကွယ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:150
+#, fuzzy
 msgid "Forest biodiversity"
-msgstr "သစ်တောဇီဝမျိုးစုံမျိုးကွဲ"
+msgstr "သစ်တော ဇီဝမျိုးစိတ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:151
+#, fuzzy
 msgid "Forest encroachment"
-msgstr "သစ်တောကြိုးဝိုင်းကျူးကျော်စိုက်ပျိုးခြင်း"
+msgstr "သစ်တောချိုးဖောက်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:152
+#, fuzzy
 msgid "Forest protection"
-msgstr "သစ်တောကာကွယ်ထိန်းသိမ်းခြင်း"
+msgstr "သစ်တောကာကွယ်ရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:153
+#, fuzzy
 msgid "Grassland"
 msgstr "မြက်ခင်းပြင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:154
+#, fuzzy
 msgid "Habitat"
-msgstr "ရှင်သန်ပေါက်ရောက်ရာဝန်းကျင်"
+msgstr "နေအိမ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:155
+#, fuzzy
 msgid "Local breeds and species"
-msgstr "ဒေသမျိုးစိတ်နှင့် မျိုးကွဲများ"
+msgstr "ဒေသတွင်း မျိုးစိတ်များနှင့် မျိုးစိတ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:156
+#, fuzzy
 msgid "Open pollination"
-msgstr "ပင်ခြားဝတ်မှုံကူးခြင်း"
+msgstr "ညစ်ညမ်းမှု ပွင့်လင်းခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:157
+#, fuzzy
 msgid "Species protection"
-msgstr "မျိုးစိတ်မျိုးကွဲများကာကွယ်ထိန်းသိမ်းခြင်း"
+msgstr "မျိုးစိတ်များ ကာကွယ်ပေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:159
+#, fuzzy
 msgid "Climate"
 msgstr "ရာသီဥတု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:160
+#, fuzzy
 msgid "Adaptation to climate change"
-msgstr "ရာသီဥတုပြောင်းလဲမှုနှင့်လိုက်လျောညီထွေမှုရှိခြင်း"
+msgstr "ရာသီဥတုအပြောင်းအလဲနဲ့ အလိုက်သင့်ပြုလုပ်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:161
+#, fuzzy
 msgid "Carbon market"
 msgstr "ကာဗွန်ဈေးကွက်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:162
+#, fuzzy
 msgid "Carbon neutrality"
-msgstr "ထုတ်လွှင့်ကာဗွန်နှင့် စုပ်ယူကာဗွန်ကြား မျှချေရှိမှု"
+msgstr "ကာဗွန်ကြားနေမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:163
+#, fuzzy
 msgid "Climate change"
-msgstr "ရာသီဥတုပြောင်းလဲမှု"
+msgstr "ရာသီဥတုအပြောင်းအလဲ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:164
+#, fuzzy
 msgid "Climate resilience"
-msgstr "ရာသီဥတုကြံ့ကြံ့ခံနိုင်ရည်ရှိမှု"
+msgstr "ရာသီဥတုခံနိုင်ရည်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:165
+#, fuzzy
 msgid "Climate risk mitigation"
-msgstr "ရာသီဥတုအန္တရာယ်လျော့ပါးစေခြင်း"
+msgstr "ရာသီဥတု အန္တရာယ် လျော့နည်းစေခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:166
+#, fuzzy
 msgid "Climate smart agriculture"
-msgstr "ရာသီဥတုနှင့်လိုက်လျောညီထွေသောစိုက်ပျိုးရေး"
+msgstr "ရာသီဥတု စမတ် စိုက်ပျိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:167
+#, fuzzy
 msgid "Drought"
 msgstr "မိုးခေါင်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:168
+#, fuzzy
 msgid "Ecosystem resilience"
-msgstr "ဂေဟစနစ်ကြံ့ကြံ့ခံနိုင်ရည်ရှိမှု"
+msgstr "ဂေဟစနစ်ခံနိုင်စွမ်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:169
+#, fuzzy
 msgid "Greenhouse gas reduction"
-msgstr "ဖန်လုံအိမ်ဓာတ်ငွေ့လျော့ချခြင်း"
+msgstr "ဖန်လုံအိမ်ဓာတ်ငွေ့ လျှော့ချခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:170
+#, fuzzy
 msgid "On farm anaerobic digestion"
-msgstr "လယ်ယာမြေတွင် စွန့်ပစ်ပစ္စည်းများအား လေမဲ့ဆွေးမြေ့စေခြင်း"
+msgstr "စိုက်ပျိုးမွေးမြူရေးခြံမှာ အနာရိုဗစ် အစာချေမှုန်းရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:171
+#, fuzzy
 msgid "Renewable energy"
-msgstr "ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်"
+msgstr "ပြန်လည်ပြုပြင်နိုင်သော စွမ်းအင်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:172
+#, fuzzy
 msgid "Vulnerability"
-msgstr "ထိလွယ်ရှလွယ်ဖြစ်မှု"
+msgstr "အားနည်းချက်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:174
+#, fuzzy
 msgid "Natural resources governance"
-msgstr "သဘာဝသယံဇာတအရင်းအမြစ်များ စီမံအုပ်ချုပ်မှု "
+msgstr "သဘာဝသယံဇာတ အုပ်ချုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:175
+#, fuzzy
 msgid "Land investment"
-msgstr "မြေယာရင်းနှီးမြုပ်နှံမှု"
+msgstr "မြေယာ ရင်းနှီးမြှုပ်နှံမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:176
+#, fuzzy
 msgid "Land management"
-msgstr "မြေယာစီမံခန့်ခွဲမှု"
+msgstr "မြေယာ စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:177
+#, fuzzy
 msgid "Ecosystem service"
-msgstr "ဂေဟစနစ်ဝန်ဆောင်မှု"
+msgstr "ဂေဟစနစ် ဝန်ဆောင်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:178
+#, fuzzy
 msgid "Land rights"
 msgstr "မြေယာအခွင့်အရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:179
+#, fuzzy
 msgid "Landscape approach"
-msgstr "အမျိုးမျိုးသောမြေယာအသုံးချမှုအတွက် လက်တွေ့နှင့်မူဝါဒပေါင်းစပ်နှီးနွယ်သည့်မူဘောင်"
+msgstr "တောတောင်ရှုခင်း ချဉ်းကပ်နည်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:180
+#, fuzzy
 msgid "Local natural resources use"
-msgstr "ဒေသသဘာဝသယံဇာတများအသုံးပြုခြင်း "
+msgstr "ဒေသတွင်း သဘာဝသယံဇာတများကို အသုံးပြုကြ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:181
+#, fuzzy
 msgid "Natural resources management"
-msgstr "သဘာဝသယံဇာတရင်းအရင်းအမြစ်စီမံခန့်ခွဲမှု"
+msgstr "သဘာဝသယံဇာတ စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:182
+#, fuzzy
 msgid "Natural resources protection"
-msgstr "သဘာဝသယံဇာတအရင်းအမြစ်များထိန်းသိမ်းကာကွယ်ခြင်း"
+msgstr "သဘာဝသယံဇာတများ ကာကွယ်ရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:183
+#, fuzzy
 msgid "Participatory land use planning"
-msgstr "ပူးပေါင်းပါဝင်သောမြေယာအသုံးချမှုစီမံကိန်းရေးဆွဲခြင်း"
+msgstr "ပါဝင်သည့်မြေယာအသုံးပြုမှု စီမံကိန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:184
+#, fuzzy
 msgid "Sustainable land management"
-msgstr "ရေရှည်တည်တံ့သောမြေယာစီမံခန့်ခွဲမှု"
+msgstr "တည်မြဲသော မြေယာစီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:185
+#, fuzzy
 msgid "Watershed management"
-msgstr "ရေဝေရေလဲတွင် ရေအရည်အသွေးနှင့် သဘာဝအရင်းအမြစ်စီမံခန့်ခွဲမှု"
+msgstr "ရေချိုးစီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:187
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:192
+#, fuzzy
 msgid "Water management"
-msgstr "ရေ စီမံခန့်ခွဲမှု "
+msgstr "ရေစီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:188
+#, fuzzy
 msgid "Integrated water resources management"
-msgstr "ဘက်ပေါင်းစုံ ရေအရင်းအမြစ် စီမံခန့်ခွဲမှု"
+msgstr "ပေါင်းစပ်ထားတဲ့ ရေအရင်းအမြစ် စီမံခန့်ခွဲမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:189
+#, fuzzy
 msgid "Irrigation system"
-msgstr "ရေသွင်းစနစ် "
+msgstr "ဆည်မြောင်းစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:190
+#, fuzzy
 msgid "Lagooning"
-msgstr "သဘာဝရေသန့်စင်နည်းစနစ် "
+msgstr "ချောင်းကြီးရွာ၊ ကျောက်ချောင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:191
+#, fuzzy
 msgid "Water drainage"
-msgstr "ရေစီးဆင်းခြင်း "
+msgstr "ရေစီးဆင်းမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:193
+#, fuzzy
 msgid "Water quality control"
-msgstr "ရေအရည်အသွေးထိန်း"
+msgstr "ရေအရည်အသွေးထိန်းချုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:194
+#, fuzzy
 msgid "Water saving"
-msgstr "ရေချွေတာသုံးစွဲခြင်း"
+msgstr "ရေစုဆောင်းခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:196
+#, fuzzy
 msgid "Collaboration"
 msgstr "ပူးပေါင်းဆောင်ရွက်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:197
+#, fuzzy
 msgid "Community participation"
-msgstr "လူ့အဖွဲ့အစည်းပူးပေါင်းပါဝင်ခြင်း "
+msgstr "လူ့အဖွဲ့အစည်းပါဝင်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:198
+#, fuzzy
 msgid "Cooperative"
-msgstr "ပူးပေါင်းဆောင်ရွက်ခြင်း"
+msgstr "ပူးပေါင်းဆောင်ရွက်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:199
+#, fuzzy
 msgid "Farmer participation"
-msgstr "တောင်သူများပူးပေါင်းပါဝင်ခြင်း"
+msgstr "လယ်သမားများပါဝင်ခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:200
+#, fuzzy
 msgid "Farmer to farmer exchange"
-msgstr "တောင်သူလယ်သမားအချင်းချင်း ဖလှယ်မှု "
+msgstr "လယ်သမား အပြန်အလှန် လဲလှယ်ရန် လယ်သမားများ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:201
+#, fuzzy
 msgid "Farmers group"
-msgstr "တောင်သူလယ်သမားအစုအဖွဲ့ "
+msgstr "လယ်သမားအုပ်စု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:202
+#, fuzzy
 msgid "Education and awareness"
-msgstr "ပညာ‌ပေးဝန်ဆောင်မှုနှင့် သတိထားလာ"
+msgstr "ပညာရေးနှင့် အသိပညာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:203
+#, fuzzy
 msgid "Public-private partnership"
-msgstr "အစိုးရ-ပုဂ္ဂလိက ပူးပေါင်းဆောင်ရွက်ခြင်း "
+msgstr "ပြည်သူ့ ပုဂ္ဂလိက ပူးပေါင်းဆောင်ရွက်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:204
+#, fuzzy
 msgid "Farmers union"
-msgstr "တောင်သူလယ်သမားသမဂ္ဂ "
+msgstr "လယ်သမားသမဂ္ဂ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:205
+#, fuzzy
 msgid "Knowledge co-production"
-msgstr "အသိပညာ အသုံးပြုသူနှင့် ဝန်ဆောင်မှုပေးသူတို့ တန်းတူညီမျှဆက်ဆံရေး "
+msgstr "အသိပညာ ပူးတွဲထုတ်လုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:206
+#, fuzzy
 msgid "Living lab"
-msgstr " ပူးပေါင်းအဖြေရှာသုတေသန"
+msgstr "သက်ရှိ ဓာတ်ခွဲခန်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:207
+#, fuzzy
 msgid "Mobile application"
-msgstr "မိုဘိုင်း ပရိုဂရမ် "
+msgstr "မိုဘိုင်း ပရိုဂရမ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:208
+#, fuzzy
 msgid "Participatory approach"
-msgstr "ပူးပေါင်းပါဝင်ဆောင်ရွက်သည့်နည်းလမ်း"
+msgstr "ပါဝင်ချဉ်းကပ်နည်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:209
+#, fuzzy
 msgid "Research action"
-msgstr "သုတေသန ပြုမူချက် "
+msgstr "သုတေသနလုပ်ဆောင်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:210
+#, fuzzy
 msgid "Social media"
-msgstr "လူမှု မီဒီယာ "
+msgstr "လူမှုမီဒီယာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:212
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:214
+#, fuzzy
 msgid "Equity"
-msgstr "တန်းတူညီမျှမှု "
+msgstr "ရှယ်ယာပိုင်ဆိုင်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:213
+#, fuzzy
 msgid "Acces to employment"
-msgstr "အလုပ်အကိုင် ရရှိခြင်း"
+msgstr "အလုပ်အကိုင်ရရှိခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:215
+#, fuzzy
 msgid "Ethnic minority"
-msgstr "တိုင်းရင်းသားလူနည်းစု "
+msgstr "လူမျိုးစုလူနည်းစု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:216
+#, fuzzy
 msgid "Fairtrade"
-msgstr "ညီမျှသောရောင်းဝယ်ဖောက်ကားခြင်း "
+msgstr "ဖဲထရိတ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:217
+#, fuzzy
 msgid "Fairness"
-msgstr "တရားမျှတမှု "
+msgstr "တရားမျှတမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:218
+#, fuzzy
 msgid "Farmers autonomy"
-msgstr "တောင်သူလယ်သမားများ လွတ်လွတ်လပ်လပ်ဆုံးဖြတ်နိုင်ခြင်း"
+msgstr "လယ်သမားများ၏ အလိုအလျောက် ခွင့်ပြုချက်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:219
+#, fuzzy
 msgid "Food access"
-msgstr "အစားအစာ ရရှိမှု "
+msgstr "အစားအစာအခွင့်အရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:220
+#, fuzzy
 msgid "Food justice"
-msgstr "အစားအစာရရှိမှု မျှမျှတတရှိခြင်း "
+msgstr "အစားအစာတရားမျှတမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:221
+#, fuzzy
 msgid "Gender equity"
-msgstr "ကျား/မ တန်းတူညီမှု "
+msgstr "ကျား/မ ညီမျှမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:222
+#, fuzzy
 msgid "Responsible investment"
-msgstr "တာဝန်ခံမှု၊ တာဝန်ယူမှုရှိသည့် ရင်းနှီးမြှုပ်နှံမှု "
+msgstr "တာဝန်ရှိ ရင်းနှီးမြှုပ်နှံမှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:223
+#, fuzzy
 msgid "Vulnerable group"
-msgstr "ထိလွယ်ရှလွယ်ဖြစ်လွယ်သော အစုအဖွဲ့ "
+msgstr "အားနည်းသောအုပ်စု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:224
+#, fuzzy
 msgid "Women rights"
-msgstr "အမျိုးသမီးအခွင့်အရေး "
+msgstr "အမျိုးသမီးအခွင့်အရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:225
+#, fuzzy
 msgid "Youth rights"
-msgstr "လူငယ်အခွင့်အရေး "
+msgstr "လူငယ်အခွင့်အရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:227
+#, fuzzy
 msgid "Supportive policies"
-msgstr "ထောက်ပံ့ရေး မူဝါဒများ "
+msgstr "ထောက်ပံ့ရေး မူဝါဒများ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:228
+#, fuzzy
 msgid "Agroecological infrastructure"
-msgstr " ရေရှည်တည်တံ့သောစိုက်ပျိုးရေးဂေဟဆိုင်ရာ အခြေခံအဆောက်အဦီ"
+msgstr "Agroecological အခြေခံအဆောက်အအုံ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:229
+#, fuzzy
 msgid "Bottom-up approach"
-msgstr "အောက်ခြေမှ အထက်ဆီသို့ ချဉ်းကပ်နည်း "
+msgstr "အောက်ခြေ ချဉ်းကပ်နည်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:230
+#, fuzzy
 msgid "Decentralised policy"
-msgstr "ဗဟိုချုပ်ကိုင်မှုလျော့နည်းသည့်မူဝါဒ "
+msgstr "စီမံခန့်ခွဲရေး မူဝါဒ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:231
+#, fuzzy
 msgid "Democratic governance"
-msgstr "ဒီမိုကရက်တစ်အုပ်ချုပ်ရေး "
+msgstr "ဒီမိုကရက်တစ်အုပ်ချုပ်ရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:232
+#, fuzzy
 msgid "Enabling policy"
-msgstr "စွမ်းဆောင်နိုင်သော မူဝါဒ "
+msgstr "စွမ်းဆောင်နိုင်တဲ့ မူဝါဒ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:233
+#, fuzzy
 msgid "Extension system"
-msgstr "ပညာပေးတိုးဝန်ဆောင်မှုစနစ်"
+msgstr "တိုးချဲ့ရေးစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:234
+#, fuzzy
 msgid "Fair property rights"
-msgstr "မျှတသော ပိုင်ဆိုင်ရာ အခွင့်အရေးများ "
+msgstr "မျှတသော ပိုင်ဆိုင်ရာ အခွင့်အရေးများ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:235
+#, fuzzy
 msgid "High environmental value"
-msgstr "သဘာဝပတ်ဝန်းကျင်နှင့်သဟဇာတဖြစ်သောနည်းလမ်းများကျင့်သုံးခြင်းအတွက် အသိအမှတ်ပြုခြင်းဆိုင်ရာ အမြင့်ဆုံးအဆင့်  "
+msgstr "ပတ်ဝန်းကျင်ဆိုင်ရာ တန်ဖိုး မြင့်မား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:236
+#, fuzzy
 msgid "Innovation promotion"
-msgstr "ဆန်းသစ်တီထွင်မှု မြှင့်တင်ရေး "
+msgstr "ဆန်းသစ်တီထွင်မှု မြှင့်တင်ရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:237
+#, fuzzy
 msgid "Local development plan"
-msgstr "ဒေသတွင်း ဖွံ့ဖြိုးရေး စီမံချက် "
+msgstr "ဒေသတွင်း ဖွံ့ဖြိုးရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:238
+#, fuzzy
 msgid "Participatory land use policy"
-msgstr "ပူးပေါင်းပါဝင်သောမြေအသုံးချမှုမူဝါဒ "
+msgstr "ပါဝင်သော မြေယာအသုံးပြုရေး မူဝါဒ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:239
+#, fuzzy
 msgid "Participatory plant breeding"
-msgstr "ပူးပေါင်းပါဝင်သော အပင်မျိုးစပ်ခြင်း "
+msgstr "ပါတီဝင်အပင်ပေါက်ပွားခြင်း"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:240
+#, fuzzy
 msgid "Responsible gouvernance"
-msgstr "တာဝန်ရှိသော အုပ်ချုပ်မှု "
+msgstr "တာဝန်ရှိသော အုပ်ချုပ်မှု"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:241
+#, fuzzy
 msgid "Rural development plan"
-msgstr "ကျေးလက်ဒေသ ဖွံ့ဖြိုးတိုးတက်ရေး အစီအစဉ် "
+msgstr "ကျေးလက် ဖွံ့ဖြိုးတိုးတက်ရေး အစီအစဉ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:242
+#, fuzzy
 msgid "Sustainable land use policy"
-msgstr "ရေရှည်တည်တံ့သော မြေယာအသုံးချမှု မူဝါဒ "
+msgstr "တည်တံ့သော မြေယာအသုံးပြုရေး မူဝါဒ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:244
+#, fuzzy
 msgid "Knowledge and values"
-msgstr "အသိပညာရှိမှုနှင့် အလေးထားမှုများ "
+msgstr "အသိပညာနှင့် တန်ဖိုးတန်ဖိုး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:245
+#, fuzzy
 msgid "Beliefs"
-msgstr "ယုံကြည်မှုများ "
+msgstr "ယုံကြည်ချက်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:246
+#, fuzzy
 msgid "Religion"
-msgstr "ဘာသာတရား "
+msgstr "ဘာသာတရား"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:247
+#, fuzzy
 msgid "Cultural food system"
-msgstr "ရိုးရာဒေသ အစားအစာစနစ် "
+msgstr "ယဉ်ကျေးမှု အစားအစာစနစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:248
+#, fuzzy
 msgid "Customary law"
-msgstr "မြန်မာ့ဓလေ့ထုံးတမ်းဥပဒေ "
+msgstr "ထုံးစံအရ ဥပဒေ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:249
+#, fuzzy
 msgid "Wellbeing"
-msgstr "ကောင်းကျိုး "
+msgstr "ကျန်းမာရေး"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:250
+#, fuzzy
 msgid "Heritage"
-msgstr "အမွေအနှစ် "
+msgstr "အမွေအနှစ်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:251
+#, fuzzy
 msgid "Intergeneration"
-msgstr "မျိုးရိုးစဉ်ဆက် "
+msgstr "အင်တာဂျင်နီယာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:252
+#, fuzzy
 msgid "Knowledge intensive"
-msgstr "အသိပညာကြွယ်ဝမှုရှိခြင်း "
+msgstr "အသိပညာ ပြင်းပြင်းထန်ထန်"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:253
+#, fuzzy
 msgid "Local adaptation systems"
-msgstr "ဒေသဆိုင်ရာလိုက်လျောညီထွေမှုစနစ် "
+msgstr "ဒေသခံ အလိုက်သင့်ပြုစုရေးစနစ်များ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:254
+#, fuzzy
 msgid "Local knowledge"
-msgstr "ဒေသန္တရဗဟုသုတ "
+msgstr "ဒေသခံအသိပညာ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:255
+#, fuzzy
 msgid "Services and land exchanges"
-msgstr "ဝန်ဆောင်မှုများနှင့် မြေယာ ဖလှယ်မှုများ "
+msgstr "ဝန်ဆောင်မှုများနှင့် မြေယာလဲလှယ်မှုများ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:256
+#, fuzzy
 msgid "Traditional knowledge"
-msgstr "ရိုးရာဓလေ့ဗဟုသုတ "
-
+msgstr "ထုံးတမ်းစဉ်လာအသိပညာ"
