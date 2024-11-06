@@ -48,7 +48,6 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         new_facets = [
             ("country", "Country"),
             ("type_of_document", "Document Type"),
-            ("type_of_alisea_product", "Type of Alisea Product"),
             ("language", "Language"),
             ("agroecology_category", "Agroecology Category"),
             ("agroecology_keyword", "Agroecology Keyword"),
@@ -61,7 +60,6 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         new_facets = [
             ("country", "Country"),
             ("type_of_document", "Document Type"),
-            ("type_of_alisea_product", "Type of Alisea Product"),
             ("language", "Language"),
             ("agroecology_category", "Agroecology Category"),
             ("agroecology_keyword", "Agroecology Keyword"),
@@ -74,7 +72,6 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         new_facets = [
             ("country", "Country"),
             ("type_of_document", "Document Type"),
-            ("type_of_alisea_product", "Type of Alisea Product"),
             ("language", "Language"),
             ("agroecology_category", "Agroecology Category"),
             ("agroecology_keyword", "Agroecology Keyword"),
