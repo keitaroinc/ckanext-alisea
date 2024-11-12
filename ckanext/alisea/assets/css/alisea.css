@@ -1,7 +1,7 @@
 
 
 .module-heading {
-    background-color: #2D7C3D;
+    background: #2D7C3D !important;
     color: #ffff;
     padding: 0.8rem 0;
 }
@@ -19,7 +19,7 @@
 }
 
 .site-footer {
-    background-color: #2D7C3D;
+    background: #2D7C3D;
 }
 
 .account-masthead {
@@ -53,6 +53,10 @@
 
 }
 
+.copy-right-title {
+    font-size: 16px
+}
+
 .hero-conatiner {
     min-height: 500px;
     height: 100%;
@@ -76,7 +80,7 @@
 
 .main {
     padding-top: 0 !important;
-    background-color: #ffff;
+    background: #ffff;
 }
 
 .breadcrumb {
@@ -148,11 +152,9 @@ a.tag:hover {
 }
 
 .alisea-logo {
-    width: 160px;
+    width: 140px;
     height: 76px;
     background-color: #F1F2F2;
-    display: flex;
-    align-items: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -198,7 +200,8 @@ a.tag:hover {
 .alisea-logo img {
     width: 100%;
     padding: 20px;
-    min-width: 160px;
+    min-width: 140px;
+    padding-top: 15px;
 }
 
 .hero-section {
@@ -227,11 +230,15 @@ a.tag:hover {
 }
 
 .hero-section-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     max-width: 300px;
     font-weight: 900 !important;
     margin-bottom: 2rem;
     color:#ffff;
+}
+
+.masthead .navbar .logo img {
+    max-height: 50px !important;
 }
 
 .hero-section-description {
