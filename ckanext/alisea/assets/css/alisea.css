@@ -310,4 +310,19 @@ a.tag:hover {
 .flash-messages .alert {
     box-shadow: 0 0 0 1px white;
     opacity: 1;
-  }
+}
+
+
+@media (max-width: 1450px) {
+
+    .logo img {
+        max-width: 240px !important;
+    }
+
+    .masthead .main-navbar ul li a{
+        padding: 4px !important;
+        font-size: 0.9rem !important;
+
+    }
+
+}
