@@ -312,6 +312,13 @@ a.tag:hover {
     opacity: 1;
 }
 
+#dataset-search-form {
+    margin-top: -24px  !important;
+}
+
+#organization-search-form {
+    margin-top: -24px  !important;
+}
 
 @media (max-width: 1450px) {
 
