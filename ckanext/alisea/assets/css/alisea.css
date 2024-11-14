@@ -320,6 +320,11 @@ a.tag:hover {
     margin-top: -24px  !important;
 }
 
+.page_primary_action {
+    margin-bottom: 44px !important;
+    margin-top: -24px !important;
+}
+
 @media (max-width: 1450px) {
 
     .logo img {
