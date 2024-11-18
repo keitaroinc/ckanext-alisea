@@ -1806,6 +1806,13 @@ dataset_fields:
       my_MM: ရိုးရာဓလေ့ဗဟုသုတ
       lo: ພູມປັນຍາຊາວບ້ານ
 
+- field_name: contributing_organisations
+  label: 
+    en: Contributing organisations
+    vi: Các tổ chức đóng góp
+    km:
+    my_MM: ပါဝင်ကူညီသောအဖွဲ့အစည်းများ
+    lo: ອົງການຈັດຕັ້ງປະກອບສ່ວນ
 
 - field_name: owner_org
   label: Organization
@@ -1817,7 +1824,12 @@ dataset_fields:
   display_property: dc:creator
 
 - field_name: year
-  label: Year
+  label: 
+    en: Year
+    vi: Năm
+    km:
+    my_MM: တစ်နှစ်
+    lo: ປີ
   form_snippet: date_year.html
 
 - field_name: type_of_document
@@ -2005,7 +2017,12 @@ dataset_fields:
 
 
 - field_name : spatial
-  label: Spatial
+  label: 
+    en: Spatial Information
+    vi: Thông tin không gian
+    km:
+    my_MM: Spatial အချက်အလက်
+    lo: ຂໍ້ມູນພື້ນທີ່
   form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
 
 - field_name: country
