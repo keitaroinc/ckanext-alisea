@@ -211,37 +211,117 @@ dataset_fields:
   preset: multiple_select
   choices:
   - value: Integrated systems
-    label: Integrated systems
+    label: 
+      en: Integrated systems  
+      vi: Hệ thống tích hợp
+      km:
+      my_MM: ဘက်စုံပေါင်းစပ်မှုစနစ်
+      lo: ລະບົບປະສົມປະສານ
   - value: Animal health
-    label: Animal health
+    label: 
+      en: Animal health   
+      vi: Sức khỏe động vật
+      km:
+      my_MM: တိရိစ္ဆာန်ကျန်းမာရေး
+      lo: ສຸຂະພາບສັດ
   - value: Input reduction and recycling
-    label: Input reduction and recycling
+    label: 
+      en: Input reduction and recycling  
+      vi: Giảm đầu vào và tái chế
+      km:
+      my_MM: သွင်းအားစုလျော့ချခြင်းနှင့်ပြန်လည်အသုံးပြုခြင်း
+      lo: ຫຼຸດຜ່ອນປັດໄຈການຜະລິດ ແລະ ນຳກັບມາໃຊ້ໃໝ່
   - value: Seed management
-    label: Seed management
+    label: 
+      en: Seed management  
+      vi: Giảm đầu vào và tái chế
+      km:
+      my_MM: မျိုးစေ့ဆိုင်ရာ စီမံခန့်ခွဲမှု
+      lo: ການຈັດການແນວພັນ
   - value: Soil health
-    label: Soil health
+    label: 
+      en: Soil health  
+      vi: Sức khỏe đất
+      km:
+      my_MM: မြေဆီလွှာကျန်းမာရေး
+      lo: ສຸຂະພາບດິນ
   - value: Economy and income
-    label: Economy and income
+    label: 
+      en: Economy and income
+      vi: Kinh tế và thu nhập
+      km:
+      my_MM: စီးပွားရေးတွက်ချေကိုက်မှုနှင့် ဝင်ငွေ
+      lo: ເສດຖະກິດ ແລະ ລາຍຮັບ
   - value: Nutrition and diets
-    label: Nutrition and diets
+    label: 
+      en: Nutrition and diets
+      vi: Dinh dưỡng và chế độ ăn uống
+      km:
+      my_MM: အာဟာရဓာတ်နှင့် အစားအစာများ
+      lo: ສຸຂະພາບ ແລະ ໂພສະນາການ
   - value: Sustainable food system
-    label: Sustainable food system
+    label: 
+      en: Sustainable food system
+      vi: Hệ thống thực phẩm bền vững
+      km:
+      my_MM: ရေရှည်တည်တံ့သောအစားအစာစနစ်
+      lo: ລະບົບອາຫານທີ່ຍືນຍົງ
   - value: Biodiversity
-    label: Biodiversity
+    label: 
+      en: Biodiversity
+      vi: Đa dạng sinh học
+      km:
+      my_MM: ဇီဝမျိုးစုံမျိုးကွဲ
+      lo: ຊີວະນາໆພັນ
   - value: Climate
-    label: Climate
+    label: 
+      en: Climate
+      vi: Khí hậu
+      km:
+      my_MM: ရာသီဥတု
+      lo: ສະພາບອາກາດ
   - value: Natural resources governance
-    label: Natural resources governance
+    label: 
+      en: Natural resources governance
+      vi: Quản trị tài nguyên thiên nhiên
+      km:
+      my_MM: သဘာဝသယံဇာတအရင်းအမြစ်စီမံခန့်ခွဲမှု
+      lo: ການຄຸ້ມຄອງຊັບພະຍາກອນທຳມະຊາດ
   - value: Water management
-    label: Water management
+    label: 
+      en: Water management
+      vi: Quản lý nước
+      km:
+      my_MM: ရေ စီမံခန့်ခွဲမှု
+      lo: ການຄຸ້ມຄອງ ແລະ ຈັດສັນນ້ຳ
   - value: Collaboration
-    label: Collaboration
+    label: 
+      en: Collaboration
+      vi: Hợp tác
+      km:
+      my_MM: ပူးပေါင်းဆောင်ရွက်ခြင်း
+      lo: ການຮ່ວມມື
   - value: Equity
-    label: Equity
+    label: 
+      en: Equity
+      vi: Công bằng
+      km:
+      my_MM: တန်းတူညီမျှမှု
+      lo: ທຶນ
   - value: Supportive policies
-    label: Supportive policies
+    label: 
+      en: Supportive policies
+      vi: Chính sách hỗ trợ
+      km:
+      my_MM: ထောက်ပံ့ရေး မူဝါဒများ
+      lo: ນະໂຍບາຍສະໜັບສະໜູນ
   - value: Knowledge and values
-    label: Knowledge and values
+    label: 
+      en: Knowledge and values
+      vi: Kiến thức và giá trị
+      km:
+      my_MM: အသိပညာရှိမှုနှင့် အလေးထားမှုများ
+      lo: ຄວາມຮູ້ ແລະ ຄຸນຄ່າ
 
 - field_name: agroecology_keyword
   label: 
@@ -2023,7 +2103,6 @@ dataset_fields:
     label: USA
   - value: Others
     label: Others
-
 
 - field_name: adl1
   label: 
