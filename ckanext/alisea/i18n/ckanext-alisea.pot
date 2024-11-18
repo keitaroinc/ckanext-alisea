@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-alisea 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-16 10:33+0200\n"
+"POT-Creation-Date: 2024-11-18 20:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ckanext/alisea/templates/footer.html:15
-msgid ""
-"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
+#: ckanext/alisea/templates/header.html:29
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:31
+msgid "Admin"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:37
+msgid "View profile"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:45
+msgid " View dashboard"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:47
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:53 ckanext/alisea/templates/header.html:55
+msgid "Profile settings"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:60 ckanext/alisea/templates/header.html:62
+msgid "Log out"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:69
+msgid "Account"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:72
+msgid "Log in"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:74
+msgid "Register"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:109
+msgid "Toggle navigation"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:116
+msgid "Insights"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:120
+#: ckanext/alisea/templates/header.html:126
+msgid "Library"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:130
+msgid "Dataset"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:133
+msgid "Organization"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:136
+msgid "Group"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:142
+msgid "Map Explorer"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:145
+msgid "Datablog"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:148
+msgid "Experts"
+msgstr ""
+
+#: ckanext/alisea/templates/header.html:151
+msgid "About"
+msgstr ""
+
+#: ckanext/alisea/templates/page.html:6
+msgid "Skip to main content"
+msgstr ""
+
+#: ckanext/alisea/templates/page.html:60
+msgid "Breadcrumb"
 msgstr ""
 
 #: ckanext/alisea/templates/admin/config.html:9
@@ -37,6 +120,10 @@ msgstr ""
 
 #: ckanext/alisea/templates/admin/config.html:11
 msgid "Footer right"
+msgstr ""
+
+#: ckanext/alisea/templates/organization/index.html:6
+msgid "Add Organization"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:4
@@ -8815,913 +8902,921 @@ msgstr ""
 msgid "Yên Bình"
 msgstr ""
 
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:4
-msgid "Agroecology Keyword"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:11
-msgid "Integrated systems"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:12
-msgid "Agroecological transition"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:13
-msgid "Agroforestry"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:14
-msgid "Agro-silvo-pastoralism"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:15
-msgid "Biodynamic agriculture"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:16
-msgid "Conservation agriculture"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:2
+msgid "Agroecology Keywords"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:17
-msgid "Crop intensification system"
+msgid "Integrated systems"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:18
-msgid "Environmental performance"
+msgid "Agroecological transition"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:19
-msgid "Extensive farming"
+msgid "Agroforestry"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:20
-msgid "Integrated crop livestock system"
+msgid "Agro-silvo-pastoralism"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:21
-msgid "Natural farming"
+msgid "Biodynamic agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:22
-msgid "Organic agriculture"
+msgid "Conservation agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:23
-msgid "Permaculture"
+msgid "Crop intensification system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:24
-msgid "Precision agriculture"
+msgid "Environmental performance"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:25
-msgid "System of rice intensification"
+msgid "Extensive farming"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:26
+msgid "Integrated crop livestock system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:27
-msgid "Animal health"
+msgid "Natural farming"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:28
-msgid "Animal wellbeing"
+msgid "Organic agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:29
-msgid "Extensive aquaculture"
+msgid "Permaculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:30
-msgid "Free range"
+msgid "Precision agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:31
-msgid "Integrated animal health"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:32
-msgid "Rotational grazing system"
+msgid "System of rice intensification"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:33
-msgid "Sustainable animal feeding"
+msgid "Animal health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:34
-msgid "Zoonose"
+msgid "Animal wellbeing"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:35
+msgid "Extensive aquaculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:36
-msgid "Input reduction and recycling"
+msgid "Free range"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:37
-msgid "Allelopathy"
+msgid "Integrated animal health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:38
-msgid "Antimicrobial resistance"
+msgid "Rotational grazing system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:39
-msgid "Bio-fertilizer"
+msgid "Sustainable animal feeding"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:40
-msgid "Biological control"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:41
-msgid "Bio-pesticide"
+msgid "Zoonose"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:42
-msgid "Chemical input control"
+msgid "Input reduction and recycling"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:43
-msgid "Compost"
+msgid "Allelopathy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:44
-msgid "Crop protection"
+msgid "Antimicrobial resistance"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:45
-msgid "Ecological recycling"
+msgid "Bio-fertilizer"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:46
-msgid "Input autonomy"
+msgid "Biological control"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:47
-msgid "Input reduction"
+msgid "Bio-pesticide"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:48
-msgid "Insect-plant interaction"
+msgid "Chemical input control"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:49
-msgid "Integrated pest management"
+msgid "Compost"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:50
-msgid "Organic manure"
+msgid "Crop protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:51
-msgid "Plant health"
+msgid "Ecological recycling"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:52
-msgid "Sanitary and phytosanitary measure"
+msgid "Input autonomy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:53
-msgid "Veterinary waste management"
+msgid "Input reduction"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:54
-msgid "Waste management"
+msgid "Insect-plant interaction"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:55
+msgid "Integrated pest management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:56
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:66
-msgid "Seed management"
+msgid "Organic manure"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:57
-msgid "Abiotic stress"
+msgid "Plant health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:58
-msgid "Annual crop"
+msgid "Sanitary and phytosanitary measure"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:59
-msgid "Disease resistance"
+msgid "Veterinary waste management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:60
-msgid "GMO free"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:61
-msgid "Hybrid variety"
+msgid "Waste management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:62
-msgid "Local variety"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:72
+msgid "Seed management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:63
-msgid "Organic seed"
+msgid "Abiotic stress"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:64
-msgid "Rice variety"
+msgid "Annual crop"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:65
-msgid "Seed bank"
+msgid "Disease resistance"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:66
+msgid "GMO free"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:67
+msgid "Hybrid variety"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:68
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:80
-msgid "Soil health"
+msgid "Local variety"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:69
-msgid "Biomass"
+msgid "Organic seed"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:70
-msgid "Cover crop"
+msgid "Rice variety"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:71
-msgid "Earthworm"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:72
-msgid "Ecological synergy"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:73
-msgid "Crop rotation"
+msgid "Seed bank"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:74
-msgid "Green manure"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:86
+msgid "Soil health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:75
-msgid "Monocrop"
+msgid "Biomass"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:76
-msgid "Nematode"
+msgid "Cover crop"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:77
-msgid "Soil biological activity"
+msgid "Earthworm"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:78
-msgid "Soil degradation reduction"
+msgid "Ecological synergy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:79
-msgid "Soil fertility"
+msgid "Crop rotation"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:80
+msgid "Green manure"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:81
-msgid "Soil protection"
+msgid "Monocrop"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:82
-msgid "Soil quality"
+msgid "Nematode"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:83
-msgid "Soil restoration"
+msgid "Soil biological activity"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:84
-msgid "Soil-borne disease"
+msgid "Soil degradation reduction"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:85
-msgid "Tillage reduction"
+msgid "Soil fertility"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:87
-msgid "Economy and income"
+msgid "Soil protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:88
-msgid "Circular economy"
+msgid "Soil quality"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:89
-msgid "Income diversification"
+msgid "Soil restoration"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:90
-msgid "Solidarity economy"
+msgid "Soil-borne disease"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:91
-msgid "Fair employment"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:92
-msgid "Small entrepreneur"
+msgid "Tillage reduction"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:93
-msgid "Market change"
+msgid "Economy and income"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:94
-msgid "Family farming"
+msgid "Circular economy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:95
-msgid "Consumer-producer organisation"
+msgid "Income diversification"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:96
-msgid "Market access"
+msgid "Solidarity economy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:97
-msgid "Sustainable income"
+msgid "Fair employment"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:98
-msgid "Short value chain"
+msgid "Small entrepreneur"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:99
-msgid "Value chain"
+msgid "Market change"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:100
-msgid "Cash crop"
+msgid "Family farming"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:101
-msgid "Production costs reduction"
+msgid "Consumer-producer organisation"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:102
-msgid "Income"
+msgid "Market access"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:103
-msgid "Microcredit"
+msgid "Sustainable income"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:104
-msgid "Production costs"
+msgid "Short value chain"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:105
-msgid "Self sufficiency"
+msgid "Value chain"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:106
-msgid "Sustainable and decent livelihood and revenue"
+msgid "Cash crop"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:107
+msgid "Production costs reduction"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:108
-msgid "Nutrition and diets"
+msgid "Income"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:109
-msgid "Diversified diet"
+msgid "Microcredit"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:110
-msgid "Food quality"
+msgid "Production costs"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:111
-msgid "Food safety"
+msgid "Self sufficiency"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:112
-msgid "Nutrition and health"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:113
-msgid "Human health"
+msgid "Sustainable and decent livelihood and revenue"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:114
-msgid "Nutrient"
+msgid "Nutrition and diets"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:115
-msgid "Nutrition sensitive agriculture"
+msgid "Diversified diet"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:116
-msgid "Recipe"
+msgid "Food quality"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:117
-msgid "Wild food"
+msgid "Food safety"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:118
-msgid "Woman and child nutrition and health"
+msgid "Nutrition and health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:119
-msgid "Home gardening"
+msgid "Human health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:120
-msgid "Seasonal food"
+msgid "Nutrient"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:121
+msgid "Nutrition sensitive agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:122
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:134
-msgid "Sustainable food system"
+msgid "Recipe"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:123
-msgid "Certification"
+msgid "Wild food"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:124
-msgid "Labelisation"
+msgid "Woman and child nutrition and health"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:125
-msgid "Participatory guarantee system"
+msgid "Home gardening"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:126
-msgid "Quality standard"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:127
-msgid "Food waste reduction"
+msgid "Seasonal food"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:128
-msgid "Market information system"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:140
+msgid "Sustainable food system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:129
-msgid "Perenial crop"
+msgid "Certification"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:130
-msgid "Sustainable yield"
+msgid "Labelisation"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:131
-msgid "Yield increase"
+msgid "Participatory guarantee system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:132
-msgid "Ecological intensification"
+msgid "Quality standard"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:133
-msgid "Local food system"
+msgid "Food waste reduction"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:134
+msgid "Market information system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:135
-msgid "Food security"
+msgid "Perenial crop"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:136
-msgid "Food sovereignety"
+msgid "Sustainable yield"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:137
-msgid "Food processing"
+msgid "Yield increase"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:138
-msgid "Sustainable livelihood"
+msgid "Ecological intensification"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:139
-msgid "Urban agriculture"
+msgid "Local food system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:141
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:143
-msgid "Biodiversity"
+msgid "Food security"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:142
-msgid "Bee keeping"
+msgid "Food sovereignety"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:143
+msgid "Food processing"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:144
-msgid "Biodiversity protection"
+msgid "Sustainable livelihood"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:145
-msgid "Bioeconomy"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:146
-msgid "Crop diversification"
+msgid "Urban agriculture"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:147
-msgid "Ecological integration"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:149
+msgid "Biodiversity"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:148
-msgid "Intercropping"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:149
-msgid "Environmental protection"
+msgid "Bee keeping"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:150
-msgid "Forest biodiversity"
+msgid "Biodiversity protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:151
-msgid "Forest encroachment"
+msgid "Bioeconomy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:152
-msgid "Forest protection"
+msgid "Crop diversification"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:153
-msgid "Grassland"
+msgid "Ecological integration"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:154
-msgid "Habitat"
+msgid "Intercropping"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:155
-msgid "Local breeds and species"
+msgid "Environmental protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:156
-msgid "Open pollination"
+msgid "Forest biodiversity"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:157
-msgid "Species protection"
+msgid "Forest encroachment"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:158
+msgid "Forest protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:159
-msgid "Climate"
+msgid "Grassland"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:160
-msgid "Adaptation to climate change"
+msgid "Habitat"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:161
-msgid "Carbon market"
+msgid "Local breeds and species"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:162
-msgid "Carbon neutrality"
+msgid "Open pollination"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:163
-msgid "Climate change"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:164
-msgid "Climate resilience"
+msgid "Species protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:165
-msgid "Climate risk mitigation"
+msgid "Climate"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:166
-msgid "Climate smart agriculture"
+msgid "Adaptation to climate change"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:167
-msgid "Drought"
+msgid "Carbon market"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:168
-msgid "Ecosystem resilience"
+msgid "Carbon neutrality"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:169
-msgid "Greenhouse gas reduction"
+msgid "Climate change"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:170
-msgid "On farm anaerobic digestion"
+msgid "Climate resilience"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:171
-msgid "Renewable energy"
+msgid "Climate risk mitigation"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:172
-msgid "Vulnerability"
+msgid "Climate smart agriculture"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:173
+msgid "Drought"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:174
-msgid "Natural resources governance"
+msgid "Ecosystem resilience"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:175
-msgid "Land investment"
+msgid "Greenhouse gas reduction"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:176
-msgid "Land management"
+msgid "On farm anaerobic digestion"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:177
-msgid "Ecosystem service"
+msgid "Renewable energy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:178
-msgid "Land rights"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:179
-msgid "Landscape approach"
+msgid "Vulnerability"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:180
-msgid "Local natural resources use"
+msgid "Natural resources governance"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:181
-msgid "Natural resources management"
+msgid "Land investment"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:182
-msgid "Natural resources protection"
+msgid "Land management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:183
-msgid "Participatory land use planning"
+msgid "Ecosystem service"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:184
-msgid "Sustainable land management"
+msgid "Land rights"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:185
-msgid "Watershed management"
+msgid "Landscape approach"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:186
+msgid "Local natural resources use"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:187
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:192
-msgid "Water management"
+msgid "Natural resources management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:188
-msgid "Integrated water resources management"
+msgid "Natural resources protection"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:189
-msgid "Irrigation system"
+msgid "Participatory land use planning"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:190
-msgid "Lagooning"
+msgid "Sustainable land management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:191
-msgid "Water drainage"
+msgid "Watershed management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:193
-msgid "Water quality control"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:198
+msgid "Water management"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:194
-msgid "Water saving"
+msgid "Integrated water resources management"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:195
+msgid "Irrigation system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:196
-msgid "Collaboration"
+msgid "Lagooning"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:197
-msgid "Community participation"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:198
-msgid "Cooperative"
+msgid "Water drainage"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:199
-msgid "Farmer participation"
+msgid "Water quality control"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:200
-msgid "Farmer to farmer exchange"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:201
-msgid "Farmers group"
+msgid "Water saving"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:202
-msgid "Education and awareness"
+msgid "Collaboration"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:203
-msgid "Public-private partnership"
+msgid "Community participation"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:204
-msgid "Farmers union"
+msgid "Cooperative"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:205
-msgid "Knowledge co-production"
+msgid "Farmer participation"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:206
-msgid "Living lab"
+msgid "Farmer to farmer exchange"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:207
-msgid "Mobile application"
+msgid "Farmers group"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:208
-msgid "Participatory approach"
+msgid "Education and awareness"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:209
-msgid "Research action"
+msgid "Public-private partnership"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:210
-msgid "Social media"
+msgid "Farmers union"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:211
+msgid "Knowledge co-production"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:212
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:214
-msgid "Equity"
+msgid "Living lab"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:213
-msgid "Acces to employment"
+msgid "Mobile application"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:214
+msgid "Participatory approach"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:215
-msgid "Ethnic minority"
+msgid "Research action"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:216
-msgid "Fairtrade"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:217
-msgid "Fairness"
+msgid "Social media"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:218
-msgid "Farmers autonomy"
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:220
+msgid "Equity"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:219
-msgid "Food access"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:220
-msgid "Food justice"
+msgid "Acces to employment"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:221
-msgid "Gender equity"
+msgid "Ethnic minority"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:222
-msgid "Responsible investment"
+msgid "Fairtrade"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:223
-msgid "Vulnerable group"
+msgid "Fairness"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:224
-msgid "Women rights"
+msgid "Farmers autonomy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:225
-msgid "Youth rights"
+msgid "Food access"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:226
+msgid "Food justice"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:227
-msgid "Supportive policies"
+msgid "Gender equity"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:228
-msgid "Agroecological infrastructure"
+msgid "Responsible investment"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:229
-msgid "Bottom-up approach"
+msgid "Vulnerable group"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:230
-msgid "Decentralised policy"
+msgid "Women rights"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:231
-msgid "Democratic governance"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:232
-msgid "Enabling policy"
+msgid "Youth rights"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:233
-msgid "Extension system"
+msgid "Supportive policies"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:234
-msgid "Fair property rights"
+msgid "Agroecological infrastructure"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:235
-msgid "High environmental value"
+msgid "Bottom-up approach"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:236
-msgid "Innovation promotion"
+msgid "Decentralised policy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:237
-msgid "Local development plan"
+msgid "Democratic governance"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:238
-msgid "Participatory land use policy"
+msgid "Enabling policy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:239
-msgid "Participatory plant breeding"
+msgid "Extension system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:240
-msgid "Responsible gouvernance"
+msgid "Fair property rights"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:241
-msgid "Rural development plan"
+msgid "High environmental value"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:242
-msgid "Sustainable land use policy"
+msgid "Innovation promotion"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:243
+msgid "Local development plan"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:244
-msgid "Knowledge and values"
+msgid "Participatory land use policy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:245
-msgid "Beliefs"
+msgid "Participatory plant breeding"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:246
-msgid "Religion"
+msgid "Responsible gouvernance"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:247
-msgid "Cultural food system"
+msgid "Rural development plan"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:248
-msgid "Customary law"
-msgstr ""
-
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:249
-msgid "Wellbeing"
+msgid "Sustainable land use policy"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:250
-msgid "Heritage"
+msgid "Knowledge and values"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:251
-msgid "Intergeneration"
+msgid "Beliefs"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:252
-msgid "Knowledge intensive"
+msgid "Religion"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:253
-msgid "Local adaptation systems"
+msgid "Cultural food system"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:254
-msgid "Local knowledge"
+msgid "Customary law"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:255
-msgid "Services and land exchanges"
+msgid "Wellbeing"
 msgstr ""
 
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:256
+msgid "Heritage"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:257
+msgid "Intergeneration"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:258
+msgid "Knowledge intensive"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:259
+msgid "Local adaptation systems"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:260
+msgid "Local knowledge"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:261
+msgid "Services and land exchanges"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:262
 msgid "Traditional knowledge"
+msgstr ""
+
+#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:270
+msgid "Select Keywords"
+msgstr ""
+
+#: ckanext/alisea/templates/snippets/language_selector.html:13
+msgid "Go"
 msgstr ""
 
