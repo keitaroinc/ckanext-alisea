@@ -244,7 +244,12 @@ dataset_fields:
     label: Knowledge and values
 
 - field_name: agroecology_keyword
-  label: Agroecology Keyword
+  label: 
+    en: Agroecology Keyword
+    vi: Từ khóa nông sinh thái
+    km: ពាក្យគន្លឹះ Agroecology
+    my_MM: စိုက်ပျိုးရေးဆိုင်ရာ သော့ချက်စာလုံး
+    lo: ຄໍາສໍາຄັນດ້ານນິເວດວິທະຍາ
   form_snippet: agroecology_keyword.html
   preset: multiple_select
   choices:
