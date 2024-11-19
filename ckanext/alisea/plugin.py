@@ -44,41 +44,46 @@ class AliseaPlugin(plugins.SingletonPlugin, DefaultTranslation):
         return schema
     
     # IFacets
-    def dataset_facets(self, facet_dict, package_type):
-        new_facets = [
-            ("country", "Country"),
-            ("type_of_document", "Document Type"),
-            ("language", "Language"),
-            ("agroecology_category", "Agroecology Category"),
-            ("agroecology_keyword", "Agroecology Keyword"),
-            ("res_format", "Format"),
 
-        ]
-        return OrderedDict(new_facets)
+    def dataset_facets(self, facets_dict, package_type):
+        '''Add new search facet (filter) for datasets.
+        This must be a field in the dataset (or organization or
+        group if you're modifying those search facets, just change the function).
+        '''
+        # This keeps the existing facet order.
+        facets_dict['country'] = plugins.toolkit._('Country')
+        facets_dict['type_of_document'] = plugins.toolkit._('Document Type')
+        facets_dict['language'] = plugins.toolkit._('Language')
+        facets_dict['agroecology_category'] = plugins.toolkit._('Agroecology Category')
+        facets_dict['agroecology_keyword'] = plugins.toolkit._('Agroecology Keyword')
+        facets_dict['res_format'] = plugins.toolkit._('Format')
+
+        
+        return facets_dict
     
-    def group_facets(self, facet_dict, group_type, package_type):
-        new_facets = [
-            ("country", "Country"),
-            ("type_of_document", "Document Type"),
-            ("language", "Language"),
-            ("agroecology_category", "Agroecology Category"),
-            ("agroecology_keyword", "Agroecology Keyword"),
-            ("res_format", "Format"),
-
-        ]
-        return OrderedDict(new_facets)
     
-    def organization_facets(self, facet_dict, organization_type, package_type):
-        new_facets = [
-            ("country", "Country"),
-            ("type_of_document", "Document Type"),
-            ("language", "Language"),
-            ("agroecology_category", "Agroecology Category"),
-            ("agroecology_keyword", "Agroecology Keyword"),
-            ("res_format", "Format"),
+    def group_facets(self, facets_dict, group_type, package_type):
+        # This keeps the existing facet order.
 
-        ]
-        return OrderedDict(new_facets)
+        facets_dict['country'] = plugins.toolkit._('Country')
+        facets_dict['type_of_document'] = plugins.toolkit._('Document Type')
+        facets_dict['language'] = plugins.toolkit._('Language')
+        facets_dict['agroecology_category'] = plugins.toolkit._('Agroecology Category')
+        facets_dict['agroecology_keyword'] = plugins.toolkit._('Agroecology Keyword')
+        facets_dict['res_format'] = plugins.toolkit._('Format')
+        
+        return facets_dict
+    
+    def organization_facets(self, facets_dict, organization_type, package_type):
+
+        facets_dict['country'] = plugins.toolkit._('Country')
+        facets_dict['type_of_document'] = plugins.toolkit._('Document Type')
+        facets_dict['language'] = plugins.toolkit._('Language')
+        facets_dict['agroecology_category'] = plugins.toolkit._('Agroecology Category')
+        facets_dict['agroecology_keyword'] = plugins.toolkit._('Agroecology Keyword')
+        facets_dict['res_format'] = plugins.toolkit._('Format')
+        
+        return facets_dict
     
     # IPackageController
     def _before_index_dump_dicts(self, data_dict):
