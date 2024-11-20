@@ -21,7 +21,6 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #: ckanext/alisea/templates/footer.html:15
-#, fuzzy
 msgid ""
 "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\">CKAN</"
 "a>"
@@ -30,12 +29,10 @@ msgstr ""
 "a>"
 
 #: ckanext/alisea/templates/admin/config.html:9
-#, fuzzy
 msgid "Footer Left"
 msgstr "បាតកថាឆ្វេង"
 
 #: ckanext/alisea/templates/admin/config.html:9 ckanext/alisea/templates/admin/config.html:11
-#, fuzzy
 msgid ""
 "Enter a list of links - one per line - to be shown as a list withing the secondary footer "
 "navigation. Please format the links with Markdown (i.e. * [Example link](https://www.example.com))."
@@ -44,12 +41,10 @@ msgstr ""
 "Markdown (ឧទាហរណ៍ * [តំណឧទាហរណ៍](https://www.example.com))។"
 
 #: ckanext/alisea/templates/admin/config.html:11
-#, fuzzy
 msgid "Footer right"
 msgstr "បាតកថាខាងស្តាំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:4
-#, fuzzy
 msgid "Administrative level 1"
 msgstr "កម្រិតរដ្ឋបាល 1"
 
@@ -59,7 +54,6 @@ msgstr "ប្រទេសកម្ពុជា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:12
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:11
-#, fuzzy
 msgid "Banteay Meanchey"
 msgstr "បន្ទាយមានជ័យ"
 
@@ -72,7 +66,6 @@ msgstr "បាត់ដំបង"
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:14
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:38
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:42
-#, fuzzy
 msgid "Kampong Cham"
 msgstr "កំពង់ចាម"
 
@@ -95,7 +88,6 @@ msgstr "កំពង់ធំ"
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:18
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:80
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:87
-#, fuzzy
 msgid "Kampot"
 msgstr "កំពត"
 
@@ -111,7 +103,6 @@ msgstr "កែប"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:21
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:107
-#, fuzzy
 msgid "Koh Kong"
 msgstr "កោះកុង"
 
@@ -138,14 +129,12 @@ msgstr "ប៉ៃលិន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:26
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:142
-#, fuzzy
 msgid "Phnom Penh"
 msgstr "រាជធានីភ្នំពេញ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:27
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:156
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:158
-#, fuzzy
 msgid "Preah Sihanouk"
 msgstr "ព្រះសីហនុ"
 
@@ -375,7 +364,6 @@ msgid "Yangon"
 msgstr "ទីក្រុងយ៉ាំងហ្គោន​"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl1.html:74
-#, fuzzy
 msgid "Thailand"
 msgstr "ប្រទេសថៃ"
 
@@ -1117,7 +1105,6 @@ msgid "Yên Bái"
 msgstr "អៀនបាយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:4
-#, fuzzy
 msgid "Administrative Level 2"
 msgstr "រដ្ឋបាល កម្រិត 2"
 
@@ -1222,7 +1209,6 @@ msgid "Cheung Prey"
 msgstr "ជើងព្រៃ​"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:43
-#, fuzzy
 msgid "Kampong Siem"
 msgstr "កំពង់សៀម"
 
@@ -1407,7 +1393,6 @@ msgid "S'ang"
 msgstr "ស្អាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:101
-#, fuzzy
 msgid "Ta Khmau"
 msgstr "តាខ្មៅ"
 
@@ -1980,7 +1965,6 @@ msgid "Sopbao"
 msgstr "សូបបាយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:296
-#, fuzzy
 msgid "Viengxai"
 msgstr "វីងសៃ"
 
@@ -2297,7 +2281,6 @@ msgid "Naxaythong"
 msgstr "ណាស៊ីតុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:395
-#, fuzzy
 msgid "Pakngum"
 msgstr "ប៉ាង្គម"
 
@@ -2346,7 +2329,6 @@ msgid "Phiang"
 msgstr "ភៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:409
-#, fuzzy
 msgid "Thongmixai"
 msgstr "តុងមីស៊ី"
 
@@ -2391,7 +2373,6 @@ msgid "Nonghaet"
 msgstr "នុងហ្គេត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:425
-#, fuzzy
 msgid "Pek"
 msgstr "ប៉េក"
 
@@ -2420,17 +2401,14 @@ msgid "Ma-ubin"
 msgstr "ម៉ា​អ៊ូប៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:434
-#, fuzzy
 msgid "Myaungmya"
 msgstr "មីយ៉ាងមៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:435
-#, fuzzy
 msgid "Pathein"
 msgstr "ប៉ាទីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:436
-#, fuzzy
 msgid "Pyapon"
 msgstr "ភីផុន"
 
@@ -2439,7 +2417,6 @@ msgid "Pyay"
 msgstr "ផ្យៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:441
-#, fuzzy
 msgid "Taungoo"
 msgstr "តុងហ្គូ"
 
@@ -2448,12 +2425,10 @@ msgid "Thayarwady"
 msgstr "ថាយ៉ាវ៉ាឌី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:445
-#, fuzzy
 msgid "Falam"
 msgstr "ហ្វាឡាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:446
-#, fuzzy
 msgid "Haka"
 msgstr "ហាកា"
 
@@ -2462,7 +2437,6 @@ msgid "Mindat"
 msgstr "មិនដាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:450
-#, fuzzy
 msgid "Bahmo"
 msgstr "បាម៉ូ"
 
@@ -2471,7 +2445,6 @@ msgid "Mohnyin"
 msgstr "ម៉ូយីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:452
-#, fuzzy
 msgid "Myitkyina"
 msgstr "មីតគីណា"
 
@@ -2480,12 +2453,10 @@ msgid "Putao"
 msgstr "ពូថាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:456
-#, fuzzy
 msgid "Bawlakhe"
 msgstr "បាវឡាហេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:457
-#, fuzzy
 msgid "Loikaw"
 msgstr "ឡូកាវ"
 
@@ -2522,7 +2493,6 @@ msgid "Thayet"
 msgstr "ថេយេត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:473
-#, fuzzy
 msgid "Kyaukse"
 msgstr "ខេកសេ"
 
@@ -2567,7 +2537,6 @@ msgid "Kyaukphyu"
 msgstr "ខេកហ្យូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:491
-#, fuzzy
 msgid "Maungdaw"
 msgstr "ម៉ុងដូ"
 
@@ -2624,7 +2593,6 @@ msgid "Tamu"
 msgstr "តូមូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:508
-#, fuzzy
 msgid "Yinmabin"
 msgstr "យីម៉ាប៊ីន"
 
@@ -2633,12 +2601,10 @@ msgid "Danu Self-Administered Zone"
 msgstr "ដានូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:512
-#, fuzzy
 msgid "Hopang"
 msgstr "ហូផង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:513
-#, fuzzy
 msgid "Kengtong"
 msgstr "ខេនតុង"
 
@@ -2647,17 +2613,14 @@ msgid "Kokang Self-Administered Zone"
 msgstr "កូកាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:515
-#, fuzzy
 msgid "Kyaukme"
 msgstr "ខេអ៊ូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:516
-#, fuzzy
 msgid "Langkho"
 msgstr "ឡាងឃូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:517
-#, fuzzy
 msgid "Lashio"
 msgstr "ឡាស៊ីអូ"
 
@@ -2666,17 +2629,14 @@ msgid "Loilen"
 msgstr "លឺលៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:519
-#, fuzzy
 msgid "Metman"
 msgstr "ម៉ែតមែន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:520
-#, fuzzy
 msgid "Mong Sat"
 msgstr "មុងសាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:521
-#, fuzzy
 msgid "Mongmit"
 msgstr "មុងមីត"
 
@@ -2693,17 +2653,14 @@ msgid "Pa'O Self-Administered Zone"
 msgstr "ផាអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:525
-#, fuzzy
 msgid "Tachileik"
 msgstr "តាឈីលីក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:526
-#, fuzzy
 msgid "Taunggyi"
 msgstr "តាងហ្គី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:529
-#, fuzzy
 msgid "Dawei"
 msgstr "ដាវ៉ៃ"
 
@@ -2712,37 +2669,30 @@ msgid "Kawthoung"
 msgstr "កៅហ្សួង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:531
-#, fuzzy
 msgid "Myeik"
 msgstr "មីយ៉ីក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:534
-#, fuzzy
 msgid "Yangon (East)"
 msgstr "ទីក្រុងយ៉ាំងហ្គោន (ខាងកើត)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:535
-#, fuzzy
 msgid "Yangon (North)"
 msgstr "ទីក្រុងយ៉ាំងហ្គោន (ខាងជើង)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:536
-#, fuzzy
 msgid "Yangon (South)"
 msgstr "ទីក្រុងយ៉ាំងហ្គោន (ភាគខាងត្បូង)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:537
-#, fuzzy
 msgid "Yangon (West)"
 msgstr "យ៉ាំងហ្គោន (ខាងលិច)"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:540
-#, fuzzy
 msgid "Chanuman"
 msgstr "ចាន់ម៉ាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:541
-#, fuzzy
 msgid "Hua Taphan"
 msgstr "ហ៊ូ តាផាន"
 
@@ -2759,7 +2709,6 @@ msgid "Pathum Ratchawongsa"
 msgstr "ផាធំរាជវង្សា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:545
-#, fuzzy
 msgid "Phana"
 msgstr "ផាណា"
 
@@ -2768,7 +2717,6 @@ msgid "Senangkhanikhom"
 msgstr "សានាងខានីខន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:549
-#, fuzzy
 msgid "Chaiyo"
 msgstr "ឆៃយ៉ូ"
 
@@ -2777,22 +2725,18 @@ msgid "Mueang Ang Thong"
 msgstr "មូអៀង អាងត្រុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:551
-#, fuzzy
 msgid "Pa Mok"
 msgstr "ប៉ាម៉ុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:552
-#, fuzzy
 msgid "Pho Thong"
 msgstr "ពូថុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:553
-#, fuzzy
 msgid "Samko"
 msgstr "សាមកូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:554
-#, fuzzy
 msgid "Sawaeng Ha"
 msgstr "សាវ៉ាអិន ហា"
 
@@ -2841,17 +2785,14 @@ msgid "Bang Sue"
 msgstr "នាងស៊ូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:568
-#, fuzzy
 msgid "Bangkok Noi"
 msgstr "បាងកកណូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:569
-#, fuzzy
 msgid "Bangkok Yai"
 msgstr "បាងកកយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:570
-#, fuzzy
 msgid "Bueng Kum"
 msgstr "ប៊ុងកុម"
 
@@ -2872,22 +2813,18 @@ msgid "Don Mueang"
 msgstr "ដុនមឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:575
-#, fuzzy
 msgid "Dusit"
 msgstr "ឌូស៊ីត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:576
-#, fuzzy
 msgid "Huai Khwang"
 msgstr "ហួយ ខ្ម៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:577
-#, fuzzy
 msgid "Khan Na Yao"
 msgstr "ខាន់ណាយ៉ាអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:578
-#, fuzzy
 msgid "Khlong Sam Wa"
 msgstr "ខេង សាម វ៉ា"
 
@@ -2900,7 +2837,6 @@ msgid "Khlong Toei"
 msgstr "ខ្លងតូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:581
-#, fuzzy
 msgid "Lak Si"
 msgstr "ឡាក់ស៊ី"
 
@@ -2909,22 +2845,18 @@ msgid "Lat Krabang"
 msgstr "ឡាត ក្រាបាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:583
-#, fuzzy
 msgid "Lat Phrao"
 msgstr "ឡាត ព្រាអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:584
-#, fuzzy
 msgid "Min Buri"
 msgstr "មីនប៊ឺរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:585
-#, fuzzy
 msgid "Nong Chok"
 msgstr "នុងឆុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:586
-#, fuzzy
 msgid "Nong Khaem"
 msgstr "នុងខេម"
 
@@ -2933,22 +2865,18 @@ msgid "Pathum Wan"
 msgstr "ផាត់ធំវ៉ាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:588
-#, fuzzy
 msgid "Phasi Charoen"
 msgstr "ប៉ាស៊ីឆារូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:589
-#, fuzzy
 msgid "Phaya Thai"
 msgstr "ផាយ៉ាថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:590
-#, fuzzy
 msgid "Phra Khanong"
 msgstr "ប្រាខណុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:591
-#, fuzzy
 msgid "Phra Nakhon"
 msgstr "ព្រះណាខុន"
 
@@ -2957,7 +2885,6 @@ msgid "Pom Prap Sattru Phai"
 msgstr "ព្រំ ប្រាបសាត្រូផៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:593
-#, fuzzy
 msgid "Prawet"
 msgstr "ប្រាវ៉េត"
 
@@ -2978,12 +2905,10 @@ msgid "Samphanthawong"
 msgstr "សាមផ្តាន់ថាវង្ស"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:598
-#, fuzzy
 msgid "Saphan Sung"
 msgstr "សាផាន សុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:599
-#, fuzzy
 msgid "Sathon"
 msgstr "សាថុន"
 
@@ -2992,17 +2917,14 @@ msgid "Suan Luang"
 msgstr "ស៊ូន លឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:601
-#, fuzzy
 msgid "Taling Chan"
 msgstr "តាលីងឆាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:602
-#, fuzzy
 msgid "Thawi Watthana"
 msgstr "តាវី វ៉តថាណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:603
-#, fuzzy
 msgid "Thon Buri"
 msgstr "ថុងប៊ឺរី"
 
@@ -3011,7 +2933,6 @@ msgid "Thung Khru"
 msgstr "ធុងគ្រូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:605
-#, fuzzy
 msgid "Vadhana"
 msgstr "វ៉ាដាណា"
 
@@ -3020,17 +2941,14 @@ msgid "Wang Thonglang"
 msgstr "វ៉ាង តុងក្លាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:607
-#, fuzzy
 msgid "Yan Nawa"
 msgstr "យ៉ាន ណាវ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:610
-#, fuzzy
 msgid "Bueng Khong Long"
 msgstr "ប៊ុងកុងឡុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:611
-#, fuzzy
 msgid "Bung Khla"
 msgstr "ប៊ុនខឡា"
 
@@ -3039,22 +2957,18 @@ msgid "Mueang Bueng Kan"
 msgstr "មឿងបឿងខាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:613
-#, fuzzy
 msgid "Pak Khat"
 msgstr "ប៉ាក ខាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:614
-#, fuzzy
 msgid "Phon Charoen"
 msgstr "ផុន ឆារូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:615
-#, fuzzy
 msgid "Seka"
 msgstr "សេកា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:616
-#, fuzzy
 msgid "Si Wilai"
 msgstr "ស៊ី វីឡៃ"
 
@@ -3079,7 +2993,6 @@ msgid "Chaloem Phra Kiat"
 msgstr "ឆាលឿន ផ្រាកែត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:624
-#, fuzzy
 msgid "Chamni"
 msgstr "ចាមនី"
 
@@ -3088,7 +3001,6 @@ msgid "Huai Rat"
 msgstr "ហួយ រ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:626
-#, fuzzy
 msgid "Khaen Dong"
 msgstr "ខេន ដុង"
 
@@ -3097,12 +3009,10 @@ msgid "Khu Mueang"
 msgstr "ខូមមឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:628
-#, fuzzy
 msgid "Krasang"
 msgstr "ក្រាសាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:629
-#, fuzzy
 msgid "Lahan Sai"
 msgstr "ឡាហាន សៃ"
 
@@ -3115,17 +3025,14 @@ msgid "Mueang Buri Ram"
 msgstr "មឿងបុរីរ៉ាំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:632
-#, fuzzy
 msgid "Na Pho"
 msgstr "ណាពូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:633
-#, fuzzy
 msgid "Nang Rong"
 msgstr "ណាងរ៉ុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:634
-#, fuzzy
 msgid "Non Din Daeng"
 msgstr "មិនមែន Din Daeng"
 
@@ -3134,17 +3041,14 @@ msgid "Non Suwan"
 msgstr "នុនស៊ូវ៉ាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:636
-#, fuzzy
 msgid "Nong Hong"
 msgstr "នុងហុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:637
-#, fuzzy
 msgid "Nong Ki"
 msgstr "នុងគី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:638
-#, fuzzy
 msgid "Pakham"
 msgstr "ប៉ាឃាម"
 
@@ -3153,12 +3057,10 @@ msgid "Phlapphla Chai"
 msgstr "ផ្លាបផ្លាឆៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:640
-#, fuzzy
 msgid "Phutthaisong"
 msgstr "ភូតថៃសុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:641
-#, fuzzy
 msgid "Prakhon Chai"
 msgstr "ប្រាខុនឆៃ"
 
@@ -3183,7 +3085,6 @@ msgid "Bang Pakong"
 msgstr "បាងផាគង់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:649
-#, fuzzy
 msgid "Khlong Khuean"
 msgstr "ខ្លុង ក្វីន"
 
@@ -3196,7 +3097,6 @@ msgid "Phanom Sarakham"
 msgstr "ផូណម សារ៉ាឃាំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:652
-#, fuzzy
 msgid "Plaeng Yao"
 msgstr "ផ្លេងយ៉ៃ"
 
@@ -3205,22 +3105,18 @@ msgid "Ratchasan"
 msgstr "រតឆាសាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:654
-#, fuzzy
 msgid "Sanam Chai Khet"
 msgstr "សាណាម ឆៃ ខេត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:655
-#, fuzzy
 msgid "Tha Takiap"
 msgstr "ថា តាគីយ៉ាប"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:658
-#, fuzzy
 msgid "Hankha"
 msgstr "ហានកា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:659
-#, fuzzy
 msgid "Manorom"
 msgstr "ម៉ាណូរ៉ូម"
 
@@ -3229,7 +3125,6 @@ msgid "Mueang Chai Nat"
 msgstr "មឿនឆៃណាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:661
-#, fuzzy
 msgid "Noen Kham"
 msgstr "ណែនខំ"
 
@@ -3242,12 +3137,10 @@ msgid "Sankhaburi"
 msgstr "សាន់កាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:664
-#, fuzzy
 msgid "Sapphaya"
 msgstr "សាប៉ាយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:665
-#, fuzzy
 msgid "Wat Sing"
 msgstr "វត្តសិន"
 
@@ -3264,22 +3157,18 @@ msgid "Ban Thaen"
 msgstr "បានធៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:671
-#, fuzzy
 msgid "Chatturat"
 msgstr "ចាតធូរ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:672
-#, fuzzy
 msgid "Kaeng Khro"
 msgstr "កុងខ្លាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:673
-#, fuzzy
 msgid "Kaset Sombun"
 msgstr "កាសេត សូមប៊ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:674
-#, fuzzy
 msgid "Khon San"
 msgstr "ខុនសាន"
 
@@ -3300,17 +3189,14 @@ msgid "Nong Bua Daeng"
 msgstr "នុង បៀដៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:679
-#, fuzzy
 msgid "Nong Bua Rawe"
 msgstr "នុង ប៊្លា រ៉ាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:680
-#, fuzzy
 msgid "Phakdi Chumphon"
 msgstr "ផាកឌី ចុមផុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:681
-#, fuzzy
 msgid "Phu Khiao"
 msgstr "ពូខៀយ"
 
@@ -3323,7 +3209,6 @@ msgid "Thep Sathit"
 msgstr "ថេប សាទិត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:686
-#, fuzzy
 msgid "Kaeng Hang Maeo"
 msgstr "កុង ហឹង ម៉ៃអូ"
 
@@ -3332,17 +3217,14 @@ msgid "Khao Khitchakut"
 msgstr "ខៅ ឃិតឆាឃុត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:688
-#, fuzzy
 msgid "Khlung"
 msgstr "ខ្លង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:689
-#, fuzzy
 msgid "Laem Sing"
 msgstr "ឡាមសីង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:690
-#, fuzzy
 msgid "Makham"
 msgstr "ម៉ាកាម"
 
@@ -3351,7 +3233,6 @@ msgid "Mueang Chanthaburi"
 msgstr "មឿនចាន់ធាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:692
-#, fuzzy
 msgid "Na Yai Am"
 msgstr "ណាយ៉ាអ៊ីម"
 
@@ -3364,7 +3245,6 @@ msgid "Soi Dao"
 msgstr "សូដាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:695
-#, fuzzy
 msgid "Tha Mai"
 msgstr "ថែម៉ៃ"
 
@@ -3373,7 +3253,6 @@ msgid "Chai Prakan"
 msgstr "ឆៃប្រាកាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:699
-#, fuzzy
 msgid "Chiang Dao"
 msgstr "ឈៀងដាវ"
 
@@ -3390,17 +3269,14 @@ msgid "Doi Tao"
 msgstr "ដូវតាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:703
-#, fuzzy
 msgid "Fang"
 msgstr "ហ្វាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:704
-#, fuzzy
 msgid "Galyani Vadhana"
 msgstr "ហ្គាលីយ៉ានី វ៉ាដាណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:705
-#, fuzzy
 msgid "Hang Dong"
 msgstr "ហាំដុង"
 
@@ -3437,37 +3313,30 @@ msgid "Mueang Chiang Mai"
 msgstr "មឿងឈៀងម៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:714
-#, fuzzy
 msgid "Omkoi"
 msgstr "អូមកូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:715
-#, fuzzy
 msgid "Phrao"
 msgstr "ផ្កាអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:716
-#, fuzzy
 msgid "Samoeng"
 msgstr "សាមូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:717
-#, fuzzy
 msgid "San Kamphaeng"
 msgstr "សានកំផាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:718
-#, fuzzy
 msgid "San Pa Tong"
 msgstr "សានប៉ាតុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:719
-#, fuzzy
 msgid "San Sai"
 msgstr "សានសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:720
-#, fuzzy
 msgid "Saraphi"
 msgstr "សារ៉ាហ្វី"
 
@@ -3476,17 +3345,14 @@ msgid "Wiang Haeng"
 msgstr "វៀង ហៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:724
-#, fuzzy
 msgid "Chiang Khong"
 msgstr "ឈៀងកុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:725
-#, fuzzy
 msgid "Chiang Saen"
 msgstr "ឈីងសាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:726
-#, fuzzy
 msgid "Doi Luang"
 msgstr "ដាយលឿង"
 
@@ -3519,12 +3385,10 @@ msgid "Mueang Chiang Rai"
 msgstr "មឿងឈៀងរ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:734
-#, fuzzy
 msgid "Pa Daet"
 msgstr "ប៉ាដាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:735
-#, fuzzy
 msgid "Phan"
 msgstr "ផាន់"
 
@@ -3533,12 +3397,10 @@ msgid "Phaya Mengrai"
 msgstr "ផាយ៉ា មៀងរ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:737
-#, fuzzy
 msgid "Thoeng"
 msgstr "ថុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:738
-#, fuzzy
 msgid "Wiang Chai"
 msgstr "វីងឆៃ"
 
@@ -3563,17 +3425,14 @@ msgid "Bang Lamung"
 msgstr "បាងឡាមុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:746
-#, fuzzy
 msgid "Bo Thong"
 msgstr "បូថុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:747
-#, fuzzy
 msgid "Ko Chan"
 msgstr "កូចាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:748
-#, fuzzy
 msgid "Ko Si Chang"
 msgstr "កូ ស៊ី ឆាង"
 
@@ -3586,7 +3445,6 @@ msgid "Nong Yai"
 msgstr "នុងយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:751
-#, fuzzy
 msgid "Phan Thong"
 msgstr "ផាន់ថុង"
 
@@ -3595,17 +3453,14 @@ msgid "Phanat Nikhom"
 msgstr "ផាណានីគុម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:753
-#, fuzzy
 msgid "Sattahip"
 msgstr "សាតាហ៊ីប"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:754
-#, fuzzy
 msgid "Si Racha"
 msgstr "ស៊ីរ៉ាចា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:757
-#, fuzzy
 msgid "Lamae"
 msgstr "ឡាម៉ា"
 
@@ -3622,7 +3477,6 @@ msgid "Pathio"
 msgstr "ផាថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:761
-#, fuzzy
 msgid "Phato"
 msgstr "ផាតូ"
 
@@ -3631,27 +3485,22 @@ msgid "Sawi"
 msgstr "សាវវី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:763
-#, fuzzy
 msgid "Tha Sae"
 msgstr "ថា សា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:764
-#, fuzzy
 msgid "Thung Tako"
 msgstr "តុងតាកូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:767
-#, fuzzy
 msgid "Don Chan"
 msgstr "ដុន ឆាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:768
-#, fuzzy
 msgid "Huai Mek"
 msgstr "ហួយម៉េក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:769
-#, fuzzy
 msgid "Huai Phueng"
 msgstr "ហួយភួរ"
 
@@ -3660,7 +3509,6 @@ msgid "Kamalasai"
 msgstr "កាម៉ាឡាសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:771
-#, fuzzy
 msgid "Kham Muang"
 msgstr "ខាំម៉ោយ"
 
@@ -3669,7 +3517,6 @@ msgid "Khao Wong"
 msgstr "ខៅវង្ស"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:773
-#, fuzzy
 msgid "Khong Chai"
 msgstr "ខុងឆៃ"
 
@@ -3682,7 +3529,6 @@ msgid "Mueang Kalasin"
 msgstr "មឿងកាលាស៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:776
-#, fuzzy
 msgid "Na Khu"
 msgstr "ណាឃួ"
 
@@ -3691,7 +3537,6 @@ msgid "Na Mon"
 msgstr "ណា មុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:778
-#, fuzzy
 msgid "Nong Kung Si"
 msgstr "នុងកុងស៊ី"
 
@@ -3704,12 +3549,10 @@ msgid "Sahatsakhan"
 msgstr "សាហាត់សាកាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:781
-#, fuzzy
 msgid "Sam Chai"
 msgstr "សាម ឆៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:782
-#, fuzzy
 msgid "Somdet"
 msgstr "សូមដេត"
 
@@ -3730,7 +3573,6 @@ msgid "Khanu Woralaksaburi"
 msgstr "កាណូ វ៉ូរ៉ាឡាក់សាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:789
-#, fuzzy
 msgid "Khlong Khlung"
 msgstr "ខេងខ្លង"
 
@@ -3739,12 +3581,10 @@ msgid "Khlong Lan"
 msgstr "ខ្លងឡាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:791
-#, fuzzy
 msgid "Kosamphi Nakhon"
 msgstr "កូសាំហ្វីណាខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:792
-#, fuzzy
 msgid "Lan Krabue"
 msgstr "ឡាន ក្រាប៊ូ"
 
@@ -3757,12 +3597,10 @@ msgid "Pang Sila Thong"
 msgstr "ផាងសេលាថុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:795
-#, fuzzy
 msgid "Phran Kratai"
 msgstr "ភ្រាន់ ក្រាតៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:796
-#, fuzzy
 msgid "Sai Ngam"
 msgstr "សៃ ហ្គាម"
 
@@ -3771,7 +3609,6 @@ msgid "Sai Thong Watthana"
 msgstr "សៃតុងវត្តថាណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:800
-#, fuzzy
 msgid "Bo Phloi"
 msgstr "បូភ្លានៃ"
 
@@ -3792,7 +3629,6 @@ msgid "Mueang Kanchanaburi"
 msgstr "មឿង ខាន់ឆាណាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:805
-#, fuzzy
 msgid "Nong Prue"
 msgstr "នុងព្យឺ"
 
@@ -3801,7 +3637,6 @@ msgid "Phanom Thuan"
 msgstr "ផានំធូអាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:807
-#, fuzzy
 msgid "Sai Yok"
 msgstr "សៃយ៉ក"
 
@@ -3810,12 +3645,10 @@ msgid "Sangkhla Buri"
 msgstr "សងក្លាប៊ុរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:809
-#, fuzzy
 msgid "Si Sawat"
 msgstr "ស៊ី សាវ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:810
-#, fuzzy
 msgid "Tha Maka"
 msgstr "ថា ម៉ាកា"
 
@@ -3828,7 +3661,6 @@ msgid "Thong Pha Phum"
 msgstr "ថុង ផាភុំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:815
-#, fuzzy
 msgid "Ban Fang"
 msgstr "បារហ្វាង"
 
@@ -3841,12 +3673,10 @@ msgid "Ban Phai"
 msgstr "បានផៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:818
-#, fuzzy
 msgid "Chonnabot"
 msgstr "ចុនណាបុត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:819
-#, fuzzy
 msgid "Chum Phae"
 msgstr "ជួមប៉ា"
 
@@ -3855,12 +3685,10 @@ msgid "Khao Suan Kwang"
 msgstr "ខៅស៊ានខ្វាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:821
-#, fuzzy
 msgid "Khok Pho Chai"
 msgstr "ខុកពូឆៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:822
-#, fuzzy
 msgid "Kranuan"
 msgstr "ក្រាណូ"
 
@@ -3873,7 +3701,6 @@ msgid "Mueang Khon Kaen"
 msgstr "មឿន កនកៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:825
-#, fuzzy
 msgid "Nam Phong"
 msgstr "ណាំផុង"
 
@@ -3882,27 +3709,22 @@ msgid "Non Sila"
 msgstr "នុងស៊ីលា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:827
-#, fuzzy
 msgid "Nong Na Kham"
 msgstr "នុងណាខំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:828
-#, fuzzy
 msgid "Nong Ruea"
 msgstr "នុង រៀ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:829
-#, fuzzy
 msgid "Nong Song Hong"
 msgstr "នុង សុងហុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:830
-#, fuzzy
 msgid "Phon"
 msgstr "ផុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:831
-#, fuzzy
 msgid "Phra Yuen"
 msgstr "ផ្កាយ៉ែន"
 
@@ -3911,7 +3733,6 @@ msgid "Phu Pha Man"
 msgstr "ពូផាមែន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:833
-#, fuzzy
 msgid "Phu Wiang"
 msgstr "ភូវៀង"
 
@@ -3920,7 +3741,6 @@ msgid "Pueai Noi"
 msgstr "ភាណូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:835
-#, fuzzy
 msgid "Sam Sung"
 msgstr "សាមសុង"
 
@@ -3929,27 +3749,22 @@ msgid "Si Chomphu"
 msgstr "ស៊ី ចាំភូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:837
-#, fuzzy
 msgid "Ubolratana"
 msgstr "អ៊ូប៊ូរ៉ាតាណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:838
-#, fuzzy
 msgid "Waeng Noi"
 msgstr "វឹងណូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:839
-#, fuzzy
 msgid "Waeng Yai"
 msgstr "វ៉ុងយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:840
-#, fuzzy
 msgid "Wiang Kao"
 msgstr "វៀងកៅ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:843
-#, fuzzy
 msgid "Ao Luek"
 msgstr "អូលួក"
 
@@ -3958,12 +3773,10 @@ msgid "Khao Phanom"
 msgstr "ខាងផានំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:845
-#, fuzzy
 msgid "Khlong Thom"
 msgstr "ខ្លុងថម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:846
-#, fuzzy
 msgid "Ko Lanta"
 msgstr "កោះឡានតា"
 
@@ -3984,7 +3797,6 @@ msgid "Plai Phraya"
 msgstr "ភ្លៃ ប្រាផាយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:853
-#, fuzzy
 msgid "Chae Hom"
 msgstr "ឆេហូម"
 
@@ -4021,27 +3833,22 @@ msgid "Ngao"
 msgstr "ហ្គៅ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:862
-#, fuzzy
 msgid "Soem Ngam"
 msgstr "សុម ហ្គាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:863
-#, fuzzy
 msgid "Sop Prap"
 msgstr "សូប ប្រាប"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:864
-#, fuzzy
 msgid "Thoen"
 msgstr "ថូអិន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:865
-#, fuzzy
 msgid "Wang Nuea"
 msgstr "វ៉ាង នូអា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:868
-#, fuzzy
 msgid "Ban Hong"
 msgstr "បារហុង"
 
@@ -4050,7 +3857,6 @@ msgid "Ban Thi"
 msgstr "បានហ្សី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:870
-#, fuzzy
 msgid "Li"
 msgstr "លី"
 
@@ -4059,7 +3865,6 @@ msgid "Mueang Lamphun"
 msgstr "មឿងឡានផុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:872
-#, fuzzy
 msgid "Pa Sang"
 msgstr "ប៉ាសង"
 
@@ -4080,7 +3885,6 @@ msgid "Dan Sai"
 msgstr "ដានសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:879
-#, fuzzy
 msgid "Erawan"
 msgstr "អេរ៉ាវ៉ាន"
 
@@ -4089,22 +3893,18 @@ msgid "Mueang Loei"
 msgstr "មឿងលូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:881
-#, fuzzy
 msgid "Na Duang"
 msgstr "ណាឌុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:882
-#, fuzzy
 msgid "Na Haeo"
 msgstr "ណាហេអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:883
-#, fuzzy
 msgid "Nong Hin"
 msgstr "នុងហ៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:884
-#, fuzzy
 msgid "Pak Chom"
 msgstr "ប៉ាក ចុម"
 
@@ -4113,7 +3913,6 @@ msgid "Pha Khao"
 msgstr "ផា ឃៅ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:886
-#, fuzzy
 msgid "Phu Kradueng"
 msgstr "ពូ ខ្លាដិន"
 
@@ -4122,7 +3921,6 @@ msgid "Phu Luang"
 msgstr "ពូលាំង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:888
-#, fuzzy
 msgid "Phu Ruea"
 msgstr "ពូររៀ"
 
@@ -4131,7 +3929,6 @@ msgid "Tha Li"
 msgstr "ថា លី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:890
-#, fuzzy
 msgid "Wang Saphung"
 msgstr "វ៉ាង សាផាង"
 
@@ -4144,17 +3941,14 @@ msgid "Chai Badan"
 msgstr "ឆៃបាដាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:895
-#, fuzzy
 msgid "Khok Charoen"
 msgstr "ខក ឆារូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:896
-#, fuzzy
 msgid "Khok Samrong"
 msgstr "ខុក សំរុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:897
-#, fuzzy
 msgid "Lam Sonthi"
 msgstr "ឡាម សុធី"
 
@@ -4163,7 +3957,6 @@ msgid "Mueang Lop Buri"
 msgstr "មឿន លុបបុរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:899
-#, fuzzy
 msgid "Nong Muang"
 msgstr "នុងម៉ោយ"
 
@@ -4172,7 +3965,6 @@ msgid "Phatthana Nikhom"
 msgstr "ផាតាណានិខំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:901
-#, fuzzy
 msgid "Sa Bot"
 msgstr "សាប៊ត"
 
@@ -4185,7 +3977,6 @@ msgid "Tha Wung"
 msgstr "ថាវុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:906
-#, fuzzy
 msgid "Khun Yuam"
 msgstr "ខុនយ៉ម"
 
@@ -4210,12 +4001,10 @@ msgid "Pang Mapha"
 msgstr "ផាងម៉ាផា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:912
-#, fuzzy
 msgid "Sop Moei"
 msgstr "សូប ម៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:915
-#, fuzzy
 msgid "Borabue"
 msgstr "បូរ៉ាប៊ូ"
 
@@ -4224,7 +4013,6 @@ msgid "Chiang Yuen"
 msgstr "ឈឿង យឿន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:917
-#, fuzzy
 msgid "Chuen Chom"
 msgstr "ចិន ចុម"
 
@@ -4241,7 +4029,6 @@ msgid "Kosum Phisai"
 msgstr "កូស៊ុល ភីសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:921
-#, fuzzy
 msgid "Kut Rang"
 msgstr "គុត រ៉េង"
 
@@ -4250,12 +4037,10 @@ msgid "Mueang Maha Sarakham"
 msgstr "មឿងមោហាសារ៉ាខាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:923
-#, fuzzy
 msgid "Na Chueak"
 msgstr "ណា ជួក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:924
-#, fuzzy
 msgid "Na Dun"
 msgstr "ណាឌុន"
 
@@ -4276,7 +4061,6 @@ msgid "Don Tan"
 msgstr "ដុន តាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:931
-#, fuzzy
 msgid "Dong Luang"
 msgstr "ដុង លឿង"
 
@@ -4289,22 +4073,18 @@ msgid "Mueang Mukdahan"
 msgstr "មឿងមុកដាហាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:934
-#, fuzzy
 msgid "Nikhom Kham Soi"
 msgstr "នីខម ខៀវ សូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:935
-#, fuzzy
 msgid "Nong Sung"
 msgstr "នុងសួង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:936
-#, fuzzy
 msgid "Wan Yai"
 msgstr "វ៉ាន់យ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:939
-#, fuzzy
 msgid "Ban Na"
 msgstr "បាន ណា"
 
@@ -4313,12 +4093,10 @@ msgid "Mueang Nakhon Nayok"
 msgstr "មឿនខាំខុនយ៉ានុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:941
-#, fuzzy
 msgid "Ongkharak"
 msgstr "អុងការ៉ាក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:942
-#, fuzzy
 msgid "Pak Phli"
 msgstr "ប៉ាក ភីលី"
 
@@ -4327,7 +4105,6 @@ msgid "Bang Len"
 msgstr "បាង លេន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:946
-#, fuzzy
 msgid "Don Tum"
 msgstr "ដុន ទុម"
 
@@ -4340,7 +4117,6 @@ msgid "Mueang Nakhon Pathom"
 msgstr "មឿន នាឃុនផាធំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:949
-#, fuzzy
 msgid "Nakhon Chai Si"
 msgstr "ណាខុនឆៃស៊ី"
 
@@ -4349,7 +4125,6 @@ msgid "Phutthamonthon"
 msgstr "ភូថាមុនថុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:951
-#, fuzzy
 msgid "Sam Phran"
 msgstr "សាមផ្រាន់"
 
@@ -4362,27 +4137,22 @@ msgid "Mueang Nakhon Phanom"
 msgstr "មឿន ណាកុនផានុម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:956
-#, fuzzy
 msgid "Na Kae"
 msgstr "ណា ខេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:957
-#, fuzzy
 msgid "Na Thom"
 msgstr "ណាថម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:958
-#, fuzzy
 msgid "Na Wa"
 msgstr "ណាវ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:959
-#, fuzzy
 msgid "Phon Sawan"
 msgstr "ផុន សាវ៉ាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:960
-#, fuzzy
 msgid "Pla Pak"
 msgstr "ផ្លាប៉ាក"
 
@@ -4419,12 +4189,10 @@ msgid "Bua Yai"
 msgstr "ប៊ូយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:971
-#, fuzzy
 msgid "Chakkarat"
 msgstr "ឆាការ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:972
-#, fuzzy
 msgid "Chok Chai"
 msgstr "ចុកឆៃ"
 
@@ -4445,12 +4213,10 @@ msgid "Kaeng Sanam Nang"
 msgstr "កៀងសាណាមណាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:977
-#, fuzzy
 msgid "Kham Sakaesaeng"
 msgstr "ខាំ សាកាសាអៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:978
-#, fuzzy
 msgid "Kham Thale So"
 msgstr "ខាំ ថេល សូ"
 
@@ -4475,7 +4241,6 @@ msgid "Non Daeng"
 msgstr "ណានដៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:984
-#, fuzzy
 msgid "Non Sung"
 msgstr "មិនសួត"
 
@@ -4484,17 +4249,14 @@ msgid "Non Thai"
 msgstr "ណានថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:986
-#, fuzzy
 msgid "Nong Bun Mak"
 msgstr "នុងប៊ុនម៉ាក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:987
-#, fuzzy
 msgid "Pak Chong"
 msgstr "ប៉ាក ឆុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:988
-#, fuzzy
 msgid "Pak Thong Chai"
 msgstr "ប៉ាក ថុង ឆៃ"
 
@@ -4503,22 +4265,18 @@ msgid "Phimai"
 msgstr "ភីម៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:990
-#, fuzzy
 msgid "Phra Thong Kham"
 msgstr "ព្រះធុងខំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:991
-#, fuzzy
 msgid "Prathai"
 msgstr "ប្រាថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:992
-#, fuzzy
 msgid "Sida"
 msgstr "ស៊ីដា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:993
-#, fuzzy
 msgid "Sikhio"
 msgstr "ស៊ីឃីអូ"
 
@@ -4527,17 +4285,14 @@ msgid "Soeng Sang"
 msgstr "សៀងសាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:995
-#, fuzzy
 msgid "Sung Noen"
 msgstr "សុងណូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:996
-#, fuzzy
 msgid "Thepharak"
 msgstr "តេហ្វារ៉ាក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:997
-#, fuzzy
 msgid "Wang Nam Khiao"
 msgstr "វ៉ាងណាំខៀវ"
 
@@ -4578,12 +4333,10 @@ msgid "Mueang Nakhon Sawan"
 msgstr "មឿន ណឃុនសាវ៉ាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1009
-#, fuzzy
 msgid "Nong Bua"
 msgstr "នុងប៊ូអា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1010
-#, fuzzy
 msgid "Phaisali"
 msgstr "ផៃសាលី"
 
@@ -4592,12 +4345,10 @@ msgid "Phayuha Khiri"
 msgstr "ផាយូងាគិរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1012
-#, fuzzy
 msgid "Tak Fa"
 msgstr "តាកហ្វា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1013
-#, fuzzy
 msgid "Takhli"
 msgstr "តាកលី"
 
@@ -4614,12 +4365,10 @@ msgid "Chang Klang"
 msgstr "ឆាង ក្លាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1019
-#, fuzzy
 msgid "Cha-Uat"
 msgstr "ឆាអ៊ូត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1020
-#, fuzzy
 msgid "Chawang"
 msgstr "ឆាវ៉ង់"
 
@@ -4628,12 +4377,10 @@ msgid "Chian Yai"
 msgstr "ឈីន យ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1022
-#, fuzzy
 msgid "Chulabhorn"
 msgstr "ចូឡាបហុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1023
-#, fuzzy
 msgid "Hua Sai"
 msgstr "ហ៊ូ សៃ"
 
@@ -4642,7 +4389,6 @@ msgid "Khanom"
 msgstr "ខាណូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1025
-#, fuzzy
 msgid "Lan Saka"
 msgstr "ឡាន សាកា"
 
@@ -4651,22 +4397,18 @@ msgid "Mueang Nakhon Si Thammarat"
 msgstr "មឿន សាខន​ស៊ីថាម៉រ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1027
-#, fuzzy
 msgid "Na Bon"
 msgstr "ណាបុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1028
-#, fuzzy
 msgid "Nopphitam"
 msgstr "ណបេតាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1029
-#, fuzzy
 msgid "Pak Phanang"
 msgstr "ប៉ាក ប្រណាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1030
-#, fuzzy
 msgid "Phipun"
 msgstr "ភីពួន"
 
@@ -4683,7 +4425,6 @@ msgid "Ron Phibun"
 msgstr "រុន ភិប៊ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1034
-#, fuzzy
 msgid "Sichon"
 msgstr "ស៊ីចុន"
 
@@ -4696,7 +4437,6 @@ msgid "Tham Phannara"
 msgstr "ថម ផាណារ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1037
-#, fuzzy
 msgid "Thung Song"
 msgstr "តុង សុន"
 
@@ -4705,7 +4445,6 @@ msgid "Thung Yai"
 msgstr "តុងយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1041
-#, fuzzy
 msgid "Ban Luang"
 msgstr "បារ លួង"
 
@@ -4730,22 +4469,18 @@ msgid "Na Muen"
 msgstr "ណាមឿន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1047
-#, fuzzy
 msgid "Na Noi"
 msgstr "ណាណូល"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1048
-#, fuzzy
 msgid "Phu Phiang"
 msgstr "ពូភីង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1049
-#, fuzzy
 msgid "Pua"
 msgstr "ពូអា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1050
-#, fuzzy
 msgid "Santi Suk"
 msgstr "សាន់ទីសួក"
 
@@ -4754,32 +4489,26 @@ msgid "Song Khwae"
 msgstr "សុងខ្វេយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1052
-#, fuzzy
 msgid "Tha Wang Pha"
 msgstr "ថា វ៉ាង ផា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1053
-#, fuzzy
 msgid "Thung Chang"
 msgstr "ថេង ឆាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1054
-#, fuzzy
 msgid "Wiang Sa"
 msgstr "វៀងសា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1057
-#, fuzzy
 msgid "Bacho"
 msgstr "បាកូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1058
-#, fuzzy
 msgid "Chanae"
 msgstr "ចាន់ណេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1059
-#, fuzzy
 msgid "Cho-Airong"
 msgstr "ចូ-អ៉ុង"
 
@@ -4788,22 +4517,18 @@ msgid "Mueang Narathiwat"
 msgstr "មឿនណារ៉ាធីវ៉ាត់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1061
-#, fuzzy
 msgid "Ra-Ngae"
 msgstr "រ៉ាហ្គា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1062
-#, fuzzy
 msgid "Rueso"
 msgstr "រូសូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1063
-#, fuzzy
 msgid "Si Sakhon"
 msgstr "ស៊ី សាខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1064
-#, fuzzy
 msgid "Sukhirin"
 msgstr "ស៊ូឃីរីន"
 
@@ -4812,22 +4537,18 @@ msgid "Su-Ngai Kolok"
 msgstr "ស៊ូ ង៉ៃកូលូក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1066
-#, fuzzy
 msgid "Su-Ngai Padi"
 msgstr "ស៊ូ-ហ្គៃប៉ាឌី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1067
-#, fuzzy
 msgid "Tak Bai"
 msgstr "តុកប៊ី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1068
-#, fuzzy
 msgid "Waeng"
 msgstr "វ៉ុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1069
-#, fuzzy
 msgid "Yi-Ngo"
 msgstr "យីហ្គោ"
 
@@ -4836,12 +4557,10 @@ msgid "Mueang Nong Bua Lam Phu"
 msgstr "មឿង ណុងប៊ូឡាមភូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1073
-#, fuzzy
 msgid "Na Klang"
 msgstr "ណា ខ្លង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1074
-#, fuzzy
 msgid "Na Wang"
 msgstr "ណាវ៉ាង"
 
@@ -4850,12 +4569,10 @@ msgid "Non Sang"
 msgstr "នុនសាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1076
-#, fuzzy
 msgid "Si Bun Rueang"
 msgstr "ស៊ីប៊ុនរូអង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1077
-#, fuzzy
 msgid "Suwannakhuha"
 msgstr "ស៊ូវ៉ាន់ណាឃូហា"
 
@@ -4868,12 +4585,10 @@ msgid "Mueang Nong Khai"
 msgstr "មឿងណុងខៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1082
-#, fuzzy
 msgid "Pho Tak"
 msgstr "ពូតាក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1083
-#, fuzzy
 msgid "Phon Phisai"
 msgstr "ផុនភីសៃ"
 
@@ -4882,12 +4597,10 @@ msgid "Rattanawapi"
 msgstr "រតនណាវ៉ាភី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1085
-#, fuzzy
 msgid "Sakhrai"
 msgstr "សាកហ្គី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1086
-#, fuzzy
 msgid "Sangkhom"
 msgstr "សង្កៀង"
 
@@ -4912,27 +4625,22 @@ msgid "Bang Yai"
 msgstr "បាងយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1094
-#, fuzzy
 msgid "Mueang Nonthaburi"
 msgstr "Mueang Nonthaburi"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1095
-#, fuzzy
 msgid "Pak Kret"
 msgstr "ប៉ាក ខ្លត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1096
-#, fuzzy
 msgid "Sai Noi"
 msgstr "សៃណូន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1099
-#, fuzzy
 msgid "Khlong Luang"
 msgstr "ខេងលឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1100
-#, fuzzy
 msgid "Lam Luk Ka"
 msgstr "ឡាម លូលកា"
 
@@ -4945,12 +4653,10 @@ msgid "Mueang Pathum Thani"
 msgstr "មឿនផាធំថានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1103
-#, fuzzy
 msgid "Nong Suea"
 msgstr "នុងស៊ើអា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1104
-#, fuzzy
 msgid "Sam Khok"
 msgstr "សំខុក"
 
@@ -4959,17 +4665,14 @@ msgid "Thanyaburi"
 msgstr "ថានយ៉ាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1108
-#, fuzzy
 msgid "Kapho"
 msgstr "កាផូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1109
-#, fuzzy
 msgid "Khok Pho"
 msgstr "ខុកពូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1110
-#, fuzzy
 msgid "Mae Lan"
 msgstr "ម៉ៃឡាន"
 
@@ -4978,7 +4681,6 @@ msgid "Mai Kaen"
 msgstr "ម៉ៃកៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1112
-#, fuzzy
 msgid "Mayo"
 msgstr "ម៉ាយ៉ូ"
 
@@ -4987,12 +4689,10 @@ msgid "Mueang Pattani"
 msgstr "មឿងផាថានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1114
-#, fuzzy
 msgid "Nong Chik"
 msgstr "នុងឈីក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1115
-#, fuzzy
 msgid "Panare"
 msgstr "ប៉ាណារ៉េ"
 
@@ -5005,17 +4705,14 @@ msgid "Thung Yang Daeng"
 msgstr "ថុងយ៉ាងដៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1118
-#, fuzzy
 msgid "Yarang"
 msgstr "យ៉ារ៉ង់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1119
-#, fuzzy
 msgid "Yaring"
 msgstr "យ៉ារិន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1122
-#, fuzzy
 msgid "Kapong"
 msgstr "កាពុង"
 
@@ -5032,7 +4729,6 @@ msgid "Mueang Phangnga"
 msgstr "មឿងផាងកាណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1126
-#, fuzzy
 msgid "Takua Pa"
 msgstr "តាគូអាប៉ា"
 
@@ -5045,7 +4741,6 @@ msgid "Thai Mueang"
 msgstr "ថៃមឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1129
-#, fuzzy
 msgid "Thap Put"
 msgstr "ថបពុក"
 
@@ -5058,12 +4753,10 @@ msgid "Khao Chaison"
 msgstr "ខៅខៃសុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1134
-#, fuzzy
 msgid "Khuan Khanun"
 msgstr "គួន ខណុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1135
-#, fuzzy
 msgid "Kong Ra"
 msgstr "កុងរ៉ា"
 
@@ -5072,7 +4765,6 @@ msgid "Mueang Phatthalung"
 msgstr "មឿងផាថាហ្លួង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1137
-#, fuzzy
 msgid "Pa Bon"
 msgstr "ប៉ាបុន"
 
@@ -5081,7 +4773,6 @@ msgid "Pa Phayom"
 msgstr "ប៉ា ផៃមយំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1139
-#, fuzzy
 msgid "Pak Phayun"
 msgstr "ប៉ាក ផាយុង"
 
@@ -5090,12 +4781,10 @@ msgid "Si Banphot"
 msgstr "ស៊ីាបានផុត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1141
-#, fuzzy
 msgid "Srinagarindra"
 msgstr "ស្រីណាហ្គារីនដ្រា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1142
-#, fuzzy
 msgid "Tamot"
 msgstr "តាម៉ូត"
 
@@ -5104,17 +4793,14 @@ msgid "Chiang Kham"
 msgstr "ឈីមខាំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1146
-#, fuzzy
 msgid "Chiang Muan"
 msgstr "ឈីម មូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1147
-#, fuzzy
 msgid "Chun"
 msgstr "ចិន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1148
-#, fuzzy
 msgid "Dok Khamtai"
 msgstr "ដុកខាំថៃ"
 
@@ -5131,37 +4817,30 @@ msgid "Phu Kamyao"
 msgstr "ពូ ខាំយ៉ៅ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1152
-#, fuzzy
 msgid "Phu Sang"
 msgstr "ពូសាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1153
-#, fuzzy
 msgid "Pong"
 msgstr "ប៉ុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1156
-#, fuzzy
 msgid "Bueng Sam Phan"
 msgstr "ប៊ុងសាមផាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1157
-#, fuzzy
 msgid "Chon Daen"
 msgstr "ចុងដែន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1158
-#, fuzzy
 msgid "Khao Kho"
 msgstr "Khao Kho"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1159
-#, fuzzy
 msgid "Lom Kao"
 msgstr "Lom Kao"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1160
-#, fuzzy
 msgid "Lom Sak"
 msgstr "ឡូមសាក់"
 
@@ -5174,17 +4853,14 @@ msgid "Nam Nao"
 msgstr "ណាមណាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1163
-#, fuzzy
 msgid "Nong Phai"
 msgstr "នុងផៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1164
-#, fuzzy
 msgid "Si Thep"
 msgstr "ស៊ីថេប"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1165
-#, fuzzy
 msgid "Wang Pong"
 msgstr "វ៉ាងប៉ុង"
 
@@ -5205,7 +4881,6 @@ msgid "Cha-Am"
 msgstr "ឆាអាំ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1172
-#, fuzzy
 msgid "Kaeng Krachan"
 msgstr "កុង ក្រាចន"
 
@@ -5218,7 +4893,6 @@ msgid "Mueang Phetchaburi"
 msgstr "មឿងភីឆាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1175
-#, fuzzy
 msgid "Nong Ya Plong"
 msgstr "នុង យ៉ា ឡុង"
 
@@ -5231,12 +4905,10 @@ msgid "Bang Mun Nak"
 msgstr "បាងមុនណាក់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1180
-#, fuzzy
 msgid "Bueng Na Rang"
 msgstr "ប៊ុងណារ៉ង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1181
-#, fuzzy
 msgid "Dong Charoen"
 msgstr "ដុង ឆារូន"
 
@@ -5245,7 +4917,6 @@ msgid "Mueang Phichit"
 msgstr "មឿងភីឈីត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1183
-#, fuzzy
 msgid "Pho Prathap Chang"
 msgstr "ពូ ប្រផាត ឆាង"
 
@@ -5266,17 +4937,14 @@ msgid "Tap Khlo"
 msgstr "ថេបខ្លូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1188
-#, fuzzy
 msgid "Taphan Hin"
 msgstr "តាហ្វាន់ហ៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1189
-#, fuzzy
 msgid "Wachirabarami"
 msgstr "វ៉ាជីរ៉ាបារ៉ាមី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1190
-#, fuzzy
 msgid "Wang Sai Phun"
 msgstr "វ៉ាង សៃ ហ្វូន"
 
@@ -5297,27 +4965,22 @@ msgid "Mueang Phitsanulok"
 msgstr "មឿង ភីតសាណូឡូក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1197
-#, fuzzy
 msgid "Nakhon Thai"
 msgstr "ណាខុនថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1198
-#, fuzzy
 msgid "Noen Maprang"
 msgstr "ណូន ម៉ាផារ៉ង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1199
-#, fuzzy
 msgid "Phrom Phiram"
 msgstr "ជីម ភីរ៉ាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1200
-#, fuzzy
 msgid "Wang Thong"
 msgstr "វ៉ាងថុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1201
-#, fuzzy
 msgid "Wat Bot"
 msgstr "វត្តប៊ត"
 
@@ -5354,37 +5017,30 @@ msgid "Nakhon Luang"
 msgstr "ណាខុនហ្លួង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1212
-#, fuzzy
 msgid "Phachi"
 msgstr "ផាជី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1213
-#, fuzzy
 msgid "Phak Hai"
 msgstr "ផាកហៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1215
-#, fuzzy
 msgid "Sena"
 msgstr "សេណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1216
-#, fuzzy
 msgid "Tha Ruea"
 msgstr "ថា រុយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1217
-#, fuzzy
 msgid "Uthai"
 msgstr "អ៊ូថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1218
-#, fuzzy
 msgid "Wang Noi"
 msgstr "វ៉ាងណៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1221
-#, fuzzy
 msgid "Den Chai"
 msgstr "ដេនឆៃ"
 
@@ -5409,12 +5065,10 @@ msgid "Sung Men"
 msgstr "ស៊ុងមែន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1227
-#, fuzzy
 msgid "Wang Chin"
 msgstr "វ៉ាងចិន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1230
-#, fuzzy
 msgid "Kathu"
 msgstr "កាធូ"
 
@@ -5423,7 +5077,6 @@ msgid "Mueang Phuket"
 msgstr "មឿងភូកេត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1232
-#, fuzzy
 msgid "Thalang"
 msgstr "តាឡាង"
 
@@ -5440,22 +5093,18 @@ msgid "Mueang Prachin Buri"
 msgstr "មឿងប្រាឈីនបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1238
-#, fuzzy
 msgid "Na Di"
 msgstr "ណាឌី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1239
-#, fuzzy
 msgid "Prachantakham"
 msgstr "ប្រាចាន់តាឃាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1240
-#, fuzzy
 msgid "Si Maha Phot"
 msgstr "ស៊ី ម៉ាហា ផុត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1241
-#, fuzzy
 msgid "Si Mahosot"
 msgstr "ស៊ីម៉ាហូស"
 
@@ -5468,7 +5117,6 @@ msgid "Bang Saphan Noi"
 msgstr "បាងសាផាន់ណូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1246
-#, fuzzy
 msgid "Hua Hin"
 msgstr "ហ៊ូហ៊ីន"
 
@@ -5493,7 +5141,6 @@ msgid "Thap Sakae"
 msgstr "ថប សាកែ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1254
-#, fuzzy
 msgid "Kapoe"
 msgstr "កាប៉ូ"
 
@@ -5502,7 +5149,6 @@ msgid "Kra Buri"
 msgstr "ក្រាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1256
-#, fuzzy
 msgid "La-Un"
 msgstr "ឡាអុន"
 
@@ -5515,12 +5161,10 @@ msgid "Suk Samran"
 msgstr "ស៊ូល សាំរ៉ង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1261
-#, fuzzy
 msgid "Ban Kha"
 msgstr "បារ ខា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1262
-#, fuzzy
 msgid "Ban Pong"
 msgstr "បារ៉ុង"
 
@@ -5541,22 +5185,18 @@ msgid "Mueang Ratchaburi"
 msgstr "មឿងរ៉ាឆាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1267
-#, fuzzy
 msgid "Pak Tho"
 msgstr "ប៉ាកថូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1268
-#, fuzzy
 msgid "Photharam"
 msgstr "ផូតារ៉ាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1269
-#, fuzzy
 msgid "Suan Phueng"
 msgstr "ស៊ូអាន់ភីង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1270
-#, fuzzy
 msgid "Wat Phleng"
 msgstr "វត្ត ផ្លង"
 
@@ -5573,7 +5213,6 @@ msgid "Khao Chamao"
 msgstr "ខៅចាមម៉ៅ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1276
-#, fuzzy
 msgid "Klaeng"
 msgstr "ខ្លាង"
 
@@ -5590,7 +5229,6 @@ msgid "Pluak Daeng"
 msgstr "ផ្លឿងដឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1280
-#, fuzzy
 msgid "Wang Chan"
 msgstr "វ៉ាងចាន់"
 
@@ -5599,7 +5237,6 @@ msgid "At Samat"
 msgstr "អាតសាម៉េត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1284
-#, fuzzy
 msgid "Changhan"
 msgstr "ឆាងហាន"
 
@@ -5612,7 +5249,6 @@ msgid "Chiang Khwan"
 msgstr "ឈៀងក្វាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1287
-#, fuzzy
 msgid "Kaset Wisai"
 msgstr "កាសេត វីសៃ"
 
@@ -5633,7 +5269,6 @@ msgid "Nong Hi"
 msgstr "នុងហាយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1292
-#, fuzzy
 msgid "Nong Phok"
 msgstr "នុងពុក"
 
@@ -5646,17 +5281,14 @@ msgid "Phanom Phrai"
 msgstr "ផានុនភារ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1295
-#, fuzzy
 msgid "Pho Chai"
 msgstr "ពូឆៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1296
-#, fuzzy
 msgid "Phon Sai"
 msgstr "ផុន សៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1297
-#, fuzzy
 msgid "Phon Thong"
 msgstr "ផុនថុង"
 
@@ -5681,7 +5313,6 @@ msgid "Thung Khao Luang"
 msgstr "ធុងខាវហ្លួង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1305
-#, fuzzy
 msgid "Aranyaprathet"
 msgstr "អារ៉ានយ៉ាប្រាថេត"
 
@@ -5694,7 +5325,6 @@ msgid "Khlong Hat"
 msgstr "ក្លងខេង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1308
-#, fuzzy
 msgid "Khok Sung"
 msgstr "ខុកសុង"
 
@@ -5707,22 +5337,18 @@ msgid "Ta Phraya"
 msgstr "តា ផ្រាយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1311
-#, fuzzy
 msgid "Wang Nam Yen"
 msgstr "វ៉ាងណាមយ៉េន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1312
-#, fuzzy
 msgid "Wang Sombun"
 msgstr "វ៉ាង សុមប៊ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1313
-#, fuzzy
 msgid "Watthana Nakhon"
 msgstr "វ៉តាណាណាខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1316
-#, fuzzy
 msgid "Akat Amnuai"
 msgstr "អាកាត អមនូអាយ"
 
@@ -5735,22 +5361,18 @@ msgid "Charoen Sin"
 msgstr "ចារឿនស៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1319
-#, fuzzy
 msgid "Kham Ta Kla"
 msgstr "ខាំតាក្លា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1320
-#, fuzzy
 msgid "Khok Si Suphan"
 msgstr "ខកស៊ីស៊ូផាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1321
-#, fuzzy
 msgid "Kusuman"
 msgstr "គូស៊ូម៉ាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1322
-#, fuzzy
 msgid "Kut Bak"
 msgstr "គុតបាក"
 
@@ -5759,12 +5381,10 @@ msgid "Mueang Sakon Nakhon"
 msgstr "មឿងសាកននិគុណ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1324
-#, fuzzy
 msgid "Nikhom Nam Un"
 msgstr "នីខម ណាម អ៊ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1325
-#, fuzzy
 msgid "Phang Khon"
 msgstr "ផាងខុន"
 
@@ -5777,7 +5397,6 @@ msgid "Phon Na Kaeo"
 msgstr "ផុនណាកែវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1328
-#, fuzzy
 msgid "Phu Phan"
 msgstr "ភូផាន"
 
@@ -5794,7 +5413,6 @@ msgid "Tao Ngoi"
 msgstr "ថូហ្ងយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1332
-#, fuzzy
 msgid "Wanon Niwat"
 msgstr "វ៉ាណុន នីវ៉ាត់"
 
@@ -5819,7 +5437,6 @@ msgid "Mueang Samut Prakan"
 msgstr "មឿងសាមុទ្រប្រាកាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1340
-#, fuzzy
 msgid "Phra Pradaeng"
 msgstr "ព្រះប្រផាដិន"
 
@@ -5840,7 +5457,6 @@ msgid "Mueang Samut Sakhon"
 msgstr "មឿងសាមុនសាខន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1349
-#, fuzzy
 msgid "Amphawa"
 msgstr "អំហ្វាវ៉ា"
 
@@ -5857,7 +5473,6 @@ msgid "Ban Mo"
 msgstr "បាងម៉ូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1355
-#, fuzzy
 msgid "Don Phut"
 msgstr "ដុនភូត"
 
@@ -5874,7 +5489,6 @@ msgid "Mueang Saraburi"
 msgstr "មឿងសារ៉ាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1359
-#, fuzzy
 msgid "Nong Don"
 msgstr "នុងដុន"
 
@@ -5883,7 +5497,6 @@ msgid "Nong Khae"
 msgstr "នុងខេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1361
-#, fuzzy
 msgid "Nong Saeng"
 msgstr "នុងសាង"
 
@@ -5892,7 +5505,6 @@ msgid "Phra Phutthabat"
 msgstr "ព្រះពូធធាបាទ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1363
-#, fuzzy
 msgid "Sao Hai"
 msgstr "សៅហៃ"
 
@@ -5905,7 +5517,6 @@ msgid "Wihan Daeng"
 msgstr "វីហាន ដឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1368
-#, fuzzy
 msgid "Khuan Don"
 msgstr "គួន ដុន"
 
@@ -5914,12 +5525,10 @@ msgid "Khuan Kalong"
 msgstr "គួន ខ្លង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1370
-#, fuzzy
 msgid "La-Ngu"
 msgstr "ឡា-ហ្គូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1371
-#, fuzzy
 msgid "Manang"
 msgstr "ម៉ាណាង"
 
@@ -5932,7 +5541,6 @@ msgid "Tha Phae"
 msgstr "ថាផេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1374
-#, fuzzy
 msgid "Thung Wa"
 msgstr "តុងវ៉ា"
 
@@ -5949,7 +5557,6 @@ msgid "Huai Thap Than"
 msgstr "ហួយ ថាបថាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1380
-#, fuzzy
 msgid "Kantharalak"
 msgstr "កានតារ៉ាឡាក់"
 
@@ -5958,12 +5565,10 @@ msgid "Kanthararom"
 msgstr "កានថាអាំរ៉ូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1382
-#, fuzzy
 msgid "Khukhan"
 msgstr "គូហាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1383
-#, fuzzy
 msgid "Khun Han"
 msgstr "ខុនហាន"
 
@@ -5980,17 +5585,14 @@ msgid "Nam Kliang"
 msgstr "ណាម គ្លៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1387
-#, fuzzy
 msgid "Non Khun"
 msgstr "នុន ខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1388
-#, fuzzy
 msgid "Phayu"
 msgstr "ផាយូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1389
-#, fuzzy
 msgid "Pho Si Suwan"
 msgstr "ពូស៊ីស៊ូវ៉ាន់"
 
@@ -5999,7 +5601,6 @@ msgid "Phrai Bueng"
 msgstr "ប្រៃបឹង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1391
-#, fuzzy
 msgid "Phu Sing"
 msgstr "ពូសិន"
 
@@ -6008,17 +5609,14 @@ msgid "Prang Ku"
 msgstr "ផ្រាងគូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1393
-#, fuzzy
 msgid "Rasi Salai"
 msgstr "រ៉ាស៊ីសាឡាយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1394
-#, fuzzy
 msgid "Si Rattana"
 msgstr "សី រតណា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1395
-#, fuzzy
 msgid "Sila Lat"
 msgstr "សាឡាឡាត"
 
@@ -6027,7 +5625,6 @@ msgid "Uthumphon Phisai"
 msgstr "អ៊ុតថាផុន ភីសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1397
-#, fuzzy
 msgid "Wang Hin"
 msgstr "វ៉ាងហ៊ីន"
 
@@ -6056,7 +5653,6 @@ msgid "Phrom Buri"
 msgstr "ព្រំបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1406
-#, fuzzy
 msgid "Tha Chang"
 msgstr "ថាឆាង"
 
@@ -6065,7 +5661,6 @@ msgid "Bang Klam"
 msgstr "បងក្លាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1410
-#, fuzzy
 msgid "Chana"
 msgstr "ចាន់ណា"
 
@@ -6074,12 +5669,10 @@ msgid "Hat Yai"
 msgstr "ហេយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1412
-#, fuzzy
 msgid "Khlong Hoi Khong"
 msgstr "ខ្លុងហួកកុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1413
-#, fuzzy
 msgid "Khuan Niang"
 msgstr "គួន នីង"
 
@@ -6096,12 +5689,10 @@ msgid "Na Mom"
 msgstr "ណាម៉ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1417
-#, fuzzy
 msgid "Na Thawi"
 msgstr "ណា តាវី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1418
-#, fuzzy
 msgid "Ranot"
 msgstr "រ៉ាណូត"
 
@@ -6110,12 +5701,10 @@ msgid "Rattaphum"
 msgstr "រតតាភូមិ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1420
-#, fuzzy
 msgid "Saba Yoi"
 msgstr "សាបាយ៉ូយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1421
-#, fuzzy
 msgid "Sadao"
 msgstr "សាដាវ"
 
@@ -6136,7 +5725,6 @@ msgid "Ban Dan Lan Hoi"
 msgstr "បានដានឡានហាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1428
-#, fuzzy
 msgid "Khiri Mat"
 msgstr "ឃីរី ម៉ាត"
 
@@ -6145,27 +5733,22 @@ msgid "Kong Krailat"
 msgstr "កុងក្រៃឡាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1430
-#, fuzzy
 msgid "Mueang Sukhothai"
 msgstr "មូអង ស៊ូកូថៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1431
-#, fuzzy
 msgid "Sawankhalok"
 msgstr "សាវ៉ានកាឡូក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1432
-#, fuzzy
 msgid "Si Nakhon"
 msgstr "ស៊ីណាខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1433
-#, fuzzy
 msgid "Si Samrong"
 msgstr "ស៊ី សាមរុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1434
-#, fuzzy
 msgid "Si Satchanalai"
 msgstr "ស៊ី សាចាណាឡៃ"
 
@@ -6186,7 +5769,6 @@ msgid "Doem Bang Nang Buat"
 msgstr "ដឿមបាងង៉ាន់បាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1441
-#, fuzzy
 msgid "Don Chedi"
 msgstr "ដុន ឆេឌី"
 
@@ -6195,7 +5777,6 @@ msgid "Mueang Suphan Buri"
 msgstr "មឿងសុផាបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1443
-#, fuzzy
 msgid "Nong Ya Sai"
 msgstr "នុងយ៉ាសៃ"
 
@@ -6204,17 +5785,14 @@ msgid "Sam Chuk"
 msgstr "សាមជុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1445
-#, fuzzy
 msgid "Si Prachan"
 msgstr "ស៊ី ប្រាចាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1446
-#, fuzzy
 msgid "Song Phi Nong"
 msgstr "សៀងភីនង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1447
-#, fuzzy
 msgid "U Thong"
 msgstr "អ៊ូថុង"
 
@@ -6235,12 +5813,10 @@ msgid "Chai Buri"
 msgstr "ឆៃបូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1454
-#, fuzzy
 msgid "Chaiya"
 msgstr "ឆៃយ៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1455
-#, fuzzy
 msgid "Don Sak"
 msgstr "ដុនសាក់"
 
@@ -6249,22 +5825,18 @@ msgid "Kanchanadit"
 msgstr "កនចាន់ណាឌីត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1457
-#, fuzzy
 msgid "Khian Sa"
 msgstr "ឃីន សា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1458
-#, fuzzy
 msgid "Khiri Rat Nikhom"
 msgstr "Khiri Rat Nikhom"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1459
-#, fuzzy
 msgid "Ko Pha-Ngan"
 msgstr "កូ ផា ហ្គាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1460
-#, fuzzy
 msgid "Ko Samui"
 msgstr "កូសាមុយ"
 
@@ -6273,22 +5845,18 @@ msgid "Mueang Surat Thani"
 msgstr "មឿងសូរ៉ាតតានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1462
-#, fuzzy
 msgid "Phanom"
 msgstr "ផាណម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1463
-#, fuzzy
 msgid "Phrasaeng"
 msgstr "ប្រាសាអង់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1464
-#, fuzzy
 msgid "Phunphin"
 msgstr "ផុនហ្វីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1465
-#, fuzzy
 msgid "Tha Chana"
 msgstr "តា ឆាណា"
 
@@ -6297,7 +5865,6 @@ msgid "Vibhavadi"
 msgstr "វីប៊ីហាវ៉ាឌី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1469
-#, fuzzy
 msgid "Buachet"
 msgstr "ប៊ូឆេត"
 
@@ -6314,7 +5881,6 @@ msgid "Kap Choeng"
 msgstr "កាបឈឿង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1473
-#, fuzzy
 msgid "Khwao Sin Rin"
 msgstr "ខ្លាអូ ស៊ីន រីន"
 
@@ -6339,12 +5905,10 @@ msgid "Prasat"
 msgstr "ប្រាសាទ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1479
-#, fuzzy
 msgid "Rattanaburi"
 msgstr "រតតាណាប៊ូរី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1480
-#, fuzzy
 msgid "Samrong Thap"
 msgstr "សាមរុងថប"
 
@@ -6353,12 +5917,10 @@ msgid "Sangkha"
 msgstr "សាន់ខា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1482
-#, fuzzy
 msgid "Sanom"
 msgstr "សាណូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1483
-#, fuzzy
 msgid "Si Narong"
 msgstr "ស៊ីណារុង"
 
@@ -6387,7 +5949,6 @@ msgid "Mueang Tak"
 msgstr "មឿងតាក់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1492
-#, fuzzy
 msgid "Phop Phra"
 msgstr "ភីបផ្កា"
 
@@ -6400,7 +5961,6 @@ msgid "Tha Song Yang"
 msgstr "ថា សុង យ៉ាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1495
-#, fuzzy
 msgid "Umphang"
 msgstr "អ៊ុំផាង"
 
@@ -6425,17 +5985,14 @@ msgid "Mueang Trang"
 msgstr "មឿង ត្រាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1503
-#, fuzzy
 msgid "Na Yong"
 msgstr "ណា យ៉ុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1504
-#, fuzzy
 msgid "Palian"
 msgstr "ប៉ាលីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1505
-#, fuzzy
 msgid "Ratsada"
 msgstr "រតសាដា"
 
@@ -6464,7 +6021,6 @@ msgid "Khlong Yai"
 msgstr "ខ្លុងយ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1514
-#, fuzzy
 msgid "Ko Chang"
 msgstr "កូ ឆាង"
 
@@ -6481,12 +6037,10 @@ msgid "Mueang Trat"
 msgstr "មឿងត្រាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1520
-#, fuzzy
 msgid "Buntharik"
 msgstr "ប៊ុនតារីក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1521
-#, fuzzy
 msgid "Det Udom"
 msgstr "ដេត អ៊ូដម"
 
@@ -6495,12 +6049,10 @@ msgid "Don Mot Daeng"
 msgstr "ដុន មុតដៀង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1523
-#, fuzzy
 msgid "Khemarat"
 msgstr "ខេម៉ារ៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1524
-#, fuzzy
 msgid "Khong Chiam"
 msgstr "កុងឈីម"
 
@@ -6513,7 +6065,6 @@ msgid "Kut Khaopun"
 msgstr "គុត ខៅភុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1527
-#, fuzzy
 msgid "Lao Suea Kok"
 msgstr "ឡាវស៊ូយ៉ាកុក"
 
@@ -6526,7 +6077,6 @@ msgid "Mueang Ubon Ratchathani"
 msgstr "មឿងយូប៊ុនរ៉ាចឆាយ៉ានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1530
-#, fuzzy
 msgid "Na Chaluai"
 msgstr "ណា ឆាលៃ"
 
@@ -6539,12 +6089,10 @@ msgid "Na Yia"
 msgstr "ណា យ៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1533
-#, fuzzy
 msgid "Nam Khun"
 msgstr "ណាំខុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1534
-#, fuzzy
 msgid "Nam Yuen"
 msgstr "ណាម យ៉ុន"
 
@@ -6553,17 +6101,14 @@ msgid "Phibun Mangsahan"
 msgstr "ភីប៊ុន មាងសាហាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1536
-#, fuzzy
 msgid "Pho Sai"
 msgstr "ពូសៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1537
-#, fuzzy
 msgid "Samrong"
 msgstr "សាមរុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1538
-#, fuzzy
 msgid "Sawang Wirawong"
 msgstr "សាវ៉ង វីរវុង"
 
@@ -6572,7 +6117,6 @@ msgid "Si Mueang Mai"
 msgstr "ស៊ីមឿងម៉ៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1540
-#, fuzzy
 msgid "Sirindhorn"
 msgstr "ស៊ីរីនដូន"
 
@@ -6581,7 +6125,6 @@ msgid "Tan Sum"
 msgstr "តាន់ស៊ូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1542
-#, fuzzy
 msgid "Thung Si Udom"
 msgstr "តុងស៊ី អ៊ូដុម"
 
@@ -6594,27 +6137,22 @@ msgid "Warin Chamrap"
 msgstr "វ៉ារីន ចំរាប​"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1547
-#, fuzzy
 msgid "Ban Dung"
 msgstr "Ban Dung"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1548
-#, fuzzy
 msgid "Ban Phue"
 msgstr "បារពួរ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1549
-#, fuzzy
 msgid "Chai Wan"
 msgstr "ឆៃវ៉ាន់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1550
-#, fuzzy
 msgid "Ku Kaeo"
 msgstr "គូ កេអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1551
-#, fuzzy
 msgid "Kumphawapi"
 msgstr "គុណប៉ាវ៉ាបា"
 
@@ -6627,12 +6165,10 @@ msgid "Mueang Udon Thani"
 msgstr "មឿងឌត្ដមតានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1554
-#, fuzzy
 msgid "Na Yung"
 msgstr "ណា យុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1555
-#, fuzzy
 msgid "Nam Som"
 msgstr "ណាមសុម"
 
@@ -6641,22 +6177,18 @@ msgid "Non Sa-At"
 msgstr "ណានសាអាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1557
-#, fuzzy
 msgid "Nong Han"
 msgstr "នុង ហាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1558
-#, fuzzy
 msgid "Nong Wua So"
 msgstr "ណុង វ៉ៃ សូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1559
-#, fuzzy
 msgid "Phen"
 msgstr "ហ្វេន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1560
-#, fuzzy
 msgid "Phibun Rak"
 msgstr "ភីប៊ុនរ៉ាក"
 
@@ -6665,7 +6197,6 @@ msgid "Prachaksinlapakhom"
 msgstr "ប្រាឆាក់ស៊ីនឡាប៉ាឃុម​"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1562
-#, fuzzy
 msgid "Sang Khom"
 msgstr "សាន់ខម"
 
@@ -6674,27 +6205,22 @@ msgid "Si That"
 msgstr "ស៊ីថាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1564
-#, fuzzy
 msgid "Thung Fon"
 msgstr "ថុងហ្វុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1565
-#, fuzzy
 msgid "Wang Sam Mo"
 msgstr "វ៉ាង សាម ម៉ូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1568
-#, fuzzy
 msgid "Ban Rai"
 msgstr "Ban Rai"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1569
-#, fuzzy
 msgid "Huai Khot"
 msgstr "ហួយខូត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1570
-#, fuzzy
 msgid "Lan Sak"
 msgstr "ឡានសាក់"
 
@@ -6703,7 +6229,6 @@ msgid "Mueang Uthai Thani"
 msgstr "មឿងអ៊ុលថៃថានី"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1572
-#, fuzzy
 msgid "Nong Chang"
 msgstr "នុង ឆាង"
 
@@ -6712,12 +6237,10 @@ msgid "Nong Khayang"
 msgstr "នុងខាយ៉ាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1574
-#, fuzzy
 msgid "Sawang Arom"
 msgstr "សាវ៉ង អារ៉ូម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1575
-#, fuzzy
 msgid "Thap Than"
 msgstr "ថបធាន"
 
@@ -6726,7 +6249,6 @@ msgid "Ban Khok"
 msgstr "បានខុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1579
-#, fuzzy
 msgid "Fak Tha"
 msgstr "ហ្វាកថា"
 
@@ -6739,37 +6261,30 @@ msgid "Mueang Uttaradit"
 msgstr "មឿងអ៊ុលត្រាឌីត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1582
-#, fuzzy
 msgid "Nam Pat"
 msgstr "ណាម ប៉ាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1583
-#, fuzzy
 msgid "Phichai"
 msgstr "ភីឆៃ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1584
-#, fuzzy
 msgid "Tha Pla"
 msgstr "តាផ្លា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1585
-#, fuzzy
 msgid "Thong Saen Khan"
 msgstr "ថុង សែន ខណ្ឌ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1586
-#, fuzzy
 msgid "Tron"
 msgstr "ត្រុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1589
-#, fuzzy
 msgid "Bannang Sata"
 msgstr "បាន់ណាងសាតា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1590
-#, fuzzy
 msgid "Betong"
 msgstr "បេតុង"
 
@@ -6786,7 +6301,6 @@ msgid "Mueang Yala"
 msgstr "មឿងយ៉ាឡា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1594
-#, fuzzy
 msgid "Raman"
 msgstr "រ៉ាម៉ាន់"
 
@@ -6795,22 +6309,18 @@ msgid "Than To"
 msgstr "ថានតូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1596
-#, fuzzy
 msgid "Yaha"
 msgstr "យ៉ាហា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1599
-#, fuzzy
 msgid "Kham Khuean Kaeo"
 msgstr "ខាំ កៀន កេយ៉ូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1600
-#, fuzzy
 msgid "Kho Wang"
 msgstr "កូវ៉ាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1601
-#, fuzzy
 msgid "Kut Chum"
 msgstr "គុតចុម"
 
@@ -6827,17 +6337,14 @@ msgid "Mueang Yasothon"
 msgstr "មឿងយ៉ាសុធុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1605
-#, fuzzy
 msgid "Pa Tio"
 msgstr "ប៉ា ធីអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1606
-#, fuzzy
 msgid "Sai Mun"
 msgstr "សៃមួន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1607
-#, fuzzy
 msgid "Thai Charoen"
 msgstr "ថៃ ឆារូន"
 
@@ -6878,7 +6385,6 @@ msgid "Thoại Sơn"
 msgstr "ថៅស៊ុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1619
-#, fuzzy
 msgid "Tịnh Biên"
 msgstr "លោក Biên"
 
@@ -7055,7 +6561,6 @@ msgid "Thạnh Phú"
 msgstr "ថាញ់ភូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1682
-#, fuzzy
 msgid "An Lão"
 msgstr "អាន់ឡាង"
 
@@ -7128,7 +6633,6 @@ msgid "Thuận An"
 msgstr "ធៀន អាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1704
-#, fuzzy
 msgid "Bình Long"
 msgstr "ប៊ីងឡុង"
 
@@ -7325,7 +6829,6 @@ msgid "Sơn Trà"
 msgstr "សាន់ត្រា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1765
-#, fuzzy
 msgid "Thanh Khê"
 msgstr "ថេងខេ"
 
@@ -7342,12 +6845,10 @@ msgid "Cư M'gar"
 msgstr "ឈូម៉ាង៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1771
-#, fuzzy
 msgid "Ea H'leo"
 msgstr "អេ ហេលីអូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1772
-#, fuzzy
 msgid "Ea Kar"
 msgstr "អ៊ីកា"
 
@@ -7372,12 +6873,10 @@ msgid "Krông Năng"
 msgstr "ក្រុងណាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1778
-#, fuzzy
 msgid "Krông Pắk"
 msgstr "គរ៉ង់ប៉េក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1779
-#, fuzzy
 msgid "Lăk"
 msgstr "ឡាក"
 
@@ -7422,12 +6921,10 @@ msgid "Điên Biên Phủ"
 msgstr "ដៀនបៀនហ្វូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1795
-#, fuzzy
 msgid "Mường Chà"
 msgstr "ម៉ុងឆា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1796
-#, fuzzy
 msgid "Mường Lay"
 msgstr "ម៉ុង លេ"
 
@@ -7444,7 +6941,6 @@ msgid "Tuần Giáo"
 msgstr "ធួន ហ្កាយ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1802
-#, fuzzy
 msgid "Bien Hoa"
 msgstr "ប៊ីនហាយ"
 
@@ -7469,7 +6965,6 @@ msgid "Nhơn Trạch"
 msgstr "ងុន ត្រាច"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1808
-#, fuzzy
 msgid "Tân Phú"
 msgstr "តាន់ហ្វូ"
 
@@ -7478,7 +6973,6 @@ msgid "Thống Nhất"
 msgstr "ត្រុងនាត"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1810
-#, fuzzy
 msgid "Trảng Bom"
 msgstr "ត្រុងបុម"
 
@@ -7519,12 +7013,10 @@ msgid "Tam Nông"
 msgstr "ថម ណុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1822
-#, fuzzy
 msgid "Tân Hồng"
 msgstr "តាន់ហុង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1823
-#, fuzzy
 msgid "Thanh Bình"
 msgstr "ថាន់ប៊ីន"
 
@@ -7533,12 +7025,10 @@ msgid "Tháp Mười"
 msgstr "តៃមុយអិ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1827
-#, fuzzy
 msgid "An Khê"
 msgstr "អាន់ ខេ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1828
-#, fuzzy
 msgid "Ayun Pa"
 msgstr "អាយុនប៉ា"
 
@@ -7575,7 +7065,6 @@ msgid "Ia Pa"
 msgstr "ឡាប៉ា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1837
-#, fuzzy
 msgid "K'Bang"
 msgstr "ខបឹង"
 
@@ -7584,7 +7073,6 @@ msgid "Kông Chro"
 msgstr "កងច្រូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1839
-#, fuzzy
 msgid "Krông Pa"
 msgstr "ក្រងប៉ា"
 
@@ -7597,7 +7085,6 @@ msgid "Phú Thiện"
 msgstr "ភូធៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1842
-#, fuzzy
 msgid "Pleiku"
 msgstr "ផ្កាគូ"
 
@@ -7626,7 +7113,6 @@ msgid "Quản Bạ"
 msgstr "ខ្វៀនបាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1852
-#, fuzzy
 msgid "Quang Bình"
 msgstr "ក្ងានប៊ីន"
 
@@ -7639,7 +7125,6 @@ msgid "Xín Mần"
 msgstr "ស៊ិនមាន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1855
-#, fuzzy
 msgid "Yên Minh"
 msgstr "យៀម មិញ"
 
@@ -7860,17 +7345,14 @@ msgid "Nam Sách"
 msgstr "ណាម សៀច"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1920
-#, fuzzy
 msgid "Ninh Giang"
 msgstr "នីងីហ្សាង"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1921
-#, fuzzy
 msgid "Thanh Hà"
 msgstr "ថាន់ហា"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1922
-#, fuzzy
 msgid "Thanh Miện"
 msgstr "ថេងមៀន"
 
@@ -8119,7 +7601,6 @@ msgid "Cam Lâm"
 msgstr "ខាមឡាម"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:1997
-#, fuzzy
 msgid "Cam Ranh"
 msgstr "ខេម រ៉ាន"
 
@@ -8144,7 +7625,6 @@ msgid "Ninh Hòa"
 msgstr "នីងហាវ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2003
-#, fuzzy
 msgid "Van Ninh"
 msgstr "វ៉ាន់នីង"
 
@@ -8153,7 +7633,6 @@ msgid "An Biên"
 msgstr "អាន់ បៀន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2007
-#, fuzzy
 msgid "An Minh"
 msgstr "អាន់ មិញ"
 
@@ -8310,7 +7789,6 @@ msgid "Cao Lộc"
 msgstr "ហ្កៅឡុក"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2056
-#, fuzzy
 msgid "Chi Lăng"
 msgstr "ជីឡាង"
 
@@ -8739,7 +8217,6 @@ msgid "Ba Tơ"
 msgstr "បាតូ"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2192
-#, fuzzy
 msgid "Bình Sơn"
 msgstr "ប៊ីងសាន់"
 
@@ -8768,7 +8245,6 @@ msgid "Sơn Hà"
 msgstr "សាន់ហា​"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2200
-#, fuzzy
 msgid "Sơn Tịnh"
 msgstr "Sơn Tịnh"
 
@@ -8977,7 +8453,6 @@ msgid "Đông Hưng"
 msgstr "ដុង ហាង់"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2267
-#, fuzzy
 msgid "Hưng Hà"
 msgstr "ហុងហា"
 
@@ -9022,7 +8497,6 @@ msgid "Phú Bình"
 msgstr "ហ្វ៊ូប៊ីន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2281
-#, fuzzy
 msgid "Phú Lương"
 msgstr "ហ្វ៊ូឡាង"
 
@@ -9051,7 +8525,6 @@ msgid "Đông Sơn"
 msgstr "ដុងសុន"
 
 #: ckanext/alisea/templates/scheming/form_snippets/adl2.html:2291
-#, fuzzy
 msgid "Hà Trung"
 msgstr "ហូតុង"
 
