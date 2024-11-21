@@ -2028,7 +2028,7 @@ dataset_fields:
     km:
     my_MM: Spatial အချက်အလက်
     lo: ຂໍ້ມູນພື້ນທີ່
-  form_placeholder : {\"type\": \"Point\", \"coordinates\": [8.609762390208658, 47.40381297881529]}
+  form_placeholder : valid geojson data format
 
 - field_name: country
   label: 
