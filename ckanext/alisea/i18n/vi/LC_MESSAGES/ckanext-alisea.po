@@ -11511,3 +11511,11 @@ msgstr "Loại tài liệu"
 #: facet translate
 msgid "Agroecology Category"
 msgstr "Thể loại Nông sinh thái"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:39
+msgid "Agroecology Library"
+msgstr "Thư viện Nông sinh thái"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:40
+msgid "Our repository of literature on agroecology on Southeast Asia includes more than 750 documents."
+msgstr "Kho lưu trữ tài liệu về nông sinh thái ở Đông Nam Á của chúng tôi bao gồm hơn 750 tài liệu."
