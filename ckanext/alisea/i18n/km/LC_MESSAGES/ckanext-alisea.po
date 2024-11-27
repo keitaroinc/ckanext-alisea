@@ -9753,3 +9753,11 @@ msgstr "បណ្ណាល័យ"
 #: ckanext-alisea/ckanext/alisea/templates/header.html:102
 msgid "Insights"
 msgstr "ការយល់ដឹង"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:39
+msgid "Agroecology Library"
+msgstr "បណ្ណាល័យកសិកម្ម"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:40
+msgid "Our repository of literature on agroecology on Southeast Asia includes more than 750 documents."
+msgstr "ឃ្លាំងរបស់យើងនៃអក្សរសិល្ប៍ស្តីពីបរិស្ថានវិទ្យានៅអាស៊ីអាគ្នេយ៍រួមមានឯកសារជាង 750 ។"

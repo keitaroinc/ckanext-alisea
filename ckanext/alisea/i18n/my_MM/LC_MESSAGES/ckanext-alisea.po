@@ -9733,3 +9733,12 @@ msgstr "ဝန်ဆောင်မှုများနှင့် မြေ�
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:256
 msgid "Traditional knowledge"
 msgstr "ထုံးတမ်းစဉ်လာအသိပညာ"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:39
+msgid "Agroecology Library"
+msgstr "စိုက်ပျိုးရေးဂေဟစနစ် စာကြည့်တိုက်"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:40
+msgid "Our repository of literature on agroecology on Southeast Asia includes more than 750 documents."
+msgstr "ကျွန်ုပ်တို့၏ စာကြည့်တိုက်တွင် အရှေ့တောင်အာရှရှိ စိုက်ပျိုးရေးဂေဟစနစ်ဆိုင်ရာ စာရွက်စာတမ်းပေါင်း ၇၅၀ ကျော်ရှိသည်။"
+

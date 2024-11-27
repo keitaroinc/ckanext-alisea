@@ -13852,3 +13852,11 @@ msgstr "ຫໍສະໝຸດ"
 #: ckanext-alisea/ckanext/alisea/templates/header.html:102
 msgid "Insights"
 msgstr "ຄວາມເຂົ້າໃຈ"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:39
+msgid "Agroecology Library"
+msgstr "ຫໍສະໝຸດ Agroecology"
+
+#: ckanext-alisea/ckanext/alisea/templates/page.html:40
+msgid "Our repository of literature on agroecology on Southeast Asia includes more than 750 documents."
+msgstr "ຄັງ​ເກັບ​ຂໍ້​ມູນ​ຂອງ​ພວກ​ເຮົາ​ກ່ຽວ​ກັບ​ນິ​ເວດ​ນິ​ເວດ​ນິ​ເວດ​ອາ​ຊີ​ຕາ​ເວັນ​ອອກ​ສ່ຽງ​ໃຕ້​ປະ​ກອບ​ມີ​ຫຼາຍ​ກ​່​ວາ 750 ເອ​ກະ​ສານ​."
