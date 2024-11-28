@@ -87,7 +87,7 @@
     {% endif %} {% endblock %}
     <nav class="navbar navbar-expand-lg navbar-light pt-0">
       <hgroup class="{{ g.header_class }} navbar-left">
-
+      {% set current_lang = request.environ.CKAN_LANG %}
         {% block header_logo %}
         {% if g.site_logo %}
         <a class="logo" href="https://kh.ali-sea.org/">
@@ -112,6 +112,8 @@
 
       <div class="main-navbar collapse navbar-collapse" id="main-navigation-toggle">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          {% if current_lang == 'en' %}
           <li>
             <a href="https://kh.ali-sea.org/insights">{{ _('Insights') }}</a>
           </li>
@@ -119,26 +121,7 @@
           {{ h.build_nav_main(
             (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), ["dataset", "resource"]) ) }}
           </li>
-          <!-- Uncomment this section for dropdown manu for groups and organizations -->
-          <!-- <li class="nav-item dropdown">
-            <a class="library-item nav-link dropdown-toggle" href="/dataset" id="libraryDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              {{ _('Library') }}
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="libraryDropdown">
-              <li>
-                <a class="dropdown-item" href="/dataset/">{{ _('Dataset') }}</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/organization">{{ _('Organization') }}</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/group">{{ _('Group') }}</a>
-              </li>
-
-            </ul>
-          </li>  -->
-          <li>
+          <li>         
             <a href="https://kh.ali-sea.org/map-explorer/">{{ _('Map Explorer') }}</a>
           </li>
           <li>
@@ -151,6 +134,90 @@
             <a href="https://kh.ali-sea.org/about/">{{ _('About') }}</a>
           </li>
 
+          {% elif current_lang == 'km' %}
+          <li>
+            <a href="https://kh.ali-sea.org/kh/insights-khmer/">{{ _('Insights') }}</a>
+          </li>
+          <li>
+          {{ h.build_nav_main(
+            (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), ["dataset", "resource"]) ) }}
+          </li>
+          <li>         
+            <a href="https://kh.ali-sea.org/kh/map-explorer-khmer/">{{ _('Map Explorer') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/kh/datablog-khmer/">{{ _('Datablog') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/kh/experts-khmer/">{{ _('Experts') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/kh/about-khmer/">{{ _('About') }}</a>
+          </li>
+          
+          {% elif current_lang == 'lo' %}
+          <li>
+            <a href="https://kh.ali-sea.org/la/insights-lao/">{{ _('Insights') }}</a>
+          </li>
+          <li>
+          {{ h.build_nav_main(
+            (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), ["dataset", "resource"]) ) }}
+          </li>
+          <li>         
+            <a href="https://kh.ali-sea.org/la/map-explorer-lao/">{{ _('Map Explorer') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/la/datablog-lao/">{{ _('Datablog') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/la/experts-lao/">{{ _('Experts') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/la/about-lao/">{{ _('About') }}</a>
+          </li>
+
+          {% elif current_lang == 'my_MM' %}
+          <li>
+            <a href="https://kh.ali-sea.org/mm/insights-myanmar/">{{ _('Insights') }}</a>
+          </li>
+          <li>
+          {{ h.build_nav_main(
+            (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), ["dataset", "resource"]) ) }}
+          </li>
+          <li>         
+            <a href="https://kh.ali-sea.org/mm/map-explorer-myanmar/">{{ _('Map Explorer') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/mm/datablog-myanmar/">{{ _('Datablog') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/mm/experts-myanmar/">{{ _('Experts') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/mm/about-myanmar/">{{ _('About') }}</a>
+          </li>
+        
+          {% elif current_lang == 'vi' %}
+          <li>
+            <a href="https://kh.ali-sea.org/vn/insights-vietnam/">{{ _('Insights') }}</a>
+          </li>
+          <li>
+          {{ h.build_nav_main(
+            (dataset_type ~ '.search', h.humanize_entity_type('package', dataset_type, 'main nav') or _('Library'), ["dataset", "resource"]) ) }}
+          </li>
+          <li>         
+            <a href="https://kh.ali-sea.org/vn/map-explorer-vietnam/">{{ _('Map Explorer') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/vn/datablog-vietnam/">{{ _('Datablog') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/vn/experts-vietnam/">{{ _('Experts') }}</a>
+          </li>
+          <li>
+            <a href="https://kh.ali-sea.org/vn/about-vietnam/">{{ _('About') }}</a>
+          </li>
+        {% endif %}
         </ul>
 
         {% block header_site_search %}
