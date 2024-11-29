@@ -312,6 +312,11 @@ a.tag:hover {
     opacity: 1;
 }
 
+.custom-hero-section-title {
+    max-width: 600px !important;
+}
+
+
 #dataset-search-form {
     margin-top: -24px  !important;
 }
@@ -329,6 +334,28 @@ a.tag:hover {
     margin-bottom: 44px !important;
 }
 
+.footer {
+    background-color: #2d7c3d;
+}
+
+.footer span{
+    font-size: 1.2rem;
+}
+.footer p{
+    font-size: 1.1rem;
+}
+
+.footer h1 {
+    font-size: 2.5rem !important;
+}
+
+.footer h3 {
+    font-size: 1.75rem !important;
+}
+
+.footer-contact-item {
+    margin-bottom: 1rem;
+}
 
 @media (max-width: 1450px) {
 
