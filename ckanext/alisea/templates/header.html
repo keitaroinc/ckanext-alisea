@@ -89,11 +89,22 @@
       <hgroup class="{{ g.header_class }} navbar-left">
       {% set current_lang = request.environ.CKAN_LANG %}
         {% block header_logo %}
+        {% set current_lang = request.environ.CKAN_LANG %}
         {% if g.site_logo %}
-        <a class="logo" href="https://kh.ali-sea.org/">
-          <img src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}"
-            title="{{ g.site_title }}" />
-        </a>
+          {% if current_lang == 'en' %}
+            <a class="logo" href="https://kh.ali-sea.org/">
+          {% elif current_lang == 'km' %}
+            <a class="logo" href="https://kh.ali-sea.org/kh/alisea-knowledge-hub-khmer/">
+          {% elif current_lang == 'lo' %}
+            <a class="logo" href="https://kh.ali-sea.org/la/alisea-knowledge-hub-lao/">
+          {% elif current_lang == 'my_MM' %}         
+            <a class="logo" href="https://kh.ali-sea.org/mm/alisea-knowledge-hub-myanmar/">
+          {% elif current_lang == 'vi' %}         
+            <a class="logo" href="https://kh.ali-sea.org/vn/alisea-knowledge-hub-vietnam/">
+          {% endif %}
+              <img src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}"
+                title="{{ g.site_title }}" />
+            </a>
         {% else %}
         <h1>
           <a href="https://kh.ali-sea.org/">{{ g.site_title }}</a>
