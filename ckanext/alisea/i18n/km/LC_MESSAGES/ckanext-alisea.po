@@ -9793,3 +9793,7 @@ msgstr "រក្សាសិទ្ធិ និងចម្លង2024រក្�
 #: ckanext-alisea/ckanext/alisea/templates/footer.html:8
 msgid "Knowledge hub"
 msgstr "មជ្ឈមណ្ឌលចំណេះដឹង"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:22
+msgid "Contact"
+msgstr "ទំនាក់ទំនង"
