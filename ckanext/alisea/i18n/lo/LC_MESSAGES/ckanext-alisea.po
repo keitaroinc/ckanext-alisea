@@ -13892,3 +13892,8 @@ msgstr "ລິຂະສິດ & ສຳເນົາ;2024-ອາລິເຊຍ - 
 #: ckanext-alisea/ckanext/alisea/templates/footer.html:8
 msgid "Knowledge hub"
 msgstr "ແຫຼ່ງຄວາມຮູ້"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:22
+msgid "Contact"
+msgstr "ຕິດຕໍ່"
+

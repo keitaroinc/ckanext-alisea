@@ -11551,3 +11551,7 @@ msgstr "Bản quyền và sao chép;2024 - ALiSEA - Các quyền được bảo 
 #: ckanext-alisea/ckanext/alisea/templates/footer.html:8
 msgid "Knowledge hub"
 msgstr "Trung tâm kiến thức"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:22
+msgid "Contact"
+msgstr "Liên hệ"

@@ -9774,3 +9774,7 @@ msgstr "မူပိုင်ခွင့်နှင့်ကူးယူခြ
 msgid "Knowledge hub"
 msgstr "ဗဟုသုတနှင့် အသိပညာများ ဗဟိုချက်"
 
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:22
+msgid "Contact"
+msgstr "ဆက်သွယ်ရန်"
+
