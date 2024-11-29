@@ -9761,3 +9761,35 @@ msgstr "បណ្ណាល័យកសិកម្ម"
 #: ckanext-alisea/ckanext/alisea/templates/page.html:40
 msgid "Our repository of literature on agroecology on Southeast Asia includes more than 750 documents."
 msgstr "ឃ្លាំងរបស់យើងនៃអក្សរសិល្ប៍ស្តីពីបរិស្ថានវិទ្យានៅអាស៊ីអាគ្នេយ៍រួមមានឯកសារជាង 750 ។"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:14
+msgid "The ALiSEA Knowledge Hub is coordinated on"
+msgstr "ແຫຼ່ງຄວາມຮູ້ອາລິເຊຍ ແມ່ນການປະສານງານ"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:15
+msgid "behalf of all ALiSEA network members by:"
+msgstr "ໃນນາມຂອງສະມາຊິກອາລິເຊຍທັງໝົດໂດຍ:"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:16
+msgid "ALiSEA Regional Coordination Office"
+msgstr "ຫ້ອງການປະສານງານລະດັບພາກພື້ນຂອງອາລິເຊຍ"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:28
+msgid "Contributing and supporting partners"
+msgstr "ការចូលរួមចំណែក និងគាំទ្រដៃគូ"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:32
+msgid "Website privacy policy"
+msgstr "គោលការណ៍ឯកជនភាពគេហទំព័រ"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:34
+msgid "Copyright regulation"
+msgstr "បទប្បញ្ញត្តិរក្សាសិទ្ធិ"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:42
+msgid "Copyright 2024 &copy; - ALiSEA - All rights reserved."
+msgstr "រក្សាសិទ្ធិ និងចម្លង2024រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ ALiSEA"
+
+#: ckanext-alisea/ckanext/alisea/templates/footer.html:8
+msgid "Knowledge hub"
+msgstr "មជ្ឈមណ្ឌលចំណេះដឹង"
