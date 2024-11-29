@@ -35,7 +35,7 @@
       <header class="font-page-header" style="background-image: url('/images/library_frontpage.png');background-size: cover;background-position: center; min-height: 500px;">
         <div class="offset-xl-1">
             {% set current_lang = request.environ.CKAN_LANG %}   
-            {% if current_lang == 'en' %} 
+            {% if current_lang != 'my_MM' %} 
             <div class="d-flex align-items-center text-white header-home px-3 w-100 hero-conatiner">
               <div class="hero-title-container text-white">
                 <h1 class="hero-section-title">{{ _('Agroecology Library') }}</h1>
