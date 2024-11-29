@@ -312,6 +312,11 @@ a.tag:hover {
     opacity: 1;
 }
 
+.custom-hero-section-title {
+    max-width: 600px !important;
+}
+
+
 #dataset-search-form {
     margin-top: -24px  !important;
 }
