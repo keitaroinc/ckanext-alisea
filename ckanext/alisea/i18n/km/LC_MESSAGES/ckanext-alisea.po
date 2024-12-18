@@ -9813,3 +9813,7 @@ msgstr "ប្រភេទកសិវិទ្យា"
 #: ckanext-alisea/ckanext/alisea/plugin.py:58
 msgid "Format"
 msgstr "ទម្រង់"
+
+#: ckan/templates/snippets/facet_list.html:76
+msgid "Show More {facet_type}"
+msgstr "បង្ហាញច្រើនទៀត {facet_type}"
