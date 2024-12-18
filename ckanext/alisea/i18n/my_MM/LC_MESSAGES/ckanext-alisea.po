@@ -8824,10 +8824,6 @@ msgstr "Văn Yên"
 msgid "Yên Bình"
 msgstr "Yên Bình"
 
-#: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:4
-msgid "Agroecology Keyword"
-msgstr "Agroecology Keyword"
-
 #: ckanext/alisea/templates/scheming/form_snippets/agroecology_keyword.html:11
 msgid "Integrated systems"
 msgstr "ပေါင်းစပ်စနစ်များ"
@@ -9778,3 +9774,22 @@ msgstr "ဗဟုသုတနှင့် အသိပညာများ ဗဟ�
 msgid "Contact"
 msgstr "ဆက်သွယ်ရန်"
 
+#: ckanext-alisea/ckanext/alisea/plugin.py:54
+msgid "Country"
+msgstr "တိုင်းပြည်"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:55
+msgid "Document Type"
+msgstr "စာရွက်စာတမ်းအမျိုးအစား"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:57
+msgid "Agroecology Category"
+msgstr "စိုက်ပျိုးရေး ဂေဟဗေဒ အမျိုးအစား"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:58
+msgid "Agroecology Keyword"
+msgstr "စိုက်ပျိုးရေးဆိုင်ရာ သော့ချက်စာလုံး"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:58
+msgid "Format"
+msgstr "ပုံစံ"
