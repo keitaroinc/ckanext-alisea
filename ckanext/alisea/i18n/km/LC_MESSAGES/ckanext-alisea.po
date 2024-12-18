@@ -9797,3 +9797,19 @@ msgstr "មជ្ឈមណ្ឌលចំណេះដឹង"
 #: ckanext-alisea/ckanext/alisea/templates/footer.html:22
 msgid "Contact"
 msgstr "ទំនាក់ទំនង"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:54
+msgid "Country"
+msgstr "ប្រទេស"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:55
+msgid "Document Type"
+msgstr "ប្រភេទឯកសារ"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:57
+msgid "Agroecology Category"
+msgstr "ប្រភេទកសិវិទ្យា"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:58
+msgid "Format"
+msgstr "ទម្រង់"

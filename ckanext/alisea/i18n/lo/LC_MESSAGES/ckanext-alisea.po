@@ -13897,3 +13897,19 @@ msgstr "ແຫຼ່ງຄວາມຮູ້"
 msgid "Contact"
 msgstr "ຕິດຕໍ່"
 
+#: ckanext-alisea/ckanext/alisea/plugin.py:54
+msgid "Country"
+msgstr "ປະເທດ"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:55
+msgid "Document Type"
+msgstr "ປະເພດເອກະສານ"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:57
+msgid "Agroecology Category"
+msgstr "ໝວດນິເວດວິທະຍາ"
+
+#: ckanext-alisea/ckanext/alisea/plugin.py:58
+msgid "Format"
+msgstr "ຮູບແບບ"
+
