@@ -330,6 +330,10 @@ a.tag:hover {
     margin-top: -24px !important;
 }
 
+#field-year-metadata {
+    width: 100px;
+}
+
 .page_primary_action {
     margin-bottom: 44px !important;
 }
