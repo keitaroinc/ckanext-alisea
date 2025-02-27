@@ -1,8 +1,6 @@
 {% import 'macros/form.html' as form %}
     
-
-    {{ form.select('adl1', label=_('Administrative level 1'), options='', error='') }}
-
+    {{ form.select('adl1', label=_('Administrative level 1'), options=[{'name': data.adl1, 'value': data.adl1}], error='', selected=data.adl1) }}
 
 
 <script>
