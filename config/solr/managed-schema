@@ -103,6 +103,8 @@
   <field name="name" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="name_ngram" type="text_ngram" indexed="true" stored="true"/>
   <field name="notes" type="text" indexed="true" stored="true"/>
+  <field name="notes_translated" type="text" indexed="true" stored="true"/>
+  <field name="text_en" type="text" indexed="true" stored="true"/>
   <field name="organization" type="string" multiValued="false" indexed="true" stored="true"/>
   <field name="parent_of" type="text" multiValued="true" indexed="true" stored="false"/>
   <field name="permission_labels" type="string" multiValued="true" indexed="true" stored="false"/>
