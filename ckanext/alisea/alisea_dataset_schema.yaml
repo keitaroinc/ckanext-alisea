@@ -1801,7 +1801,6 @@ dataset_fields:
       en: Services and land exchanges
       vi: Dịch vụ và trao đổi đất đai
       km: ប្រវ៉ាស់ (ផ្លាស់ប្ដូរ) សេវាកម្ម និងដីធ្លី
-
       my_MM: ဝန်ဆောင်မှုများနှင့် မြေယာ ဖလှယ်မှုများ
       lo: ບໍລິການ ແລະ ແລກປ່ຽນທີ່ດິນ
   - value: Traditional knowledge
@@ -1811,6 +1810,20 @@ dataset_fields:
       km: ចំណេះដឹងប្រពៃណី
       my_MM: ရိုးရာဓလေ့ဗဟုသုတ
       lo: ພູມປັນຍາຊາວບ້ານ
+  - value: Value chain
+    label: 
+      en: Value chain
+      vi: Chuỗi giá trị
+      km: ខ្សែសង្វាក់តម្លៃ
+      my_MM: တန်ဖိုးကွင်းဆက်
+      lo: ຕ່ອງໂສ້ມູນຄ່າ
+  - value: Short value chain
+    label: 
+      en: Short value chain
+      vi: Chuỗi giá trị ngắn
+      km: ខ្សែសង្វាក់តម្លៃខ្លី
+      my_MM: တိုတောင်းသောတန်ဖိုးကွင်းဆက်
+      lo: ຕ່ອງໂສ້ມູນຄ່າສັ້ນ
 
 - field_name: contributing_organisations
   label: 
