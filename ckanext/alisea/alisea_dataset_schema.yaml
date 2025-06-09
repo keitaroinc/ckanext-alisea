@@ -2026,14 +2026,6 @@ dataset_fields:
       km: វៀតណាម
       my_MM: ဗီယက်နမ်
       lo: ພາສາຫວຽດນາມ
-  - value: Lao
-    label:
-      en: Lao
-      vi: Tiếng Lào
-      km: ឡាវ
-      my_MM: လာအို
-      lo: ພາສາລາວ
-
 
 - field_name : spatial
   label: 
