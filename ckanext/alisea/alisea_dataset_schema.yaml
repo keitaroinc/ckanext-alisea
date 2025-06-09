@@ -1989,7 +1989,7 @@ dataset_fields:
 
 - field_name: language
   label: Language
-  preset: select
+  preset: multiple_select
   choices:
   - value: English
     label: 
