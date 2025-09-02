@@ -11555,3 +11555,10 @@ msgstr "Trung tâm kiến thức"
 #: ckanext-alisea/ckanext/alisea/templates/footer.html:22
 msgid "Contact"
 msgstr "Liên hệ"
+
+
+msgid "Strategy"
+msgstr "Strategy vi"
+
+msgid "Discussion Paper"
+msgstr "Discussion Paper vi"
